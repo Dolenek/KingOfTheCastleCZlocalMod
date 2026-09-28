@@ -13,10 +13,7 @@ namespace Kotc.Czech
     {
         private static readonly object Gate = new object();
         private static TextLocalizer localizer;
-        private static readonly HashSet<int> fonts = new HashSet<int>();
         private static readonly HashSet<string> missing = new HashSet<string>();
-        private static TMP_FontAsset fallback;
-        private static bool fontFailure;
         private static string modDir;
 
         private static void Load()
@@ -69,37 +66,12 @@ namespace Kotc.Czech
             {
                 var translated = LocalizeForText(text, text.text);
                 if (translated != text.text) text.text = translated;
-                var original = text.font;
-                if (original == null || fontFailure || !fonts.Add(original.GetInstanceID())) return;
-                if (fallback == null)
-                {
-                    var source = original.sourceFontFile;
-                    if (source == null) source = Font.CreateDynamicFontFromOSFont(new[] { "Georgia", "Arial" }, 90);
-                    if (source == null) { fontFailure = true; return; }
-                    fallback = TMP_FontAsset.CreateFontAsset(source);
-                    const string czechCharacters = "áčďéěíňóřšťúůýžÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ„“–…";
-                    string unavailable;
-                    if (!fallback.TryAddCharacters(czechCharacters, out unavailable))
-                    {
-                        var systemSource = Font.CreateDynamicFontFromOSFont(new[] { "Georgia", "Arial" }, 90);
-                        if (systemSource != null)
-                        {
-                            fallback = TMP_FontAsset.CreateFontAsset(systemSource);
-                            fallback.TryAddCharacters(czechCharacters, out unavailable);
-                        }
-                    }
-                    fallback.name = "KingOfTheCastleCZlocalMod Diacritics";
-                    UnityEngine.Object.DontDestroyOnLoad(fallback);
-                    if (!String.IsNullOrEmpty(unavailable)) Debug.LogWarning("KingOfTheCastleCZlocalMod: unavailable font characters: " + unavailable);
-                    else Debug.Log("KingOfTheCastleCZlocalMod: Czech diacritics font ready.");
-                }
-                if (original.fallbackFontAssetTable == null) original.fallbackFontAssetTable = new List<TMP_FontAsset>();
-                if (!original.fallbackFontAssetTable.Contains(fallback)) original.fallbackFontAssetTable.Add(fallback);
+                Load();
+                FontSupport.Apply(text, Path.Combine(modDir, "fonts"));
             }
             catch (Exception e)
             {
-                if (!fontFailure) Debug.LogWarning("KingOfTheCastleCZlocalMod font: " + e.Message);
-                fontFailure = true;
+                FontSupport.ReportFailure(e.Message);
             }
         }
     }

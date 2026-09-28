@@ -1,0 +1,29 @@
+{
+  "files": {
+    "MedievalSharp.ttf": {
+      "sha256": "74cb2e6738bd7703adf120802f68fba0c9ddb9147a08e6847f1005b1e55df5a5",
+      "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/medievalsharp/MedievalSharp.ttf",
+      "bytes": 148712
+    },
+    "OFL-MedievalSharp.txt": {
+      "sha256": "45b1f44d2cb859ea4b7be2f322c57b8ff7be55075c336744e62b5550cd0a97eb",
+      "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/medievalsharp/OFL.txt",
+      "bytes": 4276
+    },
+    "NotoSans-Regular.ttf": {
+      "sha256": "b85c38ecea8a7cfb39c24e395a4007474fa5a4fc864f6ee33309eb4948d232d5",
+      "source": "https://raw.githubusercontent.com/notofonts/noto-fonts/main/hinted/ttf/NotoSans/NotoSans-Regular.ttf",
+      "bytes": 569208
+    },
+    "NotoSans-Bold.ttf": {
+      "sha256": "c976e4b1b99edc88775377fcc21692ca4bfa46b6d6ca6522bfda505b28ff9d6a",
+      "source": "https://raw.githubusercontent.com/notofonts/noto-fonts/main/hinted/ttf/NotoSans/NotoSans-Bold.ttf",
+      "bytes": 575740
+    },
+    "OFL-NotoSans.txt": {
+      "sha256": "0dab92d0544f7b233403f14b84a663bdbfa746982eda629e7f4f9ffe1b036feb",
+      "source": "https://raw.githubusercontent.com/notofonts/noto-fonts/main/LICENSE",
+      "bytes": 4377
+    }
+  }
+}

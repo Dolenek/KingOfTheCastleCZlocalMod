@@ -2165,5 +2165,9 @@
   "The Patricians' goal is to aid the {K0} by countering the other regions' schemes as much as they can. They will win the game if the {K1} produces an <b>Heir</b> and completes {K2} <b>Ambition</b>.": "Cílem patricijů je pomáhat {K0} a co nejúčinněji mařit intriky ostatních regionů. Vyhrají, pokud {K1} získá <b>dědice</b> a splní {K2} <b>cíl vlády</b>.",
   "The Grandees' goal is to aid the {K0} by countering the other regions' schemes as much as they can. They will win the game if the {K1} produces an <b>Heir</b> and completes {K2} <b>Ambition</b>.": "Cílem velmožů je pomáhat {K0} a co nejúčinněji mařit intriky ostatních regionů. Vyhrají, pokud {K1} získá <b>dědice</b> a splní {K2} <b>cíl vlády</b>.",
   "The Barons' goal is to aid the {K0} by countering the other regions' schemes as much as they can. They will win the game if the {K1} produces an <b>Heir</b> and completes {K2} <b>Ambition</b>.": "Cílem baronů je pomáhat {K0} a co nejúčinněji mařit intriky ostatních regionů. Vyhrají, pokud {K1} získá <b>dědice</b> a splní {K2} <b>cíl vlády</b>.",
-  "The Counts' aim is to <b>lower their Defiance</b> to <b>{K0} or less</b>.": "Cílem hrabat je <b>snížit svůj vzdor</b> na <b>{K0} nebo méně</b>."
+  "The Counts' aim is to <b>lower their Defiance</b> to <b>{K0} or less</b>.": "Cílem hrabat je <b>snížit svůj vzdor</b> na <b>{K0} nebo méně</b>.",
+  "DYNASTY NAME": "JMÉNO DYNASTIE",
+  "Monarch name": "Jméno panovníka",
+  "BEGIN": "ZAČÍT",
+  "Your Monarch Uses...": "Rod panovníka"
 }

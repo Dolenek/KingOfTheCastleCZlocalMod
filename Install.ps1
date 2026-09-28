@@ -11,6 +11,15 @@ function Get-TargetPath([string]$relative, [string]$root) {
     if (-not $resolved.StartsWith($prefix, [StringComparison]::OrdinalIgnoreCase)) { throw 'Neplatna cesta v manifestu.' }
     return $resolved
 }
+$fontRoot = Join-Path $modRoot 'fonts'
+$fontManifest = Get-Content -LiteralPath (Join-Path $fontRoot 'manifest.json') -Raw -Encoding UTF8 | ConvertFrom-Json
+foreach ($name in @('MedievalSharp.ttf','NotoSans-Regular.ttf','NotoSans-Bold.ttf','OFL-MedievalSharp.txt','OFL-NotoSans.txt')) {
+    $entry = $fontManifest.files.PSObject.Properties[$name]
+    $fontPath = Get-TargetPath $name $fontRoot
+    if (-not $entry -or -not (Test-Path -LiteralPath $fontPath) -or (Get-FileHash -LiteralPath $fontPath -Algorithm SHA256).Hash.ToLowerInvariant() -ne $entry.Value.sha256) {
+        throw "Chybejici nebo poskozeny font ci licence: $name. Instalace zastavena; zadne herni soubory nebyly prepsany."
+    }
+}
 foreach ($item in $manifest.files) {
     $source = Get-TargetPath $item.path (Join-Path $modRoot 'patched')
     $target = Get-TargetPath $item.path $gameRoot

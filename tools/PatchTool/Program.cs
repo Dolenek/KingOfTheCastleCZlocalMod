@@ -47,6 +47,16 @@ if(args[0]=="ids"){
   var rt=runtime.MainModule.Types.Single(t=>t.FullName=="Kotc.Czech.Runtime");
   var localize=assembly.MainModule.ImportReference(rt.Methods.Single(m=>m.Name=="LocalizeForText"));
   var font=assembly.MainModule.ImportReference(rt.Methods.Single(m=>m.Name=="EnsureFont"));
+  var loader=assembly.MainModule.ImportReference(runtime.MainModule.Types.Single(t=>t.FullName=="Kotc.Czech.FontLoader").Methods.Single(m=>m.Name=="LoadFontFace"));
+  var faceHooks=0;
+  foreach(var method in assembly.MainModule.Types.Single(t=>t.FullName=="TMPro.TMP_FontAsset").Methods.Where(m=>m.HasBody))
+    foreach(var instruction in method.Body.Instructions)
+      if(instruction.OpCode==OpCodes.Call && instruction.Operand is MethodReference call &&
+         call.DeclaringType.FullName=="UnityEngine.TextCore.LowLevel.FontEngine" && call.Name=="LoadFontFace" &&
+         call.Parameters.Count==2 && call.Parameters[0].ParameterType.FullName=="UnityEngine.Font" && call.Parameters[1].ParameterType.FullName=="System.Int32"){
+        instruction.Operand=loader;faceHooks++;
+      }
+  if(faceHooks==0)throw new InvalidOperationException("No TMP font-face calls found; incompatible assembly or already patched input.");
   var tmp=assembly.MainModule.Types.Single(t=>t.FullName=="TMPro.TMP_Text");
   foreach(var method in tmp.Methods.Where(m=>m.HasBody && ((m.Name=="set_text") || (m.Name=="SetText" && m.Parameters.Count>0 && m.Parameters[0].ParameterType.FullName=="System.String")))){
     var il=method.Body.GetILProcessor(); var first=method.Body.Instructions[0];
@@ -60,6 +70,7 @@ if(args[0]=="ids"){
   var p=parse.Body.GetILProcessor();var f=parse.Body.Instructions[0];
   p.InsertBefore(f,p.Create(OpCodes.Ldarg_0));p.InsertBefore(f,p.Create(OpCodes.Call,font));
   assembly.Write(args[3]);
+  Console.WriteLine($"Patched {faceHooks} dynamic font-face loads for packaged TTF files");
 }
 
 record CodeTranslation(string type,string method,string text,string translation);

@@ -25,7 +25,7 @@ Rozhraní a důležité opakované texty mají ručně upravený překlad. Rozs�
 | 👑 Království | Regiony, statistiky, budovy, intriky a podmínky vítězství |
 | 📜 Příběhy | Všech 1 005 nalezených příběhových skriptů Ink a 3 další vložené skripty |
 | 🗳️ Hlasování | Otázky a volby vytvořené místní hrou |
-| 🔤 České znaky | Náhradní font pro českou diakritiku a překlad textů při zobrazení |
+| 🔤 České znaky | MedievalSharp pro nadpisy, Noto Sans pro běžný text a překlad při zobrazení |
 
 | Rozsah zpracovaných dat | Počet |
 | :--- | ---: |
@@ -44,7 +44,7 @@ Požadovaná je **původní Windows verze hry ze Steamu**, která odpovídá kon
 
 1. Zavřete hru.
 2. Umístěte složku `KingOfTheCastleCZlocalMod` přímo vedle `KingOfTheCastle.exe`.
-3. Ověřte, že balíček obsahuje `patched/`, `manifest.json` a `translations.json`.
+3. Ověřte, že balíček obsahuje `patched/`, `manifest.json`, `translations.json` a `fonts/`.
 4. Spusťte [Nainstalovat.cmd](Nainstalovat.cmd). Instalátor ověří soubory, uloží zálohu a nainstaluje češtinu.
 5. Hru spusťte obvyklým způsobem přes Steam.
 
@@ -57,6 +57,7 @@ King of the Castle/
     ├── Obnovit_anglictinu.cmd
     ├── translations.json
     ├── manifest.json
+    ├── fonts/                ← písma včetně licencí
     ├── patched/
     └── backup/                ← záloha vytvořená instalátorem
 ```
@@ -73,9 +74,19 @@ Před aktualizací hry obnovte angličtinu. Instalátor odmítne přepsat soubor
 
 **Verze 0.1.0 je první beta.** Základní rozhraní, celý tutoriál, 187 opakovaných popisů cílů intrik, podmínky vítězství a řada důležitých popisů byly ručně upraveny. Příběhy ještě neprošly úplnou jazykovou redakcí; mohou obsahovat nepřesnosti, doslovné obraty nebo chyby ve skloňování doplňovaných jmen a titulů.
 
-Automatické kontroly ověřují zachování instrukcí Ink, odkazů, herních hodnot, identifikátorů, binárních dat Odin a struktury upravených knihoven. Všech 1 008 skriptů se podařilo načíst knihovnou Ink dodanou s hrou. Výsledný mod byl ověřen kódem a porovnáním dat; tyto kontroly nepotvrzují vzhled každé obrazovky ani chování při celém průchodu hrou. Náhradní font se může mírně lišit od původního písma.
+Automatické kontroly ověřují zachování instrukcí Ink, odkazů, herních hodnot, identifikátorů, binárních dat Odin a struktury upravených knihoven. Všech 1 008 skriptů se podařilo načíst knihovnou Ink dodanou s hrou. Výsledný mod byl ověřen kódem a porovnáním dat; tyto kontroly nepotvrzují vzhled každé obrazovky ani chování při celém průchodu hrou. Nová písma mají jinou šířku a řádkování než původní; rozložení obrazovek je potřeba posoudit při hraní.
 
 Při hlášení chyby přiložte původní text, navržený překlad a místo ve hře, kde se chyba objevila. Snímek obrazovky pomůže s kontextem a délkou textu.
+
+## Písma a česká diakritika
+
+Původní nadpisové písmo Germania One neobsahuje všechny české znaky. Mód používá **[MedievalSharp](https://fonts.google.com/specimen/MedievalSharp)** pro nadpisy a nabídky a **[Noto Sans](https://fonts.google.com/noto/specimen/Noto+Sans)** v řezech Regular a Bold pro běžný text. České znaky tak mají stejný styl jako ostatní písmena daného textu.
+
+![Ukázka písem pro českou lokalizaci](assets/font-preview.png)
+
+Fonty se načítají ze složky `fonts/`; není potřeba je instalovat do Windows. Jejich Unicode tabulky byly ověřeny pro celou českou abecedu včetně velkých písmen a českých uvozovek. Náhled výše je ukázka písem vykreslená mimo hru.
+
+Obě rodiny jsou dodávány v původní podobě pod licencí **SIL Open Font License 1.1**. Autorem MedievalSharp je Wojciech Kalinowski (wmk69); Noto Sans vytvořili autoři projektu Noto. Úplné licence najdete v [OFL-MedievalSharp.txt](fonts/OFL-MedievalSharp.txt) a [OFL-NotoSans.txt](fonts/OFL-NotoSans.txt). Zdroje a kontrolní součty souborů obsahuje [fonts/manifest.json](fonts/manifest.json).
 
 ## Překlady a vývoj
 
@@ -85,7 +96,8 @@ Při hlášení chyby přiložte původní text, navržený překlad a místo ve
 | [manual.json](manual.json) | Ručně upravené překlady |
 | [catalog.json](catalog.json) | Katalog nalezených zdrojových textů |
 | [tools/](tools/) | Extrakce, překlad, sestavení a kontroly |
-| [tools/Runtime/](tools/Runtime/) | Překlad rozhraní při zobrazení a česká diakritika |
+| [tools/Runtime/](tools/Runtime/) | Překlad rozhraní při zobrazení a načítání písem |
+| [fonts/](fonts/) | Písma, licence OFL a kontrolní součty |
 | [Install.ps1](Install.ps1) / [Restore.ps1](Restore.ps1) | Instalace a obnova původních souborů |
 
 Pouhá úprava slovníku nezmění texty již zapsané do příběhových balíčků. Po opravě překladu je potřeba mod znovu sestavit. Před sestavením obnovte původní anglické soubory.
@@ -94,7 +106,7 @@ Sestavení vyžaduje původní instalaci hry, připravené prostředí Pythonu a
 
 ### Co se ukládá do Gitu
 
-Kořenem repozitáře je složka `KingOfTheCastleCZlocalMod`. [.gitignore](.gitignore) ponechává překlady, zdrojové kódy, skripty a dokumentaci. Zálohy, sestavené herní soubory, manifesty, modely, vývojová prostředí, dekompilované soubory, cache a diagnostické výpisy se do Gitu neukládají. Instalační balíček se připravuje zvlášť.
+Kořenem repozitáře je složka `KingOfTheCastleCZlocalMod`. [.gitignore](.gitignore) ponechává překlady, zdrojové kódy, skripty, dokumentaci a přibalená otevřená písma s jejich licencemi. Zálohy, sestavené herní soubory, instalační manifesty, modely, vývojová prostředí, dekompilované soubory, cache a diagnostické výpisy se do Gitu neukládají. Instalační balíček se připravuje zvlášť.
 
 ## Použité nástroje
 

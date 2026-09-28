@@ -5,6 +5,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="../Runtime/TextLocalizer.cs" Link="TextLocalizer.cs" />
+    <Compile Include="../Runtime/FontSelection.cs" Link="FontSelection.cs" />
     <Reference Include="Ink-Libraries"><HintPath>../../../KingOfTheCastle_Data/Managed/Ink-Libraries.dll</HintPath></Reference>
     <PackageReference Include="Mono.Cecil" Version="0.11.6" />
   </ItemGroup>

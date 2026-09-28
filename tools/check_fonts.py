@@ -1,9 +1,9 @@
 """Read Unicode cmap tables directly; no font or game engine is started."""
-import json,struct
+import hashlib,json,struct,sys
 from pathlib import Path
 mod=Path(__file__).resolve().parents[1]
 required='áčďéěíňóřšťúůýžÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ„“–…'
-def coverage(file):
+def coverage(file,characters=required):
  b=file.read_bytes();u16=lambda p:struct.unpack_from('>H',b,p)[0];u32=lambda p:struct.unpack_from('>I',b,p)[0]
  tables={b[12+i*16:16+i*16].decode('ascii'):(u32(20+i*16),u32(24+i*16)) for i in range(u16(4))}
  cmap=tables['cmap'][0];found=set()
@@ -13,7 +13,7 @@ def coverage(file):
   start=cmap+offset;kind=u16(start)
   if kind==4:
    n=u16(start+6)//2;ends=start+14;begins=ends+2*n+2;deltas=begins+2*n;ranges=deltas+2*n
-   for ch in required:
+   for ch in characters:
     code=ord(ch)
     for seg in range(n):
      lo,hi=u16(begins+2*seg),u16(ends+2*seg)
@@ -25,14 +25,28 @@ def coverage(file):
       break
   elif kind==12:
    groups=[struct.unpack_from('>III',b,start+16+j*12) for j in range(u32(start+12))]
-   for ch in required:
+   for ch in characters:
     code=ord(ch)
     if any(lo<=code<=hi and first+code-lo for lo,hi,first in groups):found.add(ch)
- return ''.join(ch for ch in required if ch not in found)
-report={}
-for name in ['georgia.ttf','arial.ttf']:
- path=Path('C:/Windows/Fonts')/name
- report[name]={'path':str(path),'missing':coverage(path) if path.exists() else required}
-assert any(not row['missing'] for row in report.values()),report
-(mod/'tools/checks-fonts.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
-print(json.dumps(report,ensure_ascii=False))
+ return ''.join(ch for ch in characters if ch not in found)
+
+def main():
+ sys.stdout.reconfigure(encoding='utf-8')
+ manifest=json.loads((mod/'fonts/manifest.json').read_text(encoding='utf-8'))['files']
+ report={}
+ characters=''.join(chr(code) for code in range(32,127))+required
+ for name,row in manifest.items():
+  path=mod/'fonts'/name
+  assert path.is_file(),f'Missing packaged font or licence: {name}'
+  assert hashlib.sha256(path.read_bytes()).hexdigest()==row['sha256'],f'Checksum mismatch: {name}'
+  if name.endswith('.ttf'):
+   absent=coverage(path,characters)
+   assert not absent,f'{name}: missing glyphs {absent}'
+   report[name]={'missing':absent,'checked_characters':len(set(characters)),'sha256':row['sha256']}
+  else:
+   assert 'SIL OPEN FONT LICENSE' in path.read_text(encoding='utf-8'),f'Missing OFL licence: {name}'
+ (mod/'tools/checks-fonts.json').write_text(json.dumps({'fonts':report,'licences_verified':True,'game_started':False},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+ print(json.dumps(report,ensure_ascii=False))
+ print('FONT CODE CHECKS PASSED. Czech letters, ASCII glyphs, checksums and OFL notices verified.')
+
+if __name__=='__main__': main()

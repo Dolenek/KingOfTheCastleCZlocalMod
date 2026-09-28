@@ -32,11 +32,12 @@ IEnumerable<TypeDefinition> Types(IEnumerable<TypeDefinition> ts)=>ts.SelectMany
 var overrides=JsonSerializer.Deserialize<List<CodeTranslation>>(File.ReadAllText(Path.Combine(mod,"tools/code-overrides.json")))!;
 var resolver=new DefaultAssemblyResolver();resolver.AddSearchDirectory(Path.Combine(game,"KingOfTheCastle_Data/Managed"));
 foreach(var file in new[]{"KotcAssembly.dll","Unity.TextMeshPro.dll"}){
- using var original=AssemblyDefinition.ReadAssembly(Path.Combine(game,"KingOfTheCastle_Data/Managed",file),new ReaderParameters{AssemblyResolver=resolver});
+ var backup=Path.Combine(mod,"backup/KingOfTheCastle_Data/Managed",file);
+ using var original=AssemblyDefinition.ReadAssembly(File.Exists(backup)?backup:Path.Combine(game,"KingOfTheCastle_Data/Managed",file),new ReaderParameters{AssemblyResolver=resolver});
  using var patched=AssemblyDefinition.ReadAssembly(Path.Combine(mod,"patched/KingOfTheCastle_Data/Managed",file),new ReaderParameters{AssemblyResolver=resolver});
  var oldTypes=Types(original.MainModule.Types).ToArray();var newTypes=Types(patched.MainModule.Types).ToArray();
  Require(oldTypes.Length==newTypes.Length,"Type count changed");
- var methods=0;
+ var methods=0;var faceHooks=0;
  foreach(var (oldType,newType) in oldTypes.Zip(newTypes)){
   Require(oldType.FullName==newType.FullName && oldType.Fields.Count==newType.Fields.Count && oldType.Methods.Count==newType.Methods.Count,"Public structure changed");
   foreach(var (oldMethod,newMethod) in oldType.Methods.Zip(newType.Methods)){
@@ -63,12 +64,33 @@ foreach(var file in new[]{"KotcAssembly.dll","Unity.TextMeshPro.dll"}){
      if(row is not null)expected=row.translation;
      if(oldMethod.Name=="get_Possessive" && (expected=="'s" || expected=="'"))expected="";
     }
+    if(file=="Unity.TextMeshPro.dll" && oldType.FullName=="TMPro.TMP_FontAsset" && a[i].OpCode==OpCodes.Call && a[i].Operand is MethodReference call &&
+       call.DeclaringType.FullName=="UnityEngine.TextCore.LowLevel.FontEngine" && call.Name=="LoadFontFace" && call.Parameters.Count==2 &&
+       call.Parameters[0].ParameterType.FullName=="UnityEngine.Font" && call.Parameters[1].ParameterType.FullName=="System.Int32"){
+     var hook=(MethodReference)b[i+prefix].Operand;
+     Require(hook.DeclaringType.FullName=="Kotc.Czech.FontLoader" && hook.Name=="LoadFontFace" && hook.ReturnType.FullName==call.ReturnType.FullName &&
+       hook.Parameters.Select(p=>p.ParameterType.FullName).SequenceEqual(call.Parameters.Select(p=>p.ParameterType.FullName)),"Invalid font-face hook signature");
+     expected=hook.FullName;faceHooks++;
+    }
     Require(expected==Operand(b[i+prefix].Operand,b,prefix),"Unexpected operand change: "+oldMethod.FullName+" at "+i);
    }
    Require(oldMethod.Body.ExceptionHandlers.Count==newMethod.Body.ExceptionHandlers.Count,"Exception handlers changed");methods++;
   }
  }
+ if(file=="Unity.TextMeshPro.dll"){
+  Require(faceHooks>0,"No packaged font-face hooks");
+  Console.WriteLine($"Packaged fonts: {faceHooks} face-load hooks checked with identical call signatures.");
+ }
  Console.WriteLine($"{file}: {methods} method bodies checked; game instructions and branch targets preserved.");
+}
+var inventoryPath=Path.Combine(mod,"tools/checks-font-inventory.json");
+if(File.Exists(inventoryPath)){
+ using var inventory=JsonDocument.Parse(File.ReadAllText(inventoryPath));
+ foreach(var asset in inventory.RootElement.GetProperty("tmp_fonts").EnumerateArray()){
+  var name=asset.GetProperty("name").GetString()!;
+  Require(File.Exists(Path.Combine(mod,"fonts",FontSelection.Select(name))),"No replacement for original font: "+name);
+ }
+ Console.WriteLine("Every inventoried TMP font has a packaged replacement.");
 }
 if(args.Length>1){
  int stories=0;

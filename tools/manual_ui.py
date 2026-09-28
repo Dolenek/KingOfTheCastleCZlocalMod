@@ -120,7 +120,8 @@ for field,targets in [('sections.[].text',tutorial),('sections.[].title',titles)
         assert collections.Counter(re.findall(r'<[^>]+>',source))==collections.Counter(re.findall(r'<[^>]+>',target)),source
         if 'BigChange' in source:assert 'BigChange' in target
         manual[source.strip()]=target
-manual.update({'Your Nobles may now join the game at <b>www.kotc.app</b> using the room code above.':'Vaši šlechtici se nyní mohou připojit do hry na <b>www.kotc.app</b> pomocí kódu místnosti zobrazeného výše.',
+manual.update({'Monarch name':'Jméno panovníka','DYNASTY NAME':'JMÉNO DYNASTIE','Your Monarch Uses...':'Rod panovníka','BEGIN':'ZAČÍT',
+'Your Nobles may now join the game at <b>www.kotc.app</b> using the room code above.':'Vaši šlechtici se nyní mohou připojit do hry na <b>www.kotc.app</b> pomocí kódu místnosti zobrazeného výše.',
 "When the Auction is open, Nobles can fund through the browser in increments of 100.":'Během dražby mohou šlechtici přispívat přes prohlížeč v násobcích 100.',
 "When the vote opens, Nobles vote on which choice they want in the browser.":'Po zahájení hlasování šlechtici vyberou v prohlížeči možnost, pro kterou chtějí hlasovat.'})
 (mod/'manual.json').write_text(json.dumps(manual,ensure_ascii=False,indent=2),encoding='utf-8')
