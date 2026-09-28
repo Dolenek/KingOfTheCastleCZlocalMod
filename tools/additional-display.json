@@ -1,0 +1,26 @@
+{
+  "Voting tied at <color=#ffc875>{0}!</color>": {
+    "translation": "Hlasování skončilo remízou: <color=#ffc875>{0}!</color>",
+    "context": "asset:labelFormat"
+  },
+  "<u>!fund a 100</u> would fund building A for 100 Wealth": {
+    "translation": "Příkaz <u>!fund a 100</u> přispěje 100 jednotkami bohatství na budovu A",
+    "context": "asset:twitchModeText"
+  },
+  "Nobles use their <color=#B9172F>Personal Wealth</color> to bid on Buildings, and only the <color=#B9172F>two highest-funded</color> will be built.<br>Use the command <u>\"!fund X Y\"</u> where X is the character code and Y is the amount you're pledging.": {
+    "translation": "Šlechtici přispívají na budovy ze svého <color=#B9172F>osobního bohatství</color>. Postaví se pouze <color=#B9172F>dvě budovy s nejvyššími příspěvky</color>.<br>Použijte příkaz <u>\"!fund X Y\"</u>, kde X je písmenný kód budovy a Y je výše vašeho příspěvku.",
+    "context": "asset:twitchModeText"
+  },
+  "Type !vote a/b/c/d in chat to cast your vote.": {
+    "translation": "Pro hlasování napište do chatu !vote a/b/c/d.",
+    "context": "asset:twitchModeText"
+  },
+  "The other Nobles gain SmallChange wealth.": {
+    "translation": "Ostatní šlechtici získají SmallChange bohatství.",
+    "context": "asset:generalComment"
+  },
+  "You summon the council to vote.": {
+    "translation": "Svoláváte radu k hlasování.",
+    "context": "asset:defaultBlurbText"
+  }
+}

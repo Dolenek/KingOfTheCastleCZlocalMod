@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title description">
+  <title id="title">KingOfTheCastleCZlocalMod</title>
+  <desc id="description">A golden crown on a dark royal blue background, with the project name and Czech flag colors.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#101b35"/>
+      <stop offset="1" stop-color="#263f63"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#ffe8a4"/>
+      <stop offset="1" stop-color="#c59a47"/>
+    </linearGradient>
+    <clipPath id="bounds"><rect width="1200" height="280" rx="20"/></clipPath>
+  </defs>
+  <g clip-path="url(#bounds)">
+    <rect width="1200" height="280" fill="url(#background)"/>
+    <path d="M780 -80 1120 280M910 -80 1250 280M1040 -80 1380 280" stroke="#88a5c4" stroke-width="80" opacity=".045"/>
+    <circle cx="162" cy="138" r="94" fill="#0c152b" fill-opacity=".55" stroke="#d7b46a" stroke-opacity=".28"/>
+    <path d="M105 172 90 111 129 137 162 89 195 137 234 111 219 172Z" fill="url(#gold)"/>
+    <rect x="105" y="180" width="114" height="15" rx="5" fill="url(#gold)"/>
+    <circle cx="90" cy="104" r="7" fill="#ffe8a4"/>
+    <circle cx="162" cy="81" r="7" fill="#ffe8a4"/>
+    <circle cx="234" cy="104" r="7" fill="#ffe8a4"/>
+    <path d="m162 141 8 10-8 10-8-10Z" fill="#203b60"/>
+    <text x="297" y="125" fill="#f9f4e8" font-family="Segoe UI, Arial, sans-serif" font-size="49" font-weight="700">KingOfTheCastleCZlocalMod</text>
+    <text x="301" y="167" fill="#b9c9df" font-family="Segoe UI, Arial, sans-serif" font-size="20" letter-spacing="2">KING OF THE CASTLE · cs-CZ</text>
+    <rect x="301" y="193" width="160" height="28" rx="14" fill="#d7b46a" fill-opacity=".13"/>
+    <text x="321" y="213" fill="#e9cf93" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600" letter-spacing="2">0.1.0 BETA</text>
+    <rect x="1060" y="44" width="72" height="44" rx="4" fill="#f5f5f5"/>
+    <path d="M1060 66H1132V84Q1132 88 1128 88H1064Q1060 88 1060 84Z" fill="#d64049"/>
+    <path d="M1060 44 1096 66 1060 88Z" fill="#427dc0"/>
+    <rect x="30" y="250" width="1140" height="1" fill="#d7b46a" fill-opacity=".28"/>
+  </g>
+</svg>

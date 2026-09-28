@@ -1,0 +1,5567 @@
+[
+  {
+    "type": "\u003C\u003Ef__AnonymousType0\u00601",
+    "method": "ToString",
+    "text": "{{ ticket = {0} }}"
+  },
+  {
+    "type": "\u003C\u003Ef__AnonymousType1",
+    "method": "ToString",
+    "text": "{ }"
+  },
+  {
+    "type": "\u003C\u003Ef__AnonymousType2\u00601",
+    "method": "ToString",
+    "text": "{{ twitchIds = {0} }}"
+  },
+  {
+    "type": "\u003C\u003Ef__AnonymousType3\u00601",
+    "method": "ToString",
+    "text": "{{ userIds = {0} }}"
+  },
+  {
+    "type": "\u003C\u003Ef__AnonymousType4\u00602",
+    "method": "ToString",
+    "text": "{{ avatar = {0}, shield = {1} }}"
+  },
+  {
+    "type": "\u003C\u003Ef__AnonymousType5\u00601",
+    "method": "ToString",
+    "text": "{{ customizations = {0} }}"
+  },
+  {
+    "type": "\u003C\u003Ef__AnonymousType6\u00602",
+    "method": "ToString",
+    "text": "{{ analytics = {0}, gameId = {1} }}"
+  },
+  {
+    "type": "\u003C\u003Ef__AnonymousType7\u00603",
+    "method": "ToString",
+    "text": "{{ target = {0}, message = {1}, broadcaster_id = {2} }}"
+  },
+  {
+    "type": "\u003C\u003Ef__AnonymousType8\u00602",
+    "method": "ToString",
+    "text": "{{ NobleId = {0}, Total = {1} }}"
+  },
+  {
+    "type": "ChatJoinAction",
+    "method": "IsValid",
+    "text": "ChatSetup"
+  },
+  {
+    "type": "ChatPledgeAction",
+    "method": ".ctor",
+    "text": " "
+  },
+  {
+    "type": "ChatPledgeAction",
+    "method": ".ctor",
+    "text": "^([ABCDEF]{1}) ([1-9]\\d*)$"
+  },
+  {
+    "type": "ChatVoteAction",
+    "method": ".ctor",
+    "text": " "
+  },
+  {
+    "type": "ChatVoteAction",
+    "method": ".cctor",
+    "text": "^([ABCDEF]{1})$"
+  },
+  {
+    "type": "AchievementActionBuilder",
+    "method": "get_ActionName",
+    "text": "achievement"
+  },
+  {
+    "type": "AmbitionActionBuilder",
+    "method": "get_ActionName",
+    "text": "ambition"
+  },
+  {
+    "type": "ChallengeStoryEventActionBuilder",
+    "method": "get_ActionName",
+    "text": "challenge"
+  },
+  {
+    "type": "CreateNPCActionBuilder",
+    "method": "get_ActionName",
+    "text": "CreateNPC"
+  },
+  {
+    "type": "DefineActionBuilder",
+    "method": "get_ActionName",
+    "text": "define"
+  },
+  {
+    "type": "HideImageActionBuilder",
+    "method": "get_ActionName",
+    "text": "HideImage"
+  },
+  {
+    "type": "SetRegionSchemeActionBuilder",
+    "method": "get_ActionName",
+    "text": "SetRegionScheme"
+  },
+  {
+    "type": "UpdateSchemeProgressActionBuilder",
+    "method": "get_ActionName",
+    "text": "UpdateSchemeProgress"
+  },
+  {
+    "type": "SetImageActionBuilder",
+    "method": "get_ActionName",
+    "text": "SetImage"
+  },
+  {
+    "type": "UnlockStoryEventActionBuilder",
+    "method": "get_ActionName",
+    "text": "unlock"
+  },
+  {
+    "type": "UpdateQualityActionBuilder",
+    "method": "get_ActionName",
+    "text": "UpdateQuality"
+  },
+  {
+    "type": "VoteStoryEventActionBuilder",
+    "method": "get_ActionName",
+    "text": "vote"
+  },
+  {
+    "type": "VoteStoryEventActionBuilder",
+    "method": "Build",
+    "text": ""
+  },
+  {
+    "type": "SetImageAction",
+    "method": ".ctor",
+    "text": "Could not parse SetImage position from \u003C"
+  },
+  {
+    "type": "SetImageAction",
+    "method": ".ctor",
+    "text": "\u003E"
+  },
+  {
+    "type": "SerialisationUtilities",
+    "method": "SafelyDeserialiseDataString",
+    "text": "Could not create {0} object from serialised data {1}. {2}: {3}"
+  },
+  {
+    "type": "Avatar/AvatarCustomisation",
+    "method": ".ctor",
+    "text": "#"
+  },
+  {
+    "type": "CharacterDefinition",
+    "method": "LoadCharacterDefinitions",
+    "text": "characterDefinition"
+  },
+  {
+    "type": "CharacterDefinition",
+    "method": "LoadCustomisableCharacters",
+    "text": "customisableCharacter"
+  },
+  {
+    "type": "CustomisationPiece",
+    "method": "get_Name",
+    "text": "cprefab{0}"
+  },
+  {
+    "type": "CustomisationPiece",
+    "method": "get_Name",
+    "text": "cmask{0}"
+  },
+  {
+    "type": "OutlinedCharacterComponent",
+    "method": "DrawCustomisationPieces",
+    "text": "_OutlineColour"
+  },
+  {
+    "type": "BackendConfig",
+    "method": "get_WebsocketUrl",
+    "text": "{0}://{1}:{2}/{3}"
+  },
+  {
+    "type": "DebugEventView",
+    "method": "Setup",
+    "text": "Type: {0}, Priority : {1}"
+  },
+  {
+    "type": "DebugEventView",
+    "method": "Setup",
+    "text": "State: "
+  },
+  {
+    "type": "DebugEventView",
+    "method": "Setup",
+    "text": "Is GameOver: {0}"
+  },
+  {
+    "type": "DebugEventView",
+    "method": "Setup",
+    "text": "is Oneshot: {0}"
+  },
+  {
+    "type": "DebugEventView",
+    "method": "Setup",
+    "text": "Region: "
+  },
+  {
+    "type": "DebugEventView",
+    "method": "Setup",
+    "text": "Chain: "
+  },
+  {
+    "type": "DebugEventView",
+    "method": "Setup",
+    "text": "Not Playable"
+  },
+  {
+    "type": "DebugEventView",
+    "method": "Setup",
+    "text": "Playable"
+  },
+  {
+    "type": "DebugEventView",
+    "method": "StoryState",
+    "text": "Locked"
+  },
+  {
+    "type": "DebugEventView",
+    "method": "StoryState",
+    "text": "Available (Pending requirements)"
+  },
+  {
+    "type": "DebugEventView",
+    "method": "StoryState",
+    "text": "Running"
+  },
+  {
+    "type": "DebugEventView",
+    "method": "StoryState",
+    "text": "Done"
+  },
+  {
+    "type": "DebugEventView",
+    "method": "StoryState",
+    "text": "Unkown"
+  },
+  {
+    "type": "DebugEventView",
+    "method": "GetRequirementsString",
+    "text": ".setup_post"
+  },
+  {
+    "type": "DebugEventView",
+    "method": "GetRequirementsString",
+    "text": "fountain"
+  },
+  {
+    "type": "DebugEventsPanelView",
+    "method": "UpdateContent",
+    "text": "#Events ({0})"
+  },
+  {
+    "type": "DebugEventsPanelView",
+    "method": "DisplayRegionToggles",
+    "text": "Capital"
+  },
+  {
+    "type": "DebugEventsPanelView",
+    "method": "DisplayRegionToggles",
+    "text": "capital"
+  },
+  {
+    "type": "DebugEventsPanelView",
+    "method": "DisplayRegionToggles",
+    "text": "Other"
+  },
+  {
+    "type": "DebugEventsPanelView",
+    "method": "DisplayRegionToggles",
+    "text": ""
+  },
+  {
+    "type": "DebugRecordingPanelView",
+    "method": "UpdateContent",
+    "text": "Main Camera"
+  },
+  {
+    "type": "DebugRecordingPanelView",
+    "method": "UpdateContent",
+    "text": "Version"
+  },
+  {
+    "type": "DebugRecordingPanelView",
+    "method": "UpdateContent",
+    "text": "OpenDebug"
+  },
+  {
+    "type": "DebugRecordingPanelView",
+    "method": "UpdateContent",
+    "text": "OverviewBanner"
+  },
+  {
+    "type": "DebugRecordingPanelView",
+    "method": "UpdateContent",
+    "text": "Events"
+  },
+  {
+    "type": "DebugRecordingPanelView",
+    "method": "UpdateContent",
+    "text": "Banner"
+  },
+  {
+    "type": "AddressableAssetLoader",
+    "method": ".ctor",
+    "text": "ADDRESSABLES"
+  },
+  {
+    "type": "AddressableAssetLoader",
+    "method": ".ctor",
+    "text": "#358f97"
+  },
+  {
+    "type": "AddressableAssetLoader/\u003C\u003Ec__DisplayClass1_0\u00601",
+    "method": "\u003CLoadAssetAsync\u003Eb__0",
+    "text": "Loading assets of type {0} using key [{1}] failed."
+  },
+  {
+    "type": "AddressableAssetLoader/\u003CLoadAssetAsync\u003Ed__2\u00601",
+    "method": "MoveNext",
+    "text": "Loading asset of type {0} using key [{1}] failed."
+  },
+  {
+    "type": "AddressableAssetLoader/\u003C\u003Ec__DisplayClass3_0\u00601",
+    "method": "\u003CLoadAssetsAsync\u003Eb__1",
+    "text": "Loading assets of type {0} using keys [{1}] failed."
+  },
+  {
+    "type": "AddressableAssetLoader/\u003C\u003Ec__DisplayClass3_0\u00601",
+    "method": "\u003CLoadAssetsAsync\u003Eb__1",
+    "text": ","
+  },
+  {
+    "type": "AddressableAssetLoader/\u003CLoadAssetsAsync\u003Ed__4\u00601",
+    "method": "MoveNext",
+    "text": "Loading assets of type {0} using keys [{1}] failed."
+  },
+  {
+    "type": "AddressableAssetLoader/\u003CLoadAssetsAsync\u003Ed__4\u00601",
+    "method": "MoveNext",
+    "text": ","
+  },
+  {
+    "type": "LoadCustomisationEditorDataInterceptor/\u003CHandleLoad\u003Ed__2",
+    "method": "MoveNext",
+    "text": "Assets/AddressableResources/Data/Characters/AvatarEditorConfig.asset"
+  },
+  {
+    "type": "LoadInitialTurnInterceptor",
+    "method": "Intercept",
+    "text": "Assets/AddressableResources/Data/Turns/ContinueDynastyInitialTurn.asset"
+  },
+  {
+    "type": "LoadInitialTurnInterceptor",
+    "method": "Intercept",
+    "text": "Assets/AddressableResources/Data/Turns/InitialTurn.asset"
+  },
+  {
+    "type": "LoadInitialTurnInterceptor/\u003C\u003Ec__DisplayClass1_0",
+    "method": "\u003CIntercept\u003Eb__0",
+    "text": "STORY"
+  },
+  {
+    "type": "SaveCharacterCustomisationsInterceptor/\u003CHandleSaveAvatars\u003Ed__2",
+    "method": "MoveNext",
+    "text": "Could not Save customizations: "
+  },
+  {
+    "type": "CreateChatSetupReducer",
+    "method": "Reduce",
+    "text": "ChatSetup"
+  },
+  {
+    "type": "CreateKingdomFountainVariablesReducer",
+    "method": "Reduce",
+    "text": "KINGDOM"
+  },
+  {
+    "type": "CreateKingdomFountainVariablesReducer",
+    "method": "Reduce",
+    "text": "KINGDOM"
+  },
+  {
+    "type": "InitialisePronounVariablesReducer",
+    "method": "Reduce",
+    "text": "they"
+  },
+  {
+    "type": "InitialisePronounVariablesReducer",
+    "method": "Reduce",
+    "text": "they"
+  },
+  {
+    "type": "InitRandomGeneratorsReducer",
+    "method": "Reduce",
+    "text": "RNG"
+  },
+  {
+    "type": "InitRandomGeneratorsReducer",
+    "method": "Reduce",
+    "text": "#1b8bcb"
+  },
+  {
+    "type": "InitRandomGeneratorsReducer",
+    "method": "Reduce",
+    "text": "Initialising random number generation... The main seed is: {0}."
+  },
+  {
+    "type": "InitRandomGeneratorsReducer",
+    "method": "Reduce",
+    "text": "UNSEEDED"
+  },
+  {
+    "type": "InitRandomGeneratorsReducer",
+    "method": "Reduce",
+    "text": "SEEDER"
+  },
+  {
+    "type": "InitRandomGeneratorsReducer",
+    "method": "Reduce",
+    "text": "Seed for {0} is {1}."
+  },
+  {
+    "type": "InitSpecificRandomGeneratorsReducer",
+    "method": "Reduce",
+    "text": "SEEDER"
+  },
+  {
+    "type": "RestoreRandomGeneratorsReducer",
+    "method": "Reduce",
+    "text": "UNSEEDED"
+  },
+  {
+    "type": "SetChatGameConnectivitySettingsReducer",
+    "method": "Reduce",
+    "text": "ChatSetup"
+  },
+  {
+    "type": "SetChatGameConnectivitySettingsReducer",
+    "method": "Reduce",
+    "text": "ChatSetup"
+  },
+  {
+    "type": "SetChatJoinMethodReducer",
+    "method": "Reduce",
+    "text": "ChatSetup"
+  },
+  {
+    "type": "SetChatJoinMethodReducer",
+    "method": "Reduce",
+    "text": "ChatSetup"
+  },
+  {
+    "type": "SetIsJoiningOpenReducer",
+    "method": "Reduce",
+    "text": "ChatSetup"
+  },
+  {
+    "type": "SetIsJoiningOpenReducer",
+    "method": "Reduce",
+    "text": "ChatSetup"
+  },
+  {
+    "type": "FilterOutStoryEventsReducer",
+    "method": "Reduce",
+    "text": "capital"
+  },
+  {
+    "type": "UpdateSchemeProgressReducer",
+    "method": ".ctor",
+    "text": "UPDATE_SCHEME_PROGRESS_REDUCER"
+  },
+  {
+    "type": "UpdateSchemeProgressReducer",
+    "method": "Reduce",
+    "text": "UpdateSchemeProgressAction has a nextEventId but no turns value. The next event will not be unlocked automatically"
+  },
+  {
+    "type": "UpdateSchemeProgressReducer",
+    "method": "EventEnding",
+    "text": ".*Ending_(1|2)"
+  },
+  {
+    "type": "RegionWeightingCurator/\u003C\u003Ec",
+    "method": "\u003CUpdateListWithCuration\u003Eb__4_6",
+    "text": "capital"
+  },
+  {
+    "type": "RegionWeightingCurator/\u003C\u003Ec",
+    "method": "\u003CGetRegion\u003Eb__5_0",
+    "text": "set"
+  },
+  {
+    "type": "RegionWeightingCurator/\u003C\u003Ec",
+    "method": "\u003CGetRegion\u003Eb__5_2",
+    "text": "region"
+  },
+  {
+    "type": "TickDownStoryEventUnlockReducer",
+    "method": ".ctor",
+    "text": "heir"
+  },
+  {
+    "type": "TickDownStoryEventUnlockReducer",
+    "method": ".ctor",
+    "text": "ambition"
+  },
+  {
+    "type": "RemoveVetoedVotesReducer",
+    "method": "Reduce",
+    "text": "{0}"
+  },
+  {
+    "type": "ChatController",
+    "method": "TeardownController",
+    "text": "Chat Controller teardown was successful."
+  },
+  {
+    "type": "ChatController",
+    "method": "OnMessageReceived",
+    "text": "INVALID COMMAND FROM "
+  },
+  {
+    "type": "ChatController",
+    "method": "OnMessageReceived",
+    "text": ": \u0022"
+  },
+  {
+    "type": "ChatController",
+    "method": "OnMessageReceived",
+    "text": "\u0022"
+  },
+  {
+    "type": "ChatController",
+    "method": ".cctor",
+    "text": "\u0027CHAT_CONTROLLER\u0027"
+  },
+  {
+    "type": "ChatController",
+    "method": ".cctor",
+    "text": "#50C878"
+  },
+  {
+    "type": "ChatController/\u003CTrySendDisconnectAnalaytics\u003Ed__8",
+    "method": "MoveNext",
+    "text": "Could not send analytics message on disconnect. "
+  },
+  {
+    "type": "TwitchConnector",
+    "method": "OnDisconnectedError",
+    "text": "Disconnected From twitch."
+  },
+  {
+    "type": "TwitchConnector",
+    "method": "OnDisconnectedError",
+    "text": "Connecting to game server..."
+  },
+  {
+    "type": "TwitchConnector",
+    "method": "OnConnected",
+    "text": "Connected to Twitch"
+  },
+  {
+    "type": "TwitchConnector",
+    "method": "Connect",
+    "text": "ChatSetup"
+  },
+  {
+    "type": "TwitchConnector",
+    "method": "Connect",
+    "text": "TwitchCredentials"
+  },
+  {
+    "type": "TwitchConnector",
+    "method": "Connect",
+    "text": "wss://irc-ws.chat.twitch.tv:443"
+  },
+  {
+    "type": "TwitchConnector",
+    "method": "Connect",
+    "text": "Connecting to game server..."
+  },
+  {
+    "type": "TwitchConnector",
+    "method": "OnTwitchChannelTimeout",
+    "text": "Could not join requested channel: "
+  },
+  {
+    "type": "TwitchConnector",
+    "method": "OnJoinedTwitchChannel",
+    "text": "Successfully joined channel: "
+  },
+  {
+    "type": "TwitchConnector",
+    "method": "EnqueueMessage",
+    "text": "Enqueued message of type {0}, queue length: {1}"
+  },
+  {
+    "type": "TwitchConnector",
+    "method": "DequeueMessage",
+    "text": "Dequeued message of type {0}, queue length: {1}"
+  },
+  {
+    "type": "TwitchConnector",
+    "method": ".ctor",
+    "text": "TWITCH"
+  },
+  {
+    "type": "TwitchConnector",
+    "method": ".ctor",
+    "text": "#00a93f"
+  },
+  {
+    "type": "TwitchConnector",
+    "method": ".cctor",
+    "text": "Could not find Twitch credentials (Resources/TwitchCredentials.asset)"
+  },
+  {
+    "type": "TwitchConnector",
+    "method": ".cctor",
+    "text": "https://api.twitch.tv/helix/extensions/pubsub"
+  },
+  {
+    "type": "TwitchConnector/\u003CAttemptMaxReconnects\u003Ed__31",
+    "method": "MoveNext",
+    "text": "Reconnecting to Twitch..."
+  },
+  {
+    "type": "TwitchConnector/\u003CAttemptMaxReconnects\u003Ed__31",
+    "method": "MoveNext",
+    "text": "\u003Ccolor=\u0022red\u0022\u003EError connecting to game server.\u003C/color\u003E\nPlease try later."
+  },
+  {
+    "type": "TwitchConnector/\u003CRefreshTwitchPubSubJwt\u003Ed__49",
+    "method": "MoveNext",
+    "text": "Bearer"
+  },
+  {
+    "type": "TwitchConnector/\u003CRefreshTwitchPubSubJwt\u003Ed__49",
+    "method": "MoveNext",
+    "text": "PubSub token refreshed. New token expires at: {0} local time"
+  },
+  {
+    "type": "TwitchConnector/\u003CSendMonarchMessage\u003Ed__52",
+    "method": "MoveNext",
+    "text": "broadcast"
+  },
+  {
+    "type": "TwitchConnector/\u003CSendMonarchMessage\u003Ed__52",
+    "method": "MoveNext",
+    "text": "application/json"
+  },
+  {
+    "type": "TwitchConnector/\u003CSendMonarchMessage\u003Ed__52",
+    "method": "MoveNext",
+    "text": "Client-ID"
+  },
+  {
+    "type": "TwitchConnector/\u003CSendMonarchMessage\u003Ed__52",
+    "method": "MoveNext",
+    "text": "application/json"
+  },
+  {
+    "type": "TwitchConnector/\u003CSendMonarchMessage\u003Ed__52",
+    "method": "MoveNext",
+    "text": "PubSub token soon to expire. Refreshing."
+  },
+  {
+    "type": "TwitchConnector/\u003CSendMonarchMessage\u003Ed__52",
+    "method": "MoveNext",
+    "text": "PubSub POST failed with HTTP {0}."
+  },
+  {
+    "type": "TwitchConnector/\u003CSendMonarchMessage\u003Ed__52",
+    "method": "MoveNext",
+    "text": "Refreshing PubSubJWT and trying again"
+  },
+  {
+    "type": "TwitchConnector/\u003CSendMonarchMessage\u003Ed__52",
+    "method": "MoveNext",
+    "text": "PubSub POST succeeded after token refresh - was the expiry correct?"
+  },
+  {
+    "type": "TwitchConnector/\u003CSendMonarchMessage\u003Ed__52",
+    "method": "MoveNext",
+    "text": "PubSub POST failed after refreshing token. Status was: \u0060{0}\u0060"
+  },
+  {
+    "type": "TwitchConnector/\u003CSendMonarchMessage\u003Ed__52",
+    "method": "MoveNext",
+    "text": "PubSub POST failed after refreshing token. Status was: \u0060{0}\u0060"
+  },
+  {
+    "type": "WebsocketChatConnector",
+    "method": "OnConnectTimeout",
+    "text": "\u003Ccolor=\u0022red\u0022\u003EError connecting to game server.\u003C/color\u003E\nPlease try later."
+  },
+  {
+    "type": "WebsocketChatConnector",
+    "method": "OnReceiveEvent",
+    "text": "Error deserializing message: "
+  },
+  {
+    "type": "WebsocketChatConnector",
+    "method": "OnReceiveEvent",
+    "text": "\nMessage was: "
+  },
+  {
+    "type": "WebsocketChatConnector",
+    "method": "OnReceiveEvent",
+    "text": "Error Handling  message: "
+  },
+  {
+    "type": "WebsocketChatConnector",
+    "method": "OnReceiveEvent",
+    "text": "\n Message was "
+  },
+  {
+    "type": "WebsocketChatConnector",
+    "method": ".cctor",
+    "text": "BACKEND-ws"
+  },
+  {
+    "type": "WebsocketChatConnector",
+    "method": ".cctor",
+    "text": "#26b8c8"
+  },
+  {
+    "type": "WebsocketChatConnector/\u003CConnect\u003Ed__13",
+    "method": "MoveNext",
+    "text": "Connecting to game server..."
+  },
+  {
+    "type": "DependencyInjector",
+    "method": "Start",
+    "text": "Data/Stores"
+  },
+  {
+    "type": "BetweenScreenController",
+    "method": "OnShow",
+    "text": "End of Turn"
+  },
+  {
+    "type": "BetweenScreenController",
+    "method": "OnShow",
+    "text": "End of Year"
+  },
+  {
+    "type": "NobleFundsUI",
+    "method": "Configure",
+    "text": "{0}"
+  },
+  {
+    "type": "BetweenTurnsScreen",
+    "method": "get_ButtonText",
+    "text": "End {0}"
+  },
+  {
+    "type": "BetweenTurnsScreen",
+    "method": "get_ButtonText",
+    "text": "Year"
+  },
+  {
+    "type": "BetweenTurnsScreen",
+    "method": "get_ButtonText",
+    "text": "End {0}"
+  },
+  {
+    "type": "BetweenTurnsScreen",
+    "method": "get_ButtonText",
+    "text": "Season"
+  },
+  {
+    "type": "BetweenTurnsScreen",
+    "method": "get_ButtonText",
+    "text": "Continue to {0}"
+  },
+  {
+    "type": "BetweenTurnsScreen",
+    "method": "get_ButtonText",
+    "text": "0B8694"
+  },
+  {
+    "type": "TurnSwitcher",
+    "method": "BuildActions",
+    "text": "STORY"
+  },
+  {
+    "type": "MonarchPronounComponent",
+    "method": "UpdateComponent",
+    "text": "monarch"
+  },
+  {
+    "type": "MapLayersComponent",
+    "method": "UpdateComponent",
+    "text": "vignette"
+  },
+  {
+    "type": "MapLayersComponent",
+    "method": "UpdateComponent",
+    "text": "ocean_white"
+  },
+  {
+    "type": "MapLayersComponent",
+    "method": "UpdateComponent",
+    "text": "lakes_rivers"
+  },
+  {
+    "type": "MapLayersComponent",
+    "method": "UpdateComponent",
+    "text": "land"
+  },
+  {
+    "type": "MapLayersComponent",
+    "method": "UpdateComponent",
+    "text": "text"
+  },
+  {
+    "type": "MapLayersComponent",
+    "method": "GetLayerSortingOrder",
+    "text": "ocean_white"
+  },
+  {
+    "type": "MapLayersComponent",
+    "method": "GetLayerSortingOrder",
+    "text": "text"
+  },
+  {
+    "type": "MapLayersComponent",
+    "method": "GetLayerSortingOrder",
+    "text": "land"
+  },
+  {
+    "type": "MapLayersComponent",
+    "method": "GetLayerSortingOrder",
+    "text": "lakes_rivers"
+  },
+  {
+    "type": "MapLayersComponent",
+    "method": "GetLayerSortingOrder",
+    "text": "roads"
+  },
+  {
+    "type": "MapLayersComponent",
+    "method": "GetLayerSortingOrder",
+    "text": "vignette"
+  },
+  {
+    "type": "StoryEventSelectComponent",
+    "method": "Configure",
+    "text": "capital"
+  },
+  {
+    "type": "StoryEventSelectComponent/\u003CAnimate\u003Ed__17",
+    "method": "MoveNext",
+    "text": "Show"
+  },
+  {
+    "type": "MapRegion",
+    "method": "Configure",
+    "text": "capital"
+  },
+  {
+    "type": "MapRegion",
+    "method": "GetRandomChunkCenter",
+    "text": "GEO_AND_NPC"
+  },
+  {
+    "type": "MapRegion",
+    "method": "GetRandomPositionWithin",
+    "text": "GEO_AND_NPC"
+  },
+  {
+    "type": "MapRegion",
+    "method": "SetMaterialProperties",
+    "text": "_MainTex"
+  },
+  {
+    "type": "MapRegion",
+    "method": "SetMaterialProperties",
+    "text": "_RegionColor"
+  },
+  {
+    "type": "MapRegion",
+    "method": "OnVisibilityChanged",
+    "text": "_Alpha"
+  },
+  {
+    "type": "MapRegionSubrenderer",
+    "method": "Configure",
+    "text": "-geography"
+  },
+  {
+    "type": "MapRegionSubrenderer",
+    "method": "Configure",
+    "text": "-quadmesh"
+  },
+  {
+    "type": "MapRegions",
+    "method": "GetRandomPositionIn",
+    "text": "capital"
+  },
+  {
+    "type": "MapRegions",
+    "method": "GetRandomPositionIn",
+    "text": "capital"
+  },
+  {
+    "type": "TurnComponent",
+    "method": "UpdateComponent",
+    "text": "{0} {1}"
+  },
+  {
+    "type": "BalanceVoteTooltip",
+    "method": "get_Id",
+    "text": "BALANCE_TOOLTIP"
+  },
+  {
+    "type": "BalanceVoteTooltipTrigger",
+    "method": "get_Key",
+    "text": "BALANCE_TOOLTIP"
+  },
+  {
+    "type": "NobleTooltip",
+    "method": "get_Id",
+    "text": "NOBLE_TOOLTIP"
+  },
+  {
+    "type": "NobleTooltip",
+    "method": "AvatarId",
+    "text": "silhouetteA"
+  },
+  {
+    "type": "NobleTooltip",
+    "method": "NameLabel",
+    "text": "???"
+  },
+  {
+    "type": "NobleTooltip",
+    "method": "RegionLabel",
+    "text": "???"
+  },
+  {
+    "type": "NobleTooltip",
+    "method": "WealthLabel",
+    "text": "???"
+  },
+  {
+    "type": "NobleTooltip",
+    "method": "PronounsLabel",
+    "text": "???"
+  },
+  {
+    "type": "SchemeTooltip",
+    "method": "get_Id",
+    "text": "SCHEME_TOOLTIP"
+  },
+  {
+    "type": "SteamworksLifecycle",
+    "method": "Awake",
+    "text": "Initializing Steamworks with App ID: {0}"
+  },
+  {
+    "type": "SteamworksLifecycle",
+    "method": "Awake",
+    "text": "Could not initialize Steamworks. Received error: {0}"
+  },
+  {
+    "type": "SteamworksLifecycle",
+    "method": ".cctor",
+    "text": "STEAMWORKS"
+  },
+  {
+    "type": "SteamworksLifecycle",
+    "method": ".cctor",
+    "text": "#00a93f"
+  },
+  {
+    "type": "ATaxation",
+    "method": "get_Id",
+    "text": "turn-{0}-{1}"
+  },
+  {
+    "type": "AvatarEditorData",
+    "method": "get_Id",
+    "text": "avatareditor"
+  },
+  {
+    "type": "Character",
+    "method": "get_Name",
+    "text": ""
+  },
+  {
+    "type": "Character",
+    "method": "get_Name",
+    "text": " "
+  },
+  {
+    "type": "Character",
+    "method": "get_They",
+    "text": "they"
+  },
+  {
+    "type": "Character",
+    "method": "get_Them",
+    "text": "them"
+  },
+  {
+    "type": "Character",
+    "method": "get_Their",
+    "text": "their"
+  },
+  {
+    "type": "Character",
+    "method": "get_Theirs",
+    "text": "theirs"
+  },
+  {
+    "type": "Character",
+    "method": "get_Themselves",
+    "text": "themselves"
+  },
+  {
+    "type": "ChatSetup",
+    "method": "get_Id",
+    "text": "ChatSetup"
+  },
+  {
+    "type": "Kingdom",
+    "method": "get_Possessive",
+    "text": "\u0027s"
+  },
+  {
+    "type": "Kingdom",
+    "method": "get_Possessive",
+    "text": "\u0027"
+  },
+  {
+    "type": "Kingdom",
+    "method": "GetStat",
+    "text": "farming"
+  },
+  {
+    "type": "Kingdom",
+    "method": "GetStat",
+    "text": "military"
+  },
+  {
+    "type": "Kingdom",
+    "method": "GetStat",
+    "text": "trade"
+  },
+  {
+    "type": "Kingdom",
+    "method": "GetStat",
+    "text": "faith"
+  },
+  {
+    "type": "Kingdom",
+    "method": "GetStat",
+    "text": "defiance"
+  },
+  {
+    "type": "Kingdom",
+    "method": "CanGetStat",
+    "text": "farming"
+  },
+  {
+    "type": "Kingdom",
+    "method": "CanGetStat",
+    "text": "military"
+  },
+  {
+    "type": "Kingdom",
+    "method": "CanGetStat",
+    "text": "trade"
+  },
+  {
+    "type": "Kingdom",
+    "method": "CanGetStat",
+    "text": "faith"
+  },
+  {
+    "type": "Kingdom",
+    "method": "CanGetStat",
+    "text": "defiance"
+  },
+  {
+    "type": "Kingdom",
+    "method": "get_Treasury",
+    "text": "treasury"
+  },
+  {
+    "type": "Kingdom",
+    "method": "get_Authority",
+    "text": "authority"
+  },
+  {
+    "type": "Kingdom",
+    "method": "get_Stability",
+    "text": "stability"
+  },
+  {
+    "type": "Kingdom",
+    "method": "get_RebellionVictory",
+    "text": "rebellionVictory"
+  },
+  {
+    "type": "Kingdom",
+    "method": "get_RebellionDefeat",
+    "text": "rebellionDefeat"
+  },
+  {
+    "type": "Kingdom/\u003C\u003Ec",
+    "method": "\u003Cget_ExchangeRate\u003Eb__31_0",
+    "text": "wealth"
+  },
+  {
+    "type": "Kingdom/\u003C\u003Ec",
+    "method": "\u003Cget_ExchangeRate\u003Eb__31_1",
+    "text": "treasury"
+  },
+  {
+    "type": "Monarch",
+    "method": "get_FullName",
+    "text": " "
+  },
+  {
+    "type": "Monarch",
+    "method": "get_HeirName",
+    "text": " "
+  },
+  {
+    "type": "Noble",
+    "method": "get_Wealth",
+    "text": "wealth"
+  },
+  {
+    "type": "Noble",
+    "method": "get_FullName",
+    "text": " "
+  },
+  {
+    "type": "Noble",
+    "method": "get_Possessive",
+    "text": "\u0027s"
+  },
+  {
+    "type": "Noble",
+    "method": "get_Possessive",
+    "text": "\u0027"
+  },
+  {
+    "type": "Noble",
+    "method": "AddWealth",
+    "text": "AddWealth change cannot be negative - use RemoveWealth."
+  },
+  {
+    "type": "Noble",
+    "method": "RemoveWealth",
+    "text": "RemoveWealth change cannot be negative - use AddWealth."
+  },
+  {
+    "type": "Noble",
+    "method": "UpdateWealth",
+    "text": "wealth"
+  },
+  {
+    "type": "NobleShield/\u003C\u003Ec",
+    "method": "\u003C.ctor\u003Eb__10_0",
+    "text": "#"
+  },
+  {
+    "type": "Poll",
+    "method": "get_Id",
+    "text": "{0}"
+  },
+  {
+    "type": "PollStore",
+    "method": "get_LatestPoll",
+    "text": "{0}"
+  },
+  {
+    "type": "PronounSet",
+    "method": "get_Pluralize",
+    "text": "they"
+  },
+  {
+    "type": "PronounSet",
+    "method": "get_Item",
+    "text": "they"
+  },
+  {
+    "type": "PronounSet",
+    "method": "get_Item",
+    "text": "them"
+  },
+  {
+    "type": "PronounSet",
+    "method": "get_Item",
+    "text": "their"
+  },
+  {
+    "type": "PronounSet",
+    "method": "get_Item",
+    "text": "theirs"
+  },
+  {
+    "type": "PronounSet",
+    "method": "get_Item",
+    "text": "themselves"
+  },
+  {
+    "type": "RNG",
+    "method": "CreateUnseeded",
+    "text": "UNSEEDED"
+  },
+  {
+    "type": "RNG",
+    "method": "GetFullState",
+    "text": "_seedArray"
+  },
+  {
+    "type": "RNG",
+    "method": "GetFullState",
+    "text": "_inext"
+  },
+  {
+    "type": "RNG",
+    "method": "GetFullState",
+    "text": "_inextp"
+  },
+  {
+    "type": "RNG",
+    "method": "SetFullState",
+    "text": "_seedArray"
+  },
+  {
+    "type": "RNG",
+    "method": "SetFullState",
+    "text": "_inext"
+  },
+  {
+    "type": "RNG",
+    "method": "SetFullState",
+    "text": "_inextp"
+  },
+  {
+    "type": "RNG",
+    "method": "GetValue",
+    "text": "Error when serializing RNG field {0}: {1}"
+  },
+  {
+    "type": "RNG",
+    "method": "SetValue",
+    "text": "Error when deserializing RNG field {0}: {1}"
+  },
+  {
+    "type": "Region",
+    "method": "get_Possessive",
+    "text": "\u0027s"
+  },
+  {
+    "type": "Region",
+    "method": "get_Possessive",
+    "text": "\u0027"
+  },
+  {
+    "type": "Region",
+    "method": "get_SchemeGoalText",
+    "text": ""
+  },
+  {
+    "type": "Region",
+    "method": "get_SchemeGoalText",
+    "text": "Ensure the "
+  },
+  {
+    "type": "Region",
+    "method": "get_SchemeGoalText",
+    "text": "\u0027s Ambition succeeds while thwarting the other regions\u0027 Schemes"
+  },
+  {
+    "type": "Region",
+    "method": "get_Farming",
+    "text": "farming"
+  },
+  {
+    "type": "Region",
+    "method": "get_Military",
+    "text": "military"
+  },
+  {
+    "type": "Region",
+    "method": "get_Trade",
+    "text": "trade"
+  },
+  {
+    "type": "Region",
+    "method": "get_Faith",
+    "text": "faith"
+  },
+  {
+    "type": "Region",
+    "method": "get_Defiance",
+    "text": "defiance"
+  },
+  {
+    "type": "Region",
+    "method": "NextInterjection",
+    "text": ""
+  },
+  {
+    "type": "Region",
+    "method": "NextInterjection",
+    "text": "UNSEEDED"
+  },
+  {
+    "type": "Region",
+    "method": "NextInterjection",
+    "text": ""
+  },
+  {
+    "type": "Region",
+    "method": "get_Yes",
+    "text": "yes"
+  },
+  {
+    "type": "Region",
+    "method": "get_No",
+    "text": "no"
+  },
+  {
+    "type": "Region",
+    "method": "get_Oath",
+    "text": "oath"
+  },
+  {
+    "type": "Region",
+    "method": "get_YourMajesty",
+    "text": "your_majesty"
+  },
+  {
+    "type": "Region",
+    "method": "get_Exclamation",
+    "text": "exclamation"
+  },
+  {
+    "type": "Region",
+    "method": "get_Celebration",
+    "text": "celebration"
+  },
+  {
+    "type": "Region",
+    "method": "get_Goodbye",
+    "text": "goodbye"
+  },
+  {
+    "type": "Region",
+    "method": "get_Hello",
+    "text": "hello"
+  },
+  {
+    "type": "Region",
+    "method": "get_Maybe",
+    "text": "maybe"
+  },
+  {
+    "type": "Region",
+    "method": "get_Unfortunately",
+    "text": "unfortunately"
+  },
+  {
+    "type": "Region",
+    "method": "get_Peasants",
+    "text": "peasants"
+  },
+  {
+    "type": "Region",
+    "method": "get_BadNews",
+    "text": "bad_news"
+  },
+  {
+    "type": "Region",
+    "method": "get_OfCourse",
+    "text": "of_course"
+  },
+  {
+    "type": "Region",
+    "method": "get_ThankYou",
+    "text": "thank_you"
+  },
+  {
+    "type": "RegionTaxation",
+    "method": "get_Id",
+    "text": "turn-{0}-{1}-{2}"
+  },
+  {
+    "type": "SchemeData",
+    "method": "get_IsLoyalist",
+    "text": "loyalist"
+  },
+  {
+    "type": "SchemeSteps",
+    "method": "get_Goals",
+    "text": ""
+  },
+  {
+    "type": "SchemeSteps",
+    "method": "get_Goals",
+    "text": ", "
+  },
+  {
+    "type": "SchemeSteps/SchemeStep",
+    "method": "GoalString",
+    "text": " "
+  },
+  {
+    "type": "SchemeSteps/SchemeStep",
+    "method": "GoalString",
+    "text": "{0} {1} {2}"
+  },
+  {
+    "type": "SchemeSteps/SchemeStep",
+    "method": "GoalString",
+    "text": " "
+  },
+  {
+    "type": "SchemeSteps/SchemeStep",
+    "method": "GoalString",
+    "text": " "
+  },
+  {
+    "type": "SchemeSteps/SchemeStep",
+    "method": "GoalString",
+    "text": "{0} {1} {2} {3} {4}"
+  },
+  {
+    "type": "SchemeSteps/SchemeStep",
+    "method": "BoundaryString",
+    "text": "to at least {0}"
+  },
+  {
+    "type": "SchemeSteps/SchemeStep",
+    "method": "BoundaryString",
+    "text": "to {0} or less"
+  },
+  {
+    "type": "SchemeSteps/SchemeStep",
+    "method": "TurnRequirementString",
+    "text": ""
+  },
+  {
+    "type": "SchemeSteps/SchemeStep",
+    "method": "TurnRequirementString",
+    "text": ""
+  },
+  {
+    "type": "SchemeSteps/SchemeStep",
+    "method": "TurnRequirementString",
+    "text": "by next season"
+  },
+  {
+    "type": "SchemeSteps/SchemeStep",
+    "method": "TurnRequirementString",
+    "text": "in {0} seasons"
+  },
+  {
+    "type": "SchemeSteps/SchemeStep",
+    "method": "GroupingDescription",
+    "text": "all regions\u0027 total"
+  },
+  {
+    "type": "SchemeSteps/SchemeStep",
+    "method": "GroupingDescription",
+    "text": "other regions\u0027 total"
+  },
+  {
+    "type": "SchemeSteps/SchemeStep",
+    "method": "GroupingDescription",
+    "text": "your own"
+  },
+  {
+    "type": "SchemeSteps/SchemeStep",
+    "method": "GroupingDescription",
+    "text": "the Kingdom\u0027s"
+  },
+  {
+    "type": "SchemeSteps/SchemeStep",
+    "method": "GroupingDescription",
+    "text": "Have the Lowest"
+  },
+  {
+    "type": "SchemeSteps/SchemeStep",
+    "method": "GroupingDescription",
+    "text": "Have the Highest"
+  },
+  {
+    "type": "SchemeSteps/SchemeStep",
+    "method": "GroupingDescription",
+    "text": ""
+  },
+  {
+    "type": "StatData",
+    "method": ".cctor",
+    "text": "rebellionVictory"
+  },
+  {
+    "type": "StatData",
+    "method": ".cctor",
+    "text": "rebellionDefeat"
+  },
+  {
+    "type": "StoryEvent",
+    "method": "get_HasReachedTheEnd",
+    "text": "END"
+  },
+  {
+    "type": "StoryEvent",
+    "method": ".ctor",
+    "text": "."
+  },
+  {
+    "type": "StoryEvent",
+    "method": "EvaluateRequirements",
+    "text": "RootStoreCustomConfig"
+  },
+  {
+    "type": "StoryEvent",
+    "method": "EvaluateRequirements",
+    "text": "Error while evaluating requirement #{0} for {1}: {2}."
+  },
+  {
+    "type": "StoryEvent",
+    "method": "SetMetadata",
+    "text": "oneshot"
+  },
+  {
+    "type": "StoryEvent",
+    "method": "SetMetadata",
+    "text": "gameOver"
+  },
+  {
+    "type": "StoryEvent",
+    "method": "SetMetadata",
+    "text": "region"
+  },
+  {
+    "type": "CutoutMaskUIImage",
+    "method": "get_materialForRendering",
+    "text": "_StencilComp"
+  },
+  {
+    "type": "GameCodeContainer",
+    "method": "get_ChatSetup",
+    "text": "ChatSetup"
+  },
+  {
+    "type": "HideShowGameCodeActor",
+    "method": "OnEnable",
+    "text": "ChatSetup"
+  },
+  {
+    "type": "TaxationConfirmationActor",
+    "method": ".cctor",
+    "text": "Treasury too Low!"
+  },
+  {
+    "type": "TaxationConfirmationActor",
+    "method": ".cctor",
+    "text": "No loyal regions!"
+  },
+  {
+    "type": "TaxationConfirmationActor",
+    "method": ".cctor",
+    "text": "Confirm Tax"
+  },
+  {
+    "type": "TaxationTypeBanner",
+    "method": "OnEnable",
+    "text": "defiance"
+  },
+  {
+    "type": "TaxationTypeBanner",
+    "method": "OnEnable",
+    "text": "defiance"
+  },
+  {
+    "type": "TaxationTypeBanner",
+    "method": "OnEnable",
+    "text": "treasury"
+  },
+  {
+    "type": "TaxationTypeBanner",
+    "method": "OnEnable",
+    "text": "wealth"
+  },
+  {
+    "type": "UIViewShowHideLink",
+    "method": "OnUIViewVisibilityChanged",
+    "text": "OnVisibilityChanged"
+  },
+  {
+    "type": "IntExtensions",
+    "method": "ToSignedString",
+    "text": ""
+  },
+  {
+    "type": "IntExtensions",
+    "method": "ToSignedString",
+    "text": "\u002B"
+  },
+  {
+    "type": "IntExtensions",
+    "method": "ToSignedString",
+    "text": ""
+  },
+  {
+    "type": "IntExtensions",
+    "method": "ToRoman",
+    "text": ""
+  },
+  {
+    "type": "IntExtensions",
+    "method": "ToRoman",
+    "text": ""
+  },
+  {
+    "type": "IntExtensions",
+    "method": ".cctor",
+    "text": "M"
+  },
+  {
+    "type": "IntExtensions",
+    "method": ".cctor",
+    "text": "CM"
+  },
+  {
+    "type": "IntExtensions",
+    "method": ".cctor",
+    "text": "D"
+  },
+  {
+    "type": "IntExtensions",
+    "method": ".cctor",
+    "text": "DC"
+  },
+  {
+    "type": "IntExtensions",
+    "method": ".cctor",
+    "text": "C"
+  },
+  {
+    "type": "IntExtensions",
+    "method": ".cctor",
+    "text": "XC"
+  },
+  {
+    "type": "IntExtensions",
+    "method": ".cctor",
+    "text": "L"
+  },
+  {
+    "type": "IntExtensions",
+    "method": ".cctor",
+    "text": "XL"
+  },
+  {
+    "type": "IntExtensions",
+    "method": ".cctor",
+    "text": "X"
+  },
+  {
+    "type": "IntExtensions",
+    "method": ".cctor",
+    "text": "IX"
+  },
+  {
+    "type": "IntExtensions",
+    "method": ".cctor",
+    "text": "V"
+  },
+  {
+    "type": "IntExtensions",
+    "method": ".cctor",
+    "text": "IV"
+  },
+  {
+    "type": "IntExtensions",
+    "method": ".cctor",
+    "text": "I"
+  },
+  {
+    "type": "StoryExtensions",
+    "method": "BindFountain",
+    "text": "fountain"
+  },
+  {
+    "type": "UI.CreditsBlock",
+    "method": "Setup",
+    "text": "CreditsBlock text block could not be instantiated"
+  },
+  {
+    "type": "UI.ProcessionCharacter",
+    "method": ".cctor",
+    "text": "SpeedMultiplier"
+  },
+  {
+    "type": "UI.ProcessionCharacter",
+    "method": ".cctor",
+    "text": "CycleOffset"
+  },
+  {
+    "type": "Scenes.Vote.VoteSetup.VariantSetChoiceButton",
+    "method": "Configure",
+    "text": "Set Law"
+  },
+  {
+    "type": "Scenes.Vote.VoteSetup.VariantSetChoiceButton",
+    "method": "Configure",
+    "text": "Select Choice"
+  },
+  {
+    "type": "Scenes.Vote.VoteSetup.VariantVoteChoiceSection",
+    "method": "UpdateComponent",
+    "text": "Setting choice For {0} . . ."
+  },
+  {
+    "type": "Scenes.Vote.VoteSetup.VotingSetupVariantComponent",
+    "method": "ConfigureCoolDownVariant",
+    "text": "Turns"
+  },
+  {
+    "type": "Scenes.Vote.VoteSetup.VotingSetupVariantComponent",
+    "method": "ConfigureCoolDownVariant",
+    "text": "Turn"
+  },
+  {
+    "type": "Scenes.Vote.VoteSetup.VotingSetupVariantComponent",
+    "method": "ConfigureCoolDownVariant",
+    "text": "{0} {1}"
+  },
+  {
+    "type": "Scenes.Vote.VoteSetup.VotingSetupVariantComponent",
+    "method": "ConfigureUsedVariant",
+    "text": "{0}"
+  },
+  {
+    "type": "Scenes.Vote.VoteSetup.VotingSetupVariantComponent",
+    "method": "ConfigureUsedVariant",
+    "text": "Currently Selected"
+  },
+  {
+    "type": "Scenes.Vote.VoteSetup.VotingSetupVariantComponent",
+    "method": "ConfigureUsedVariant",
+    "text": "Currently Selected Law"
+  },
+  {
+    "type": "Scenes.Title.ProcessionScript",
+    "method": "OnEnable",
+    "text": "UNSEEDED"
+  },
+  {
+    "type": "Scenes.Title.UrlButton",
+    "method": ".ctor",
+    "text": ""
+  },
+  {
+    "type": "Scenes.Credits.CreditsImporter",
+    "method": "RecursivelyReadFile",
+    "text": "Credits import complete."
+  },
+  {
+    "type": "Scenes.Credits.CreditsImporter",
+    "method": ".ctor",
+    "text": ",(?=(?:[^\u0022]*\u0022[^\u0022]*\u0022)*(?![^\u0022]*\u0022))"
+  },
+  {
+    "type": "Scenes.BetweenTurns.FundableBuildingComponent",
+    "method": "Configure",
+    "text": "{0}"
+  },
+  {
+    "type": "Scenes.BetweenTurns.Screens.BuildingVoteActiveSubScreen",
+    "method": "OnTimeUpdated",
+    "text": "{0}"
+  },
+  {
+    "type": "Reducers.Buildings.ShowBuildingPreviewsReducer",
+    "method": ".ctor",
+    "text": "BUILDING-PREVIEW"
+  },
+  {
+    "type": "Reducers.Buildings.ShowBuildingPreviewsReducer",
+    "method": ".ctor",
+    "text": "#F5810A"
+  },
+  {
+    "type": "Reducers.Buildings.ShowBuildingPreviewsReducer",
+    "method": "Reduce",
+    "text": "{0}-{1}-{2}"
+  },
+  {
+    "type": "Reducers.Buildings.ShowBuildingPreviewsReducer",
+    "method": "GetBuildingsForAllRegions",
+    "text": "STORY"
+  },
+  {
+    "type": "Reducers.Buildings.ShowBuildingPreviewsReducer",
+    "method": "GetBuildingsForAllRegions",
+    "text": "Placing "
+  },
+  {
+    "type": "Reducers.Buildings.ShowBuildingPreviewsReducer",
+    "method": "GetBuildingsForAllRegions",
+    "text": " in "
+  },
+  {
+    "type": "Reducers.Buildings.ShowBuildingPreviewsReducer",
+    "method": "GetBuildingsForAllRegions",
+    "text": " to help "
+  },
+  {
+    "type": "Reducers.Buildings.ShowBuildingPreviewsReducer",
+    "method": "GetBuildingsForAllRegions",
+    "text": "Placing "
+  },
+  {
+    "type": "Reducers.Buildings.ShowBuildingPreviewsReducer",
+    "method": "GetBuildingsForAllRegions",
+    "text": " in "
+  },
+  {
+    "type": "Reducers.Buildings.ShowBuildingPreviewsReducer",
+    "method": "GetBuildingsForAllRegions",
+    "text": " to help "
+  },
+  {
+    "type": "Reducers.Buildings.ShowBuildingPreviewsReducer",
+    "method": "GetBuildingsForAllRegions",
+    "text": "Placing "
+  },
+  {
+    "type": "Reducers.Buildings.ShowBuildingPreviewsReducer",
+    "method": "GetBuildingsForAllRegions",
+    "text": ", "
+  },
+  {
+    "type": "Reducers.Buildings.ShowBuildingPreviewsReducer",
+    "method": "GetBuildingsForAllRegions",
+    "text": " in "
+  },
+  {
+    "type": "Reducers.Buildings.ShowBuildingPreviewsReducer",
+    "method": "GetBuildingsForAllRegions",
+    "text": " because they need more buildings"
+  },
+  {
+    "type": "KotC.VotingVariants.AVotingVariant",
+    "method": "get_VariantType",
+    "text": "INTERNAL"
+  },
+  {
+    "type": "KotC.VotingVariants.CallForUnityVariant",
+    "method": "PostVoteActions",
+    "text": "stability"
+  },
+  {
+    "type": "KotC.VotingVariants.LockedChoiceVotingVariant",
+    "method": ".ctor",
+    "text": "{0}--{1}"
+  },
+  {
+    "type": "KotC.VotingVariants.LockedChoiceVotingVariant",
+    "method": ".ctor",
+    "text": "LockedChoiceVotingVariant"
+  },
+  {
+    "type": "KotC.VotingVariants.MonarchsIronChoiceVariant",
+    "method": "PostVoteActions",
+    "text": "authority"
+  },
+  {
+    "type": "KotC.VotingVariants.RoyalGambleVariant",
+    "method": "PostVoteActions",
+    "text": "treasury"
+  },
+  {
+    "type": "KotC.VotingVariants.SuccessionVotingVariant",
+    "method": ".ctor",
+    "text": "SuccessionVotingVariant"
+  },
+  {
+    "type": "KotC.VotingVariants.SuccessionVotingVariant",
+    "method": "PostVoteActions",
+    "text": ""
+  },
+  {
+    "type": "KotC.Utils.FountainHandler",
+    "method": "Fountain",
+    "text": "Error while parsing fountain statement \u0022"
+  },
+  {
+    "type": "KotC.Utils.FountainHandler",
+    "method": "Fountain",
+    "text": "\u0022 : "
+  },
+  {
+    "type": "KotC.Utils.FountainHandler",
+    "method": "Fountain",
+    "text": "Error while Evaluating fountain expression \u0022"
+  },
+  {
+    "type": "KotC.Utils.FountainHandler",
+    "method": "Fountain",
+    "text": "\u0022 : "
+  },
+  {
+    "type": "KotC.Utils.FountainHandler",
+    "method": "Fountain",
+    "text": "["
+  },
+  {
+    "type": "KotC.Utils.FountainHandler",
+    "method": "Fountain",
+    "text": "]"
+  },
+  {
+    "type": "KotC.Utils.FountainHandler",
+    "method": ".cctor",
+    "text": "FOUNTAIN_HANDLER"
+  },
+  {
+    "type": "KotC.Utils.FountainHandler",
+    "method": ".cctor",
+    "text": "#ff781f"
+  },
+  {
+    "type": "KotC.Utils.FountainUtilities",
+    "method": "Evaluate",
+    "text": "Error while evaluating fetch statement: "
+  },
+  {
+    "type": "KotC.Utils.InkLookahead",
+    "method": ".ctor",
+    "text": "INKLOOKAHEAD"
+  },
+  {
+    "type": "KotC.Utils.InkLookahead",
+    "method": ".ctor",
+    "text": "#ff781f"
+  },
+  {
+    "type": "KotC.Utils.InkLookahead",
+    "method": ".ctor",
+    "text": "^(success \\d\\d?)||(failure( \\d\\d?)?)$"
+  },
+  {
+    "type": "KotC.Utils.InkLookahead",
+    "method": "DoLookahead",
+    "text": "Could not find knot: {0}"
+  },
+  {
+    "type": "KotC.Utils.InkLookahead",
+    "method": "GetChallengeData",
+    "text": "Invalid choices for \u0060{0}\u0060 - expected {1} \u003C= 1."
+  },
+  {
+    "type": "KotC.Utils.InkLookahead",
+    "method": "FountainEvaluator",
+    "text": ""
+  },
+  {
+    "type": "KotC.Utils.InkLookahead",
+    "method": "FountainEvaluator",
+    "text": "Could not parse request "
+  },
+  {
+    "type": "KotC.Utils.InkLookahead",
+    "method": "FountainEvaluator",
+    "text": ". Error: "
+  },
+  {
+    "type": "KotC.Utils.InkLookahead",
+    "method": "FountainEvaluator",
+    "text": "."
+  },
+  {
+    "type": "KotC.Utils.InkLookahead",
+    "method": "CreateNPCInContext",
+    "text": "TEMP-{0}-{1}"
+  },
+  {
+    "type": "KotC.Utils.InkLookahead",
+    "method": "CreateNPCInContext",
+    "text": "NPC"
+  },
+  {
+    "type": "KotC.Utils.InkLookahead/\u003C\u003Ec__DisplayClass15_0",
+    "method": "\u003CGetChallengeData\u003Eb__0",
+    "text": "success"
+  },
+  {
+    "type": "KotC.Utils.InkLookahead/\u003C\u003Ec__DisplayClass15_0",
+    "method": "\u003CGetChallengeData\u003Eb__0",
+    "text": "Invalid text for challenge in choice \u0027"
+  },
+  {
+    "type": "KotC.Utils.InkLookahead/\u003C\u003Ec__DisplayClass15_0",
+    "method": "\u003CGetChallengeData\u003Eb__0",
+    "text": "\u0027. Was: \u0027"
+  },
+  {
+    "type": "KotC.Utils.InkLookahead/\u003C\u003Ec__DisplayClass15_0",
+    "method": "\u003CGetChallengeData\u003Eb__0",
+    "text": "\u0027."
+  },
+  {
+    "type": "KotC.Utils.MouseUtilities",
+    "method": "get_MouseMotion",
+    "text": "Mouse X"
+  },
+  {
+    "type": "KotC.Utils.MouseUtilities",
+    "method": "get_MouseMotion",
+    "text": "Mouse Y"
+  },
+  {
+    "type": "KotC.Utils.MouseUtilities",
+    "method": "get_MouseWheel",
+    "text": "Mouse ScrollWheel"
+  },
+  {
+    "type": "KotC.Utils.RichText",
+    "method": "Bold",
+    "text": "\u003Cb\u003E"
+  },
+  {
+    "type": "KotC.Utils.RichText",
+    "method": "Bold",
+    "text": "\u003C/b\u003E"
+  },
+  {
+    "type": "KotC.Utils.StringUtilities",
+    "method": "XOfY",
+    "text": " of "
+  },
+  {
+    "type": "KotC.Utils.StringUtilities",
+    "method": "Color",
+    "text": "\u003Ccolor=#"
+  },
+  {
+    "type": "KotC.Utils.StringUtilities",
+    "method": "Color",
+    "text": "\u003E"
+  },
+  {
+    "type": "KotC.Utils.StringUtilities",
+    "method": "Color",
+    "text": "\u003C/color\u003E"
+  },
+  {
+    "type": "KotC.Utils.StringUtilities",
+    "method": "MSpace",
+    "text": "\u003Cmspace={0}em\u003E{1}\u003C/mspace\u003E"
+  },
+  {
+    "type": "KotC.Utils.StringUtilities",
+    "method": "XTooY",
+    "text": " too "
+  },
+  {
+    "type": "KotC.Utils.StringUtilities",
+    "method": "Sanitize",
+    "text": ""
+  },
+  {
+    "type": "KotC.Utils.StringUtilities",
+    "method": ".cctor",
+    "text": "[^- \\w]"
+  },
+  {
+    "type": "KotC.Utils.SuccessorFountainUtility",
+    "method": "get_HeirTitle",
+    "text": "HEIR_TITLE"
+  },
+  {
+    "type": "KotC.Utils.SuccessorFountainUtility",
+    "method": "get_HeirExists",
+    "text": "HEIR_EXISTS"
+  },
+  {
+    "type": "KotC.Utils.SuccessorFountainUtility",
+    "method": "get_Heir",
+    "text": "HEIR"
+  },
+  {
+    "type": "KotC.Utils.SuccessorFountainUtility",
+    "method": "IsHeirReference",
+    "text": "HEIR"
+  },
+  {
+    "type": "KotC.Utils.WebRequestUtilities",
+    "method": ".cctor",
+    "text": "WEB_REQUEST_UTILITIES"
+  },
+  {
+    "type": "KotC.Utils.WebRequestUtilities",
+    "method": ".cctor",
+    "text": "#00a93f"
+  },
+  {
+    "type": "KotC.Utils.WebRequestUtilities/\u003CRetriableRequest\u003Ed__1\u00601",
+    "method": "MoveNext",
+    "text": "Attempting request {0} / {1}"
+  },
+  {
+    "type": "KotC.UI.ExportSaveUI",
+    "method": ".cctor",
+    "text": "Save Exported!"
+  },
+  {
+    "type": "KotC.UI.ExportSaveUI",
+    "method": ".cctor",
+    "text": "Exporting Save..."
+  },
+  {
+    "type": "KotC.UI.ExportSaveUI",
+    "method": ".cctor",
+    "text": "An unexpected error has occured.\nPlease restart the game and try again."
+  },
+  {
+    "type": "KotC.UI.ExportSaveUI",
+    "method": ".cctor",
+    "text": "Could not find the save with filename \u0027{0}\u0027.\nPlease ensure you haven\u0027t renamed any save files and try again."
+  },
+  {
+    "type": "KotC.UI.ExportSaveUI",
+    "method": ".cctor",
+    "text": "SHOW CODE"
+  },
+  {
+    "type": "KotC.UI.ExportSaveUI",
+    "method": ".cctor",
+    "text": "Other Monarchs may now play your save.\nGo to the Continue Dynasty screen, hit \u0027Import Save\u0027 and use the code below.\nWe store saves for 14 days before deleting.\nNote - Twitch Mode saves cannot be played in Party Games and vice versa."
+  },
+  {
+    "type": "KotC.UI.ExportSaveUI/\u003COnShow\u003Ed__16",
+    "method": "MoveNext",
+    "text": ".save"
+  },
+  {
+    "type": "KotC.UI.GameTypeDependantTooltipComponent",
+    "method": "UpdateComponent",
+    "text": "ChatSetup"
+  },
+  {
+    "type": "KotC.UI.ImportSaveUI",
+    "method": "OnShow",
+    "text": ""
+  },
+  {
+    "type": "KotC.UI.ImportSaveUI",
+    "method": ".cctor",
+    "text": "Could not find a save with code \u0027{0}\u0027.\u003Cbr\u003ECheck the code entered and note that we delete saves after 14 days."
+  },
+  {
+    "type": "KotC.UI.ImportSaveUI",
+    "method": ".cctor",
+    "text": "An unexpected error occurred while retrieving save \u0027{0}\u0027.\u003Cbr\u003ECheck the code entered and note that we delete saves after 14 days."
+  },
+  {
+    "type": "KotC.UI.ImportSaveUI",
+    "method": ".cctor",
+    "text": "Import saves by entering a code below.\u003Cbr\u003EWe store saves for 14 days before deleting.\u003Cbr\u003ENote - Twitch Mode saves cannot be played in Party Games and vice versa."
+  },
+  {
+    "type": "KotC.UI.ImportSaveUI",
+    "method": ".cctor",
+    "text": "Importing this save file will overwrite the existing save file for the \u0027{0}\u0027 dynasty. Are you sure you want to do this?"
+  },
+  {
+    "type": "KotC.UI.ImportSaveUI",
+    "method": ".cctor",
+    "text": "Save \u0027{0}\u0027 imported successfully."
+  },
+  {
+    "type": "KotC.UI.ImportSaveUI",
+    "method": ".cctor",
+    "text": "Import save"
+  },
+  {
+    "type": "KotC.UI.ImportSaveUI",
+    "method": ".cctor",
+    "text": "Importing..."
+  },
+  {
+    "type": "KotC.UI.ImportSaveUI",
+    "method": ".cctor",
+    "text": "Error"
+  },
+  {
+    "type": "KotC.UI.ImportSaveUI",
+    "method": ".cctor",
+    "text": "Warning"
+  },
+  {
+    "type": "KotC.UI.ImportSaveUI",
+    "method": ".cctor",
+    "text": "Import successful"
+  },
+  {
+    "type": "KotC.UI.LinkTwitchButtonTextController",
+    "method": "Refresh",
+    "text": "Account link"
+  },
+  {
+    "type": "KotC.UI.PlaySoundySound",
+    "method": ".ctor",
+    "text": "General"
+  },
+  {
+    "type": "KotC.UI.PlaySoundySound",
+    "method": ".ctor",
+    "text": "No Sound"
+  },
+  {
+    "type": "KotC.UI.VoteVariantIcon",
+    "method": "Configure",
+    "text": " "
+  },
+  {
+    "type": "KotC.UI.VoteVariantIcon",
+    "method": "Configure",
+    "text": "high"
+  },
+  {
+    "type": "KotC.UI.VoteVariantIcon",
+    "method": "Configure",
+    "text": "low"
+  },
+  {
+    "type": "KotC.UI.VoteVariantIcon",
+    "method": "Configure",
+    "text": ""
+  },
+  {
+    "type": "KotC.UI.UniversalList.MultiTypePool",
+    "method": ".ctor",
+    "text": "MultiTypePool"
+  },
+  {
+    "type": "KotC.UI.UniversalList.Pool\u00601",
+    "method": ".ctor",
+    "text": "PoolParent {0}"
+  },
+  {
+    "type": "KotC.UIEvents.EventEpilogue",
+    "method": "get_GameEventMessage",
+    "text": "Epilogue"
+  },
+  {
+    "type": "KotC.UIEvents.EventGameOver",
+    "method": "get_GameEventMessage",
+    "text": "GameOver"
+  },
+  {
+    "type": "KotC.UIEvents.EventSuccessorVote",
+    "method": "get_GameEventMessage",
+    "text": "SuccessorVote"
+  },
+  {
+    "type": "KotC.UIEvents.EventEndEvent",
+    "method": "get_GameEventMessage",
+    "text": "FinishEvent"
+  },
+  {
+    "type": "KotC.UIEvents.EventStartEvent",
+    "method": "get_GameEventMessage",
+    "text": "SelectEvent"
+  },
+  {
+    "type": "KotC.UIEvents.EventStartSchemeGatewayEvent",
+    "method": "get_GameEventMessage",
+    "text": "StartSchemeGatewayEvent"
+  },
+  {
+    "type": "KotC.UIEvents.EventGameSetup",
+    "method": "get_GameEventMessage",
+    "text": "GameSetup"
+  },
+  {
+    "type": "KotC.UIEvents.EventContinueGame",
+    "method": "get_GameEventMessage",
+    "text": "ContinueGame"
+  },
+  {
+    "type": "KotC.UIEvents.EventGameType",
+    "method": "get_GameEventMessage",
+    "text": "GameType"
+  },
+  {
+    "type": "KotC.UIEvents.EventDynastySetup",
+    "method": "get_GameEventMessage",
+    "text": "DynastySetup"
+  },
+  {
+    "type": "KotC.UIEvents.EventUIViewEntered",
+    "method": ".ctor",
+    "text": "."
+  },
+  {
+    "type": "KotC.UIEvents.EventGameplayEntered",
+    "method": "get_GameEventMessage",
+    "text": "GameplayEntered"
+  },
+  {
+    "type": "KotC.UIEvents.EventTitleEntered",
+    "method": "get_GameEventMessage",
+    "text": "TitleEntered"
+  },
+  {
+    "type": "KotC.UIEvents.EventGameSetupEntered",
+    "method": "get_GameEventMessage",
+    "text": "GameSetupEntered"
+  },
+  {
+    "type": "KotC.UIEvents.EventBetweenTurnNextScreen",
+    "method": "get_GameEventMessage",
+    "text": "BetweenTurnNextScreen"
+  },
+  {
+    "type": "KotC.UIEvents.EventEndTurn",
+    "method": "get_GameEventMessage",
+    "text": "EndTurn"
+  },
+  {
+    "type": "KotC.UIEvents.EventStartTurn",
+    "method": "get_GameEventMessage",
+    "text": "StartTurn"
+  },
+  {
+    "type": "KotC.UIEvents.UIEvent",
+    "method": ".ctor",
+    "text": "{0}-{1}"
+  },
+  {
+    "type": "KotC.UIEvents.EventQualityUpdate",
+    "method": "get_GameEventMessage",
+    "text": "QualityUpdate"
+  },
+  {
+    "type": "KotC.UIEvents.EventBack",
+    "method": "get_GameEventMessage",
+    "text": "Back"
+  },
+  {
+    "type": "KotC.UIEvents.EventBackToMenu",
+    "method": "get_GameEventMessage",
+    "text": "BackToMenu"
+  },
+  {
+    "type": "KotC.UIEvents.EventSkipEula",
+    "method": "get_GameEventMessage",
+    "text": "SkipEULA"
+  },
+  {
+    "type": "KotC.UIEvents.EventLoadingEnded",
+    "method": "get_GameEventMessage",
+    "text": "LoadingEnded"
+  },
+  {
+    "type": "KotC.UIEvents.EventMapLoadingEnded",
+    "method": "get_GameEventMessage",
+    "text": "MapLoadingEnded"
+  },
+  {
+    "type": "KotC.UIEvents.EventCustomisationEditorLoadingEnded",
+    "method": "get_GameEventMessage",
+    "text": "CustomisationEditorLoaded"
+  },
+  {
+    "type": "KotC.Stores.Building",
+    "method": "Build",
+    "text": "STORY"
+  },
+  {
+    "type": "KotC.Stores.GameplaySettings",
+    "method": "get_Id",
+    "text": "GAMEPLAY_SETTINGS"
+  },
+  {
+    "type": "KotC.Stores.NobleBoostVote",
+    "method": ".ctor",
+    "text": "{0}_BOOST_VOTE({1})"
+  },
+  {
+    "type": "KotC.Stores.Rebellion",
+    "method": ".ctor",
+    "text": "-"
+  },
+  {
+    "type": "KotC.Stores.StoryEventDefinitionStore",
+    "method": ".ctor",
+    "text": "capital"
+  },
+  {
+    "type": "KotC.Stores.UIEvents.EventPollSetup",
+    "method": "get_GameEventMessage",
+    "text": "PollSetup"
+  },
+  {
+    "type": "KotC.Stores.UIEvents.EventPollVoting",
+    "method": "get_GameEventMessage",
+    "text": "PollVoting"
+  },
+  {
+    "type": "KotC.Stores.StoryEventSteps.ChallengeStoryEventStep",
+    "method": "Evaluate",
+    "text": "No valid challenge outcome!"
+  },
+  {
+    "type": "KotC.Stores.StoryEventSteps.ChoiceData",
+    "method": "ToChallengeOutcome",
+    "text": "success"
+  },
+  {
+    "type": "KotC.Stores.Context.LookaheadContext",
+    "method": "GetGeneratorForCurrentEvent",
+    "text": "UNSEEDED"
+  },
+  {
+    "type": "KotC.Stores.Context.RootStoreContext",
+    "method": "GetGeneratorForCurrentEvent",
+    "text": "UNSEEDED"
+  },
+  {
+    "type": "KotC.Stores.Context.SelectionStrategies.SelectionStrategyConfiguration",
+    "method": "get_Id",
+    "text": "RootStoreCustomConfig"
+  },
+  {
+    "type": "KotC.Stores.Context.SelectionStrategies.SelectionStrategyConfiguration",
+    "method": "GetOne",
+    "text": "Custom Config does not contain a custom selector for Type \u003C{0}\u003E"
+  },
+  {
+    "type": "KotC.Steam.SteamPresenceService",
+    "method": "UnThrottledUpdateRichPresence",
+    "text": "steam_display"
+  },
+  {
+    "type": "KotC.Steam.SteamPresenceService",
+    "method": "UnThrottledUpdateRichPresence",
+    "text": "#Status_InGame"
+  },
+  {
+    "type": "KotC.Steam.SteamPresenceService",
+    "method": "UnThrottledUpdateRichPresence",
+    "text": "monarch_name"
+  },
+  {
+    "type": "KotC.Steam.SteamPresenceService",
+    "method": "UnThrottledUpdateRichPresence",
+    "text": "nobles_count"
+  },
+  {
+    "type": "KotC.Steam.SteamPresenceService",
+    "method": "UnThrottledUpdateRichPresence",
+    "text": "{0}"
+  },
+  {
+    "type": "KotC.Splash.SplashLogos.SplashLogos",
+    "method": "BuildURL",
+    "text": ""
+  },
+  {
+    "type": "KotC.Splash.SplashLogos.SplashLogos/\u003C\u003Ec",
+    "method": "\u003CNextLogo\u003Eb__4_0",
+    "text": "SplashEnded"
+  },
+  {
+    "type": "KotC.Scenes.Vote.AResultsComponent",
+    "method": "UpdateComponent",
+    "text": "nobles"
+  },
+  {
+    "type": "KotC.Scenes.Vote.AResultsComponent",
+    "method": "UpdateComponent",
+    "text": "noble"
+  },
+  {
+    "type": "KotC.Scenes.Vote.AResultsComponent",
+    "method": "UpdateComponent",
+    "text": " and the Monarch"
+  },
+  {
+    "type": "KotC.Scenes.Vote.AResultsComponent",
+    "method": "UpdateComponent",
+    "text": "{0} {1} {2}"
+  },
+  {
+    "type": "KotC.Scenes.Vote.AResultsComponent",
+    "method": ".cctor",
+    "text": "^(\\d\u002B)(\\snobles?( and the Monarch)?\\s)(.\u002B)$"
+  },
+  {
+    "type": "KotC.Scenes.Vote.NoblesBucket",
+    "method": "Reset",
+    "text": "{0}"
+  },
+  {
+    "type": "KotC.Scenes.Vote.NoblesBucket",
+    "method": "PostAddNobles",
+    "text": "{0}"
+  },
+  {
+    "type": "KotC.Scenes.Vote.PollStatsComponent",
+    "method": "SetTimerText",
+    "text": "\u003Cmspace=0.5em\u003E{0}\u003C/mspace\u003E"
+  },
+  {
+    "type": "KotC.Scenes.Vote.RegionOnlyVotingBanner",
+    "method": "Configure",
+    "text": "OPEN TO {0} ONLY"
+  },
+  {
+    "type": "KotC.Scenes.Vote.ResultsComponent",
+    "method": "Configure",
+    "text": "{0}"
+  },
+  {
+    "type": "KotC.Scenes.Vote.SuccessorVoteChoiceAndScoreComponent",
+    "method": "GetTitle",
+    "text": "capital"
+  },
+  {
+    "type": "KotC.Scenes.Vote.SuccessorVoteChoiceAndScoreComponent",
+    "method": "GetTitle",
+    "text": "The "
+  },
+  {
+    "type": "KotC.Scenes.Vote.SuccessorVoteChoiceAndScoreComponent",
+    "method": "GetTitle",
+    "text": "\u0027s Heir"
+  },
+  {
+    "type": "KotC.Scenes.Vote.SuccessorVoteChoiceAndScoreComponent",
+    "method": "SuccessorForRegion",
+    "text": "capital"
+  },
+  {
+    "type": "KotC.Scenes.Vote.SuccessorVoteChoiceAndScoreComponent",
+    "method": "SuccessorForRegion",
+    "text": "silhouetteA"
+  },
+  {
+    "type": "KotC.Scenes.Vote.SuccessorVoteChoiceAndScoreComponent",
+    "method": "ApplyVariant",
+    "text": "Variants should not be applied on the successor screen."
+  },
+  {
+    "type": "KotC.Scenes.Vote.SuccessorVoteShieldsContainer",
+    "method": "ConfigureScoreLabel",
+    "text": "\u002B {0} others"
+  },
+  {
+    "type": "KotC.Scenes.Vote.VoteShieldsContainer",
+    "method": "AddNoble",
+    "text": "Spacer"
+  },
+  {
+    "type": "KotC.Scenes.Pause.NoNobleActivator",
+    "method": "OnEnable",
+    "text": "RegionUpdated"
+  },
+  {
+    "type": "KotC.Scenes.Pause.NoNobleActivator",
+    "method": "OnDisable",
+    "text": "RegionUpdated"
+  },
+  {
+    "type": "KotC.Scenes.Overview.AutoBalancingMessageComponent",
+    "method": "OnEnable",
+    "text": "RegionUpdated"
+  },
+  {
+    "type": "KotC.Scenes.Overview.AutoBalancingMessageComponent",
+    "method": "OnDisable",
+    "text": "RegionUpdated"
+  },
+  {
+    "type": "KotC.Scenes.Overview.BroadcastedNobleCountComponent",
+    "method": "BroadcastNobleCounts",
+    "text": "RegionUpdated"
+  },
+  {
+    "type": "KotC.Scenes.Overview.JoinInfoComponent",
+    "method": "get_ChatSetup",
+    "text": "ChatSetup"
+  },
+  {
+    "type": "KotC.Scenes.Overview.MonarchNameComponent",
+    "method": "MapStateToProps",
+    "text": "monarch"
+  },
+  {
+    "type": "KotC.Scenes.Overview.NobleCountComponent",
+    "method": ".cctor",
+    "text": "(\\d\u002B)"
+  },
+  {
+    "type": "KotC.Scenes.Overview.NobleListItemUI",
+    "method": "Configure",
+    "text": ""
+  },
+  {
+    "type": "KotC.Scenes.Overview.NobleListItemUI",
+    "method": "Configure",
+    "text": " ("
+  },
+  {
+    "type": "KotC.Scenes.Overview.NobleListItemUI",
+    "method": "Configure",
+    "text": ")"
+  },
+  {
+    "type": "KotC.Scenes.Overview.NobleListItemUI",
+    "method": "ConfigureAnonymous",
+    "text": "Anonymous"
+  },
+  {
+    "type": "KotC.Scenes.Overview.OverviewNobleListComponent",
+    "method": "UpdateView",
+    "text": "RegionUpdated"
+  },
+  {
+    "type": "KotC.Scenes.Overview.OverviewNobleUI",
+    "method": "Configure",
+    "text": "{0}"
+  },
+  {
+    "type": "KotC.Scenes.Overview.SeedInfoComponent",
+    "method": "UpdateComponent",
+    "text": "SEEDER"
+  },
+  {
+    "type": "KotC.Scenes.Overview.RegionSchemeTitleComponent",
+    "method": "UpdateComponent",
+    "text": ""
+  },
+  {
+    "type": "KotC.Scenes.Overview.RegionSchemeTitleComponent",
+    "method": "UpdateComponent",
+    "text": "In rebellion!"
+  },
+  {
+    "type": "KotC.Scenes.Overview.RegionStatsComponent",
+    "method": "Configure",
+    "text": "trade"
+  },
+  {
+    "type": "KotC.Scenes.Overview.RegionStatsComponent",
+    "method": "Configure",
+    "text": "military"
+  },
+  {
+    "type": "KotC.Scenes.Overview.RegionStatsComponent",
+    "method": "Configure",
+    "text": "farming"
+  },
+  {
+    "type": "KotC.Scenes.Overview.RegionStatsComponent",
+    "method": "Configure",
+    "text": "defiance"
+  },
+  {
+    "type": "KotC.Scenes.Overview.RegionStatsComponent",
+    "method": "Configure",
+    "text": "faith"
+  },
+  {
+    "type": "KotC.Scenes.Overview.SchemeIndicators.NobleTooltipTrigger",
+    "method": "get_Key",
+    "text": "NOBLE_TOOLTIP"
+  },
+  {
+    "type": "KotC.Scenes.Overview.SchemeIndicators.SchemeTooltipTrigger",
+    "method": "get_Key",
+    "text": "SCHEME_TOOLTIP"
+  },
+  {
+    "type": "KotC.Scenes.NobleJoin.JoinScreenHeaderComponent",
+    "method": "UpdateComponent",
+    "text": "ChatSetup"
+  },
+  {
+    "type": "KotC.Scenes.NobleJoin.JoinScreenHeaderComponent",
+    "method": "UpdateComponent",
+    "text": "Join the game at www.kotc.app using the room code."
+  },
+  {
+    "type": "KotC.Scenes.NobleJoin.JoinScreenHeaderComponent",
+    "method": "UpdateComponent",
+    "text": "Type \u003Cu\u003E!join\u003C/u\u003E in Twitch chat to join the game as a Noble."
+  },
+  {
+    "type": "KotC.Scenes.NobleJoin.JoinScreenHeaderComponent",
+    "method": "UpdateComponent",
+    "text": "New Dynasty - players who own the game can change their Region after joining. This is not available after this screen!"
+  },
+  {
+    "type": "KotC.Scenes.NobleJoin.JoinScreenHeaderComponent",
+    "method": "UpdateComponent",
+    "text": "New Dynasty - players who own the game can type \u003Cu\u003E!join (region)\u003C/u\u003E in Twitch chat to join a specific Region. For example - \u003Cu\u003E!join counts\u003C/u\u003E"
+  },
+  {
+    "type": "KotC.Scenes.NobleJoin.JoinScreenNobleListComponent",
+    "method": "Configure",
+    "text": "Noble {0}"
+  },
+  {
+    "type": "KotC.Scenes.NobleJoin.JoinScreenNobleListComponent",
+    "method": "UpdateView",
+    "text": "{0}"
+  },
+  {
+    "type": "KotC.Scenes.NobleJoin.MonarchInfoComponent",
+    "method": "UpdateComponent",
+    "text": "of the {0} DYNASTY"
+  },
+  {
+    "type": "KotC.Scenes.Options.FrameRateDropdown",
+    "method": "get_VSyncRefreshRate",
+    "text": "{0} FPS"
+  },
+  {
+    "type": "KotC.Scenes.Options.FrameRateDropdown",
+    "method": "get_TargetFrameRate",
+    "text": "{0} FPS"
+  },
+  {
+    "type": "KotC.Scenes.Options.FrameRateDropdown",
+    "method": "Configure",
+    "text": "144 FPS"
+  },
+  {
+    "type": "KotC.Scenes.Options.FrameRateDropdown",
+    "method": "Configure",
+    "text": "90 FPS"
+  },
+  {
+    "type": "KotC.Scenes.Options.FrameRateDropdown",
+    "method": "Configure",
+    "text": "60 FPS"
+  },
+  {
+    "type": "KotC.Scenes.Options.FrameRateDropdown",
+    "method": "Configure",
+    "text": "30 FPS"
+  },
+  {
+    "type": "KotC.Scenes.Options.FrameRateDropdown",
+    "method": "OnValueChanged",
+    "text": "\\d\u002B"
+  },
+  {
+    "type": "KotC.Scenes.Options.ResolutionDropdown",
+    "method": "OnValueChanged",
+    "text": "Your display is now set to "
+  },
+  {
+    "type": "KotC.Scenes.Options.ResolutionDropdown",
+    "method": "ResolutionString",
+    "text": "{0}x{1}"
+  },
+  {
+    "type": "KotC.Scenes.Options.ResolutionDropdown",
+    "method": ".cctor",
+    "text": "3840x2160"
+  },
+  {
+    "type": "KotC.Scenes.Options.ResolutionDropdown",
+    "method": ".cctor",
+    "text": "2560x1440"
+  },
+  {
+    "type": "KotC.Scenes.Options.ResolutionDropdown",
+    "method": ".cctor",
+    "text": "1920x1080"
+  },
+  {
+    "type": "KotC.Scenes.Options.ResolutionDropdown",
+    "method": ".cctor",
+    "text": "1366x768"
+  },
+  {
+    "type": "KotC.Scenes.Options.ResolutionDropdown",
+    "method": ".cctor",
+    "text": "1536x864"
+  },
+  {
+    "type": "KotC.Scenes.Options.ResolutionDropdown",
+    "method": ".cctor",
+    "text": "1280x800"
+  },
+  {
+    "type": "KotC.Scenes.Options.ResolutionDropdown",
+    "method": ".cctor",
+    "text": "1440x900"
+  },
+  {
+    "type": "KotC.Scenes.Options.ResolutionDropdown",
+    "method": ".cctor",
+    "text": "1280x960"
+  },
+  {
+    "type": "KotC.Scenes.Options.TimedConfirmationDialog",
+    "method": "SetTimerText",
+    "text": "If unconfirmed, display will revert to previous settings in {0} seconds."
+  },
+  {
+    "type": "KotC.Scenes.Options.WindowModeDropdown",
+    "method": "ModeString",
+    "text": "Full screen"
+  },
+  {
+    "type": "KotC.Scenes.Options.WindowModeDropdown",
+    "method": "ModeString",
+    "text": "Borderless"
+  },
+  {
+    "type": "KotC.Scenes.Options.WindowModeDropdown",
+    "method": "ModeString",
+    "text": "Windowed"
+  },
+  {
+    "type": "KotC.Scenes.Options.WindowModeDropdown",
+    "method": "ModeFromString",
+    "text": "Full screen"
+  },
+  {
+    "type": "KotC.Scenes.Options.WindowModeDropdown",
+    "method": "ModeFromString",
+    "text": "Borderless"
+  },
+  {
+    "type": "KotC.Scenes.Options.WindowModeDropdown",
+    "method": "ModeFromString",
+    "text": "Windowed"
+  },
+  {
+    "type": "KotC.Scenes.Map.CameraController",
+    "method": "RaycastMouse",
+    "text": "Draggable"
+  },
+  {
+    "type": "KotC.Scenes.Map.Cloud",
+    "method": "get_Unseeded",
+    "text": "UNSEEDED"
+  },
+  {
+    "type": "KotC.Scenes.Map.CloudsLayer",
+    "method": "get_Unseeded",
+    "text": "UNSEEDED"
+  },
+  {
+    "type": "KotC.Scenes.Map.CloudsLayer",
+    "method": "Start",
+    "text": "CloudsLoop"
+  },
+  {
+    "type": "KotC.Scenes.Map.Components.RebellionInsert",
+    "method": "Configure",
+    "text": "defiance"
+  },
+  {
+    "type": "KotC.Scenes.Map.Components.RebellionInsert",
+    "method": "RebellionHeadersText",
+    "text": "Rebels Next Season"
+  },
+  {
+    "type": "KotC.Scenes.Map.Components.RebellionInsert",
+    "method": "RebellionHeadersText",
+    "text": "If Defiance is above Authority and stability"
+  },
+  {
+    "type": "KotC.Scenes.Map.Components.RebellionInsert",
+    "method": "RebellionHeadersText",
+    "text": "Rebellion halted"
+  },
+  {
+    "type": "KotC.Scenes.Map.Components.RebellionInsert",
+    "method": "RebellionHeadersText",
+    "text": "Defiance is Below Authority or stability"
+  },
+  {
+    "type": "KotC.Scenes.Map.Components.RebellionInsert",
+    "method": "RebellionHeadersText",
+    "text": "Verge of rebellion"
+  },
+  {
+    "type": "KotC.Scenes.Map.Components.RebellionInsert",
+    "method": "RebellionHeadersText",
+    "text": "{0} Needed to start a Rebellion"
+  },
+  {
+    "type": "KotC.Scenes.Map.Components.RebellionInsert",
+    "method": "InstructionalText",
+    "text": "ChatSetup"
+  },
+  {
+    "type": "KotC.Scenes.Map.Components.RebellionInsert",
+    "method": "InstructionalText",
+    "text": "Hit the Rebellions tab in your browser to rebel!"
+  },
+  {
+    "type": "KotC.Scenes.Map.Components.RebellionInsert",
+    "method": "InstructionalText",
+    "text": "{0} may vote to rebel by typing \u003Cb\u003E!rebel.\u003C/b\u003E"
+  },
+  {
+    "type": "KotC.Scenes.Map.Components.RebellionInsert",
+    "method": "ConfigureProgress",
+    "text": "{0} voted to Rebel"
+  },
+  {
+    "type": "KotC.Scenes.Ledger.MonarchStatsUI",
+    "method": "OnEnable",
+    "text": "SPOUSE_EXISTS"
+  },
+  {
+    "type": "KotC.Scenes.Ledger.MonarchStatsUI",
+    "method": "OnEnable",
+    "text": "SPOUSE"
+  },
+  {
+    "type": "KotC.Scenes.Ledger.MonarchStatsUI",
+    "method": "OnEnable",
+    "text": "FINAL_SOBRIQUET"
+  },
+  {
+    "type": "KotC.Scenes.Ledger.MonarchStatsUI",
+    "method": "OnEnable",
+    "text": " "
+  },
+  {
+    "type": "KotC.Scenes.Ledger.MonarchStatsUI",
+    "method": "OnEnable",
+    "text": " of "
+  },
+  {
+    "type": "KotC.Scenes.Ledger.MonarchStatsUI",
+    "method": "OnEnable",
+    "text": "None"
+  },
+  {
+    "type": "KotC.Scenes.Ledger.MonarchStatsUI",
+    "method": "OnEnable",
+    "text": "{0} years, {1} months (Year {2} - {3})"
+  },
+  {
+    "type": "KotC.Scenes.Ledger.StatsUI",
+    "method": "OnEnable",
+    "text": "Show"
+  },
+  {
+    "type": "KotC.Scenes.Ledger.StatsUI",
+    "method": "OnEnable",
+    "text": "Enter"
+  },
+  {
+    "type": "KotC.Scenes.Ledger.StatsUI",
+    "method": "Disable",
+    "text": "Hide"
+  },
+  {
+    "type": "KotC.Scenes.Ledger.StatsUI",
+    "method": "Disable",
+    "text": "Exit"
+  },
+  {
+    "type": "KotC.Scenes.Title.EulaActor",
+    "method": "OnEnable",
+    "text": "EULA_ACCEPTED"
+  },
+  {
+    "type": "KotC.Scenes.Title.EulaActor",
+    "method": "AgreeToEula",
+    "text": "EULA_ACCEPTED"
+  },
+  {
+    "type": "KotC.Scenes.Title.TwitchOdicButton",
+    "method": "BuildOdicUrl",
+    "text": "client_id"
+  },
+  {
+    "type": "KotC.Scenes.Title.TwitchOdicButton",
+    "method": "BuildOdicUrl",
+    "text": "scopes"
+  },
+  {
+    "type": "KotC.Scenes.Title.TwitchOdicButton",
+    "method": "BuildOdicUrl",
+    "text": "redirect_uri"
+  },
+  {
+    "type": "KotC.Scenes.Title.TwitchOdicButton",
+    "method": "BuildOdicUrl",
+    "text": "response_type"
+  },
+  {
+    "type": "KotC.Scenes.Title.TwitchOdicButton",
+    "method": "BuildOdicUrl",
+    "text": "code"
+  },
+  {
+    "type": "KotC.Scenes.Title.TwitchOdicButton",
+    "method": "BuildOdicUrl",
+    "text": "nonce"
+  },
+  {
+    "type": "KotC.Scenes.Title.TwitchOdicButton",
+    "method": "BuildOdicUrl",
+    "text": "state"
+  },
+  {
+    "type": "KotC.Scenes.Title.TwitchOdicButton",
+    "method": "BuildOdicUrl",
+    "text": "?"
+  },
+  {
+    "type": "KotC.Scenes.Title.TwitchOdicButton",
+    "method": "GenerateRedirectUri",
+    "text": "://"
+  },
+  {
+    "type": "KotC.Scenes.Title.TwitchOdicButton",
+    "method": "GenerateRedirectUri",
+    "text": "/"
+  },
+  {
+    "type": "KotC.Scenes.Title.TwitchOdicButton",
+    "method": ".cctor",
+    "text": "TwitchAuthValues"
+  },
+  {
+    "type": "KotC.Scenes.Title.TwitchOdicButton",
+    "method": ".cctor",
+    "text": "Could not find Twitch Auth Values (Resources/"
+  },
+  {
+    "type": "KotC.Scenes.Title.TwitchOdicButton",
+    "method": ".cctor",
+    "text": ".asset)"
+  },
+  {
+    "type": "KotC.Scenes.Title.TwitchOdicButton/\u003C\u003Ec",
+    "method": "\u003CBuildOdicUrl\u003Eb__5_0",
+    "text": "%20"
+  },
+  {
+    "type": "KotC.Scenes.Title.TwitchOdicButton/\u003C\u003Ec",
+    "method": "\u003CEncodeQueryParams\u003Eb__6_0",
+    "text": "="
+  },
+  {
+    "type": "KotC.Scenes.Title.TwitchOdicButton/\u003C\u003Ec",
+    "method": "\u003CEncodeQueryParams\u003Eb__6_1",
+    "text": "\u0026"
+  },
+  {
+    "type": "KotC.Scenes.Title.TwitchOdicButton/\u003C\u003Ec__DisplayClass9_0",
+    "method": "\u003CRandomString\u003Eb__0",
+    "text": "abcdefghijklmnopqrstuvwxyz0123456789"
+  },
+  {
+    "type": "KotC.Scenes.Title.TwitchOdicButton/\u003C\u003Ec__DisplayClass9_0",
+    "method": "\u003CRandomString\u003Eb__0",
+    "text": "abcdefghijklmnopqrstuvwxyz0123456789"
+  },
+  {
+    "type": "KotC.Scenes.GameSetup.GameSettingsHeaderComponent",
+    "method": "UpdateComponent",
+    "text": "ChatSetup"
+  },
+  {
+    "type": "KotC.Scenes.GameSetup.GameSettingsHeaderComponent",
+    "method": "UpdateComponent",
+    "text": "Party Game"
+  },
+  {
+    "type": "KotC.Scenes.GameSetup.GameSettingsHeaderComponent",
+    "method": "UpdateComponent",
+    "text": "Play on Twitch"
+  },
+  {
+    "type": "KotC.Scenes.GameSetup.GameTypeComponent",
+    "method": "UpdateComponent",
+    "text": "ChatSetup"
+  },
+  {
+    "type": "KotC.Scenes.GameSetup.GameTypeContinueButtonComponent",
+    "method": "UpdateComponent",
+    "text": "ChatSetup"
+  },
+  {
+    "type": "KotC.Scenes.GameOver.VictoryBookComponent",
+    "method": "AreVictoryTextsValid",
+    "text": "Expected \u003C4\u003E Victory texts. Actual:\u003C{0}\u003E"
+  },
+  {
+    "type": "KotC.Scenes.GameOver.VictoryBookFountainUtility",
+    "method": "get_TitleText",
+    "text": "The {0} are Victorious!"
+  },
+  {
+    "type": "KotC.Scenes.GameOver.VictoryBookFountainUtility",
+    "method": "get_TitleText",
+    "text": "The Monarch is Victorious!"
+  },
+  {
+    "type": "KotC.Scenes.GameOver.VictoryBookFountainUtility",
+    "method": "get_MonarchText",
+    "text": "MONARCH"
+  },
+  {
+    "type": "KotC.Scenes.GameOver.VictoryBookFountainUtility",
+    "method": "get_MonarchText",
+    "text": "_END"
+  },
+  {
+    "type": "KotC.Scenes.GameOver.VictoryBookFountainUtility",
+    "method": "get_MonarchText",
+    "text": "_VOTE_WIN"
+  },
+  {
+    "type": "KotC.Scenes.GameOver.VictoryBookFountainUtility",
+    "method": "RegionText",
+    "text": "_END"
+  },
+  {
+    "type": "KotC.Scenes.GameOver.VictoryBookFountainUtility",
+    "method": "RegionText",
+    "text": "_END_VOTE_HEIR"
+  },
+  {
+    "type": "KotC.Scenes.GameOver.VictoryBookFountainUtility",
+    "method": "RegionText",
+    "text": "_VOTE_WIN"
+  },
+  {
+    "type": "KotC.Scenes.Event.ChallengeResultUI",
+    "method": "Configure",
+    "text": ""
+  },
+  {
+    "type": "KotC.Scenes.Event.ChallengeResultUI",
+    "method": "Configure",
+    "text": " "
+  },
+  {
+    "type": "KotC.Scenes.Event.ChallengeResultUI",
+    "method": "Configure",
+    "text": "Challenge"
+  },
+  {
+    "type": "KotC.Scenes.Event.ChallengeResultUI",
+    "method": "Configure",
+    "text": "Failed"
+  },
+  {
+    "type": "KotC.Scenes.Event.ChallengeResultUI",
+    "method": "Configure",
+    "text": "Succeeded"
+  },
+  {
+    "type": "KotC.Scenes.Event.ChallengeResultUI",
+    "method": "Configure",
+    "text": "!"
+  },
+  {
+    "type": "KotC.Scenes.Event.PremiumBannerShineUI",
+    "method": "Shine",
+    "text": "UNSEEDED"
+  },
+  {
+    "type": "KotC.Scenes.Event.StatChangeIndicatorUI",
+    "method": "ShouldShowValue",
+    "text": "treasury"
+  },
+  {
+    "type": "KotC.Scenes.Event.StatChangeIndicatorUI",
+    "method": "ShouldShowValue",
+    "text": "wealth"
+  },
+  {
+    "type": "KotC.Scenes.Event.StatChangeResultContentUI",
+    "method": "ConfigureWithValues",
+    "text": "{0}\u0027s {1}"
+  },
+  {
+    "type": "KotC.Scenes.Event.StatChangeResultContentUI",
+    "method": "ConfigureWithValues",
+    "text": "wealth"
+  },
+  {
+    "type": "KotC.Scenes.Event.StatChangeResultContentUI",
+    "method": "ConfigureWithValues",
+    "text": "rebellionDefeat"
+  },
+  {
+    "type": "KotC.Scenes.Event.StatChangeResultContentUI",
+    "method": "ConfigureWithValues",
+    "text": "rebellionVictory"
+  },
+  {
+    "type": "KotC.Scenes.Event.StatChangeResultContentUI",
+    "method": "ConfigureWithValues",
+    "text": "{0} has {1}!"
+  },
+  {
+    "type": "KotC.Scenes.Event.StatChangeResultContentUI",
+    "method": "ConfigureWithValues",
+    "text": "{0} is now {1}!"
+  },
+  {
+    "type": "KotC.Scenes.Event.StatChangeResultContentUI",
+    "method": "ConfigureWithValues",
+    "text": "{0}"
+  },
+  {
+    "type": "KotC.Scenes.Event.StatChangeResultContentUI",
+    "method": "ConfigureWithValues",
+    "text": "{0}"
+  },
+  {
+    "type": "KotC.Scenes.Event.StatChangeResultContentUI",
+    "method": "ConfigureWithValues",
+    "text": "{0} can\u0027t go {1}!"
+  },
+  {
+    "type": "KotC.Scenes.Event.StatChangeResultContentUI",
+    "method": "ConfigureWithoutValues",
+    "text": "{0} has {1}!"
+  },
+  {
+    "type": "KotC.Scenes.Event.StatChangeResultContentUI",
+    "method": "ConfigureWithoutValues",
+    "text": "Some {0} {1}"
+  },
+  {
+    "type": "KotC.Scenes.Event.StatChangeResultContentUI",
+    "method": "ShouldShowValues",
+    "text": "wealth"
+  },
+  {
+    "type": "KotC.Scenes.Event.StatChangeResultContentUI",
+    "method": "IncDecText",
+    "text": "decreased"
+  },
+  {
+    "type": "KotC.Scenes.Event.StatChangeResultContentUI",
+    "method": "IncDecText",
+    "text": "increased"
+  },
+  {
+    "type": "KotC.Scenes.Event.StatChangeResultContentUI",
+    "method": "HighLowText",
+    "text": "lower"
+  },
+  {
+    "type": "KotC.Scenes.Event.StatChangeResultContentUI",
+    "method": "HighLowText",
+    "text": "higher"
+  },
+  {
+    "type": "KotC.Scenes.Event.StatChangeResultContentUI",
+    "method": "PluralizeStatName",
+    "text": "Victory Point"
+  },
+  {
+    "type": "KotC.Scenes.Event.StatChangeResultContentUI",
+    "method": "PluralizeStatName",
+    "text": "s"
+  },
+  {
+    "type": "KotC.Scenes.Event.StatChangeResultContentUI",
+    "method": "FormatVictoryPoint",
+    "text": "{0} gain {1}!"
+  },
+  {
+    "type": "KotC.Scenes.Event.StatChangeResultContentUI",
+    "method": "FormatVictoryPoint",
+    "text": "{0} gain a {1}!"
+  },
+  {
+    "type": "KotC.Scenes.Event.StatChangeResultContentUI",
+    "method": "Configure",
+    "text": "mock_kill"
+  },
+  {
+    "type": "KotC.Scenes.Event.StatChangeResultContentUI",
+    "method": "Configure",
+    "text": "mock_arrest"
+  },
+  {
+    "type": "KotC.Scenes.Event.StatChangeResultContentUI",
+    "method": "Configure",
+    "text": "mock_join_council"
+  },
+  {
+    "type": "KotC.Scenes.Event.StatChangeResultContentUI",
+    "method": "Configure",
+    "text": "{0} has died."
+  },
+  {
+    "type": "KotC.Scenes.Event.StatChangeResultContentUI",
+    "method": "Configure",
+    "text": "{0} has been imprisoned."
+  },
+  {
+    "type": "KotC.Scenes.Event.StatChangeResultContentUI",
+    "method": "Configure",
+    "text": "{0} has joined the Council!"
+  },
+  {
+    "type": "KotC.Scenes.Event.StatChangeResultUI",
+    "method": "Configure",
+    "text": "mock_kill"
+  },
+  {
+    "type": "KotC.Scenes.Event.StatChangeResultUI",
+    "method": "Configure",
+    "text": "mock_arrest"
+  },
+  {
+    "type": "KotC.Scenes.Event.StatChangeResultUI",
+    "method": "Configure",
+    "text": "mock_join_council"
+  },
+  {
+    "type": "KotC.Scenes.Event.StatChangeResultUI",
+    "method": "FindTarget",
+    "text": "rebellionDefeat"
+  },
+  {
+    "type": "KotC.Scenes.Event.StatChangeResultUI",
+    "method": "FindTarget",
+    "text": "rebellionVictory"
+  },
+  {
+    "type": "KotC.Scenes.Event.StoryEventRunner",
+    "method": ".ctor",
+    "text": "INKRUNNER"
+  },
+  {
+    "type": "KotC.Scenes.Event.StoryEventRunner",
+    "method": ".ctor",
+    "text": "#ff781f"
+  },
+  {
+    "type": "KotC.Scenes.Event.Components.ChallengeIndicatorComponent",
+    "method": "Configure",
+    "text": "% "
+  },
+  {
+    "type": "KotC.Scenes.Event.Components.ChallengeIndicatorComponent",
+    "method": "Configure",
+    "text": "{0}"
+  },
+  {
+    "type": "KotC.Scenes.Event.Components.EventIllustrationComponent",
+    "method": "LoadAndSetIllustration",
+    "text": "EventIllustration \u0027"
+  },
+  {
+    "type": "KotC.Scenes.Event.Components.EventIllustrationComponent",
+    "method": "LoadAndSetIllustration",
+    "text": "\u0027 not found - Reverted to Default EventIllustration"
+  },
+  {
+    "type": "KotC.Scenes.Event.Components.EventIllustrationComponent",
+    "method": "EventIllustrationSpriteLoaded",
+    "text": "Event illustration sprite load failed."
+  },
+  {
+    "type": "KotC.Scenes.Event.Components.OptionBoxComponent",
+    "method": "UpdateWithStepData",
+    "text": "OpenVote"
+  },
+  {
+    "type": "KotC.Scenes.DynastySetup.MonarchNameDescription",
+    "method": "FullDescription",
+    "text": "{0} of the {1} Dynasty"
+  },
+  {
+    "type": "KotC.Scenes.ContinueGame.SaveSlot",
+    "method": "UpdateComponent",
+    "text": "Disabled"
+  },
+  {
+    "type": "KotC.Scenes.ContinueGame.SaveSlot",
+    "method": "UpdateComponent",
+    "text": "Default"
+  },
+  {
+    "type": "KotC.Scenes.ContinueGame.SaveSlot",
+    "method": "UpdateComponent",
+    "text": "Selected"
+  },
+  {
+    "type": "KotC.Scenes.ContinueGame.SaveSlot",
+    "method": "Configure",
+    "text": "Party"
+  },
+  {
+    "type": "KotC.Scenes.ContinueGame.SaveSlot",
+    "method": "Configure",
+    "text": "Twitch"
+  },
+  {
+    "type": "KotC.Scenes.ContinueGame.SaveSlot",
+    "method": "Configure",
+    "text": " Dynasty"
+  },
+  {
+    "type": "KotC.Scenes.ContinueGame.SaveSlot",
+    "method": "Configure",
+    "text": "dd MMMM yyyy hh:mm tt"
+  },
+  {
+    "type": "KotC.Scenes.ContinueGame.SaveSlot",
+    "method": "Configure",
+    "text": "RECONNECT TWITCH IN MAIN\nMENU TO CONTINUE THIS SAVE"
+  },
+  {
+    "type": "KotC.Scenes.ContinueGame.SaveSlot",
+    "method": "Configure",
+    "text": ""
+  },
+  {
+    "type": "KotC.Scenes.ContinueGame.SaveSlot",
+    "method": "Configure",
+    "text": "IMPORTED "
+  },
+  {
+    "type": "KotC.Scenes.CharacterCustomisation.ACustomisationComponent",
+    "method": "get_CurrentCharacter",
+    "text": "capital"
+  },
+  {
+    "type": "KotC.Scenes.CharacterCustomisation.ACustomisationComponent",
+    "method": "UpdateComponent",
+    "text": "avatareditor"
+  },
+  {
+    "type": "KotC.Scenes.CharacterCustomisation.AvatarCustomisationTipUI",
+    "method": "get_HeaderValue",
+    "text": "Monarch"
+  },
+  {
+    "type": "KotC.Scenes.CharacterCustomisation.AvatarCustomisationTipUI",
+    "method": "get_SubheaderValue",
+    "text": "are sorted into {0} in a game"
+  },
+  {
+    "type": "KotC.Scenes.CharacterCustomisation.AvatarCustomisationTipUI",
+    "method": "get_SubheaderValue",
+    "text": "run a game as the reigning Monarch"
+  },
+  {
+    "type": "KotC.Scenes.CharacterCustomisation.CustomisationCategoriesComponent",
+    "method": "UpdateComponent",
+    "text": "avatareditor"
+  },
+  {
+    "type": "KotC.Scenes.CharacterCustomisation.CustomisationCategoriesComponent",
+    "method": "UpdateComponentAvatarEditorData",
+    "text": "avatareditor"
+  },
+  {
+    "type": "KotC.Scenes.CharacterCustomisation.CustomisationCategoryButton",
+    "method": "get_AvatarEditorData",
+    "text": "avatareditor"
+  },
+  {
+    "type": "KotC.Scenes.CharacterCustomisation.RandomizeCustomisedAvatarActor",
+    "method": "BuildAction",
+    "text": "capital"
+  },
+  {
+    "type": "KotC.Scenes.CharacterCustomisation.RegionSelectButtonsComponent",
+    "method": "UpdateComponent",
+    "text": "avatareditor"
+  },
+  {
+    "type": "KotC.Scenes.CharacterCustomisation.RegionSelectButtonsComponent/\u003C\u003Ec",
+    "method": "\u003CUpdateComponent\u003Eb__3_0",
+    "text": "capital"
+  },
+  {
+    "type": "KotC.Scenes.CharacterCustomisation.ShieldCategoryButton",
+    "method": "get_AvatarEditorData",
+    "text": "avatareditor"
+  },
+  {
+    "type": "KotC.Scenes.CharacterCustomisation.ShieldCustomisationScreenComponent",
+    "method": "get_CategoryDisplayName",
+    "text": "Icon"
+  },
+  {
+    "type": "KotC.Scenes.CharacterCustomisation.ShieldCustomisationScreenComponent",
+    "method": "get_CategoryDisplayName",
+    "text": "Colors"
+  },
+  {
+    "type": "KotC.Scenes.CharacterCustomisation.ShieldCustomisationScreenComponent",
+    "method": "get_CategoryDisplayName",
+    "text": "Pattern"
+  },
+  {
+    "type": "KotC.Scenes.BetweenTurns.Variants.PurchaseVotingVariantsPanel",
+    "method": "OnEnable",
+    "text": "UNSEEDED"
+  },
+  {
+    "type": "KotC.Scenes.BetweenTurns.Taxation.TaxationResultUI",
+    "method": "Show",
+    "text": "defiance"
+  },
+  {
+    "type": "KotC.Scenes.BetweenTurns.Taxation.WealthBumpBlurbComponent",
+    "method": "UpdateComponent",
+    "text": " "
+  },
+  {
+    "type": "KotC.Scenes.BetweenTurns.Rebellions.RebellionHeaderTextComponent",
+    "method": "get_HeaderText",
+    "text": "The Loyalists are winning the Rebellion. The Rebels are crumbling\u2026"
+  },
+  {
+    "type": "KotC.Scenes.BetweenTurns.Rebellions.RebellionHeaderTextComponent",
+    "method": "get_HeaderText",
+    "text": "The Kingdom is in Rebellion! The first side to earn \u003Ccolor=#B9172F\u003E5 Victory Points will win. \u003C/color\u003EVictory Points are earned through Events. If the Rebels are victorious, the Monarch is overthrown."
+  },
+  {
+    "type": "KotC.Scenes.BetweenTurns.Rebellions.RebellionHeaderTextComponent",
+    "method": "get_HeaderText",
+    "text": "Defiance is too high, and one or more Regions is considering \u003Ccolor=#B9172F\u003ERebellion.\u003C/color\u003E Rebelling will \u003Ccolor=#B9172F\u003Estop the Region from advancing their Scheme,\u003C/color\u003E and they can\u0027t be taxed or take part in normal votes."
+  },
+  {
+    "type": "KotC.Scenes.BetweenTurns.Rebellions.RebellionRegionComponent",
+    "method": "Configure",
+    "text": "On the verge of Rebellion!"
+  },
+  {
+    "type": "KotC.Scenes.BetweenTurns.Rebellions.RebellionRegionComponent",
+    "method": "Configure",
+    "text": "Currently Rebelling!"
+  },
+  {
+    "type": "KotC.Scenes.BetweenTurns.Rebellions.RebellionRegionComponent",
+    "method": "Configure",
+    "text": ""
+  },
+  {
+    "type": "KotC.Scenes.BetweenTurns.Rebellions.RebellionRegionComponent",
+    "method": "Configure",
+    "text": "authority"
+  },
+  {
+    "type": "KotC.Scenes.BetweenTurns.Rebellions.RebellionRegionComponent",
+    "method": "Configure",
+    "text": "stability"
+  },
+  {
+    "type": "KotC.Scenes.BetweenTurns.Rebellions.RebellionRegionComponent",
+    "method": "Configure",
+    "text": "defiance"
+  },
+  {
+    "type": "KotC.Scenes.BetweenTurns.Rebellions.RebellionRegionComponent",
+    "method": "Configure",
+    "text": "Cannot start a Rebellion."
+  },
+  {
+    "type": "KotC.Scenes.BetweenTurns.Rebellions.RebellionRegionComponent",
+    "method": "Configure",
+    "text": "Defiance is too low ({0}). Needs to be \u003Cb\u003E{1}\u003C/b\u003E or higher."
+  },
+  {
+    "type": "KotC.Scenes.BetweenTurns.Rebellions.RebellionRegionComponent",
+    "method": "Configure",
+    "text": "defiance"
+  },
+  {
+    "type": "KotC.Scenes.Base.AudioManager",
+    "method": "StartRegionTrack",
+    "text": "No current Event found by AudioManager"
+  },
+  {
+    "type": "KotC.Scenes.Base.Settings",
+    "method": "get_AnalyticsEnabled",
+    "text": "ANALYTICS_ENABLED"
+  },
+  {
+    "type": "KotC.Scenes.Base.Settings",
+    "method": "set_AnalyticsEnabled",
+    "text": "ANALYTICS_ENABLED"
+  },
+  {
+    "type": "KotC.Scenes.Base.Settings",
+    "method": "get_VSyncCount",
+    "text": "VSYNC_COUNT"
+  },
+  {
+    "type": "KotC.Scenes.Base.Settings",
+    "method": "set_VSyncCount",
+    "text": "VSYNC_COUNT"
+  },
+  {
+    "type": "KotC.Scenes.Base.Settings",
+    "method": "get_TargetFrameRate",
+    "text": "TARGET_FRAMERATE"
+  },
+  {
+    "type": "KotC.Scenes.Base.Settings",
+    "method": "set_TargetFrameRate",
+    "text": "TARGET_FRAMERATE"
+  },
+  {
+    "type": "KotC.Scenes.Base.Settings",
+    "method": "get_MasterVolume",
+    "text": "MASTER_VOLUME"
+  },
+  {
+    "type": "KotC.Scenes.Base.Settings",
+    "method": "set_MasterVolume",
+    "text": "MASTER_VOLUME"
+  },
+  {
+    "type": "KotC.Scenes.Base.Settings",
+    "method": "get_MasterMute",
+    "text": "MASTER_MUTE"
+  },
+  {
+    "type": "KotC.Scenes.Base.Settings",
+    "method": "set_MasterMute",
+    "text": "MASTER_MUTE"
+  },
+  {
+    "type": "KotC.Scenes.Base.Settings",
+    "method": "get_MusicVolume",
+    "text": "MUSIC_VOLUME"
+  },
+  {
+    "type": "KotC.Scenes.Base.Settings",
+    "method": "set_MusicVolume",
+    "text": "MUSIC_VOLUME"
+  },
+  {
+    "type": "KotC.Scenes.Base.Settings",
+    "method": "get_MusicMute",
+    "text": "MUSIC_MUTE"
+  },
+  {
+    "type": "KotC.Scenes.Base.Settings",
+    "method": "set_MusicMute",
+    "text": "MUSIC_MUTE"
+  },
+  {
+    "type": "KotC.Scenes.Base.Settings",
+    "method": "get_FoleyVolume",
+    "text": "FOLEY_VOLUME"
+  },
+  {
+    "type": "KotC.Scenes.Base.Settings",
+    "method": "set_FoleyVolume",
+    "text": "FOLEY_VOLUME"
+  },
+  {
+    "type": "KotC.Scenes.Base.Settings",
+    "method": "get_FoleyMute",
+    "text": "FOLEY_MUTE"
+  },
+  {
+    "type": "KotC.Scenes.Base.Settings",
+    "method": "set_FoleyMute",
+    "text": "FOLEY_MUTE"
+  },
+  {
+    "type": "KotC.Scenes.Base.Settings",
+    "method": "TutorialPlayerPrefsKey",
+    "text": "DISMISS_TUTORIAL_"
+  },
+  {
+    "type": "KotC.Scenes.Base.Settings",
+    "method": "HasCompletedFirstGame",
+    "text": "COMPLETED_FIRST_GAME"
+  },
+  {
+    "type": "KotC.Scenes.Base.Settings",
+    "method": "CompleteFirstGame",
+    "text": "COMPLETED_FIRST_GAME"
+  },
+  {
+    "type": "KotC.SaveLoad.NoDefinitionException",
+    "method": ".ctor",
+    "text": ""
+  },
+  {
+    "type": "KotC.SaveLoad.NoDefinitionException",
+    "method": ".ctor",
+    "text": "(v{0}) "
+  },
+  {
+    "type": "KotC.SaveLoad.NoDefinitionException",
+    "method": "get_BaseMessage",
+    "text": "Couldn\u0027t find any definition {0}to {1} with."
+  },
+  {
+    "type": "KotC.SaveLoad.NoSaveDefinitionException",
+    "method": ".ctor",
+    "text": "{0}"
+  },
+  {
+    "type": "KotC.SaveLoad.NoSaveDefinitionException",
+    "method": ".ctor",
+    "text": "save"
+  },
+  {
+    "type": "KotC.SaveLoad.NoLoadDefinitionException",
+    "method": ".ctor",
+    "text": "{0}"
+  },
+  {
+    "type": "KotC.SaveLoad.NoLoadDefinitionException",
+    "method": ".ctor",
+    "text": "load"
+  },
+  {
+    "type": "KotC.SaveLoad.SaveDirectory",
+    "method": "get_Path",
+    "text": "Saves"
+  },
+  {
+    "type": "KotC.SaveLoad.SaveDirectory",
+    "method": "get_ExportPath",
+    "text": "Saves"
+  },
+  {
+    "type": "KotC.SaveLoad.SaveDirectory",
+    "method": "get_ExportPath",
+    "text": "Export"
+  },
+  {
+    "type": "KotC.SaveLoad.SaveDirectory",
+    "method": "get_ImportPath",
+    "text": "Saves"
+  },
+  {
+    "type": "KotC.SaveLoad.SaveDirectory",
+    "method": "get_ImportPath",
+    "text": "Import"
+  },
+  {
+    "type": "KotC.SaveLoad.SaveDirectory",
+    "method": "SaveFilePath",
+    "text": ".save"
+  },
+  {
+    "type": "KotC.SaveLoad.SaveDirectory",
+    "method": "ExportSaveFilePath",
+    "text": ".gzip"
+  },
+  {
+    "type": "KotC.SaveLoad.SaveDirectory",
+    "method": "ImportSaveFilePath",
+    "text": "gameIds.txt"
+  },
+  {
+    "type": "KotC.SaveLoad.SaveDirectory",
+    "method": "JoinPath",
+    "text": "{0}"
+  },
+  {
+    "type": "KotC.SaveLoad.SaveExporter/\u003CImport\u003Ed__2",
+    "method": "MoveNext",
+    "text": ","
+  },
+  {
+    "type": "KotC.SaveLoad.SaveFileReader",
+    "method": ".ctor",
+    "text": "\u0022version\u0022\\s*:\\s*(?\u003Cvalue\u003E\\d\u002B),"
+  },
+  {
+    "type": "KotC.SaveLoad.SaveFileReader",
+    "method": ".ctor",
+    "text": "\u0022isEndSave\u0022\\s*:\\s*(?\u003Cvalue\u003Etrue|false),"
+  },
+  {
+    "type": "KotC.SaveLoad.SaveFileReader",
+    "method": ".ctor",
+    "text": "\u0022dynastyName\u0022\\s*:\\s*\u0022(?\u003Cvalue\u003E.\u002B)\u0022,"
+  },
+  {
+    "type": "KotC.SaveLoad.SaveFileReader",
+    "method": ".ctor",
+    "text": "\u0022gameType\u0022\\s*:\\s*(?\u003Cvalue\u003E\\d\u002B)"
+  },
+  {
+    "type": "KotC.SaveLoad.SaveFileReader",
+    "method": ".ctor",
+    "text": "\u0022lastSaveTime\u0022\\s*:\\s*(?\u003Cvalue\u003E\\d\u002B)"
+  },
+  {
+    "type": "KotC.SaveLoad.SaveFileReader",
+    "method": "ReadSave",
+    "text": "Migrating save from v{0} to v{1}."
+  },
+  {
+    "type": "KotC.SaveLoad.SaveFileReader",
+    "method": "ExtractVersion",
+    "text": "value"
+  },
+  {
+    "type": "KotC.SaveLoad.SaveFileReader",
+    "method": "ExtractIsEndSave",
+    "text": "value"
+  },
+  {
+    "type": "KotC.SaveLoad.SaveFileReader",
+    "method": "ExtractDynastyName",
+    "text": "value"
+  },
+  {
+    "type": "KotC.SaveLoad.SaveFileReader",
+    "method": "ExtractDynastyName",
+    "text": "-"
+  },
+  {
+    "type": "KotC.SaveLoad.SaveFileReader",
+    "method": "ExtractGameType",
+    "text": "value"
+  },
+  {
+    "type": "KotC.SaveLoad.SaveFileReader",
+    "method": "ExtractLastSaveTime",
+    "text": "value"
+  },
+  {
+    "type": "KotC.SaveLoad.SaveUtils",
+    "method": "DynastyName",
+    "text": ""
+  },
+  {
+    "type": "KotC.SaveLoad.Migrations.SaveMigrationv12",
+    "method": "Migrate",
+    "text": "IS_FIRST_REIGN"
+  },
+  {
+    "type": "KotC.SaveLoad.Migrations.SaveMigrationv12",
+    "method": "Migrate",
+    "text": "BARONS_SCHEMES"
+  },
+  {
+    "type": "KotC.SaveLoad.Migrations.SaveMigrationv12",
+    "method": "Migrate",
+    "text": "gunpowdermodernizationpropaganda"
+  },
+  {
+    "type": "KotC.SaveLoad.Migrations.SaveMigrationv12",
+    "method": "Migrate",
+    "text": "CHIEFS_SCHEMES"
+  },
+  {
+    "type": "KotC.SaveLoad.Migrations.SaveMigrationv12",
+    "method": "Migrate",
+    "text": "ragnarokprophecyhornblower"
+  },
+  {
+    "type": "KotC.SaveLoad.Migrations.SaveMigrationv12",
+    "method": "Migrate",
+    "text": "COUNTS_SCHEMES"
+  },
+  {
+    "type": "KotC.SaveLoad.Migrations.SaveMigrationv12",
+    "method": "Migrate",
+    "text": "ascensionbloodpossession"
+  },
+  {
+    "type": "KotC.SaveLoad.Migrations.SaveMigrationv12",
+    "method": "Migrate",
+    "text": "GRANDEES_SCHEMES"
+  },
+  {
+    "type": "KotC.SaveLoad.Migrations.SaveMigrationv12",
+    "method": "Migrate",
+    "text": "excommunicationfervourwitch"
+  },
+  {
+    "type": "KotC.SaveLoad.Migrations.SaveMigrationv12",
+    "method": "Migrate",
+    "text": "PATRICIANS_SCHEMES"
+  },
+  {
+    "type": "KotC.SaveLoad.Migrations.SaveMigrationv12",
+    "method": "Migrate",
+    "text": "conspiracycorruptionmonopoly"
+  },
+  {
+    "type": "KotC.SaveLoad.Migrations.SaveMigrationv12",
+    "method": "Migrate",
+    "text": "RAG_TRIBUTE_PAID"
+  },
+  {
+    "type": "KotC.SaveLoad.Migrations.SaveMigrationv12",
+    "method": "ReplaceMonarchsChoice",
+    "text": "monarchs-vote"
+  },
+  {
+    "type": "KotC.SaveLoad.Migrations.SaveMigrationv12",
+    "method": "FixAscensionWizard",
+    "text": "ascension"
+  },
+  {
+    "type": "KotC.SaveLoad.Migrations.SaveMigrationv12",
+    "method": "FixAscensionWizard",
+    "text": "ascension_wizard"
+  },
+  {
+    "type": "KotC.SaveLoad.Migrations.SaveMigrationv12",
+    "method": "IsSetupEventId",
+    "text": "monarch_ambition_([a-z]|[A-Z])*_setup"
+  },
+  {
+    "type": "KotC.SaveLoad.Migrations.SaveMigrationv12/\u003C\u003Ec",
+    "method": "\u003CReplaceMonarchsChoice\u003Eb__3_0",
+    "text": "monarchs-choice"
+  },
+  {
+    "type": "KotC.SaveLoad.Migrations.SaveMigrationv12/\u003C\u003Ec",
+    "method": "\u003CReplaceMonarchsChoice\u003Eb__3_1",
+    "text": "monarchs-choice"
+  },
+  {
+    "type": "KotC.SaveLoad.Migrations.SaveMigrationv12/\u003C\u003Ec__DisplayClass6_0",
+    "method": "\u003CUnlockAmbitionEvents\u003Eb__0",
+    "text": "_setup"
+  },
+  {
+    "type": "KotC.SaveLoad.Migrations.SaveMigrationv13",
+    "method": "Migrate",
+    "text": "SORCERY_SCHEME_REGION_SCHEME_GATEWAY_2"
+  },
+  {
+    "type": "KotC.SaveLoad.Migrations.SaveMigrationv13",
+    "method": "Migrate",
+    "text": "UPRISING_SCHEME_REGION_SCHEME_GATEWAY_2"
+  },
+  {
+    "type": "KotC.SaveLoad.Migrations.SaveMigrationv13",
+    "method": "Migrate",
+    "text": "LOYALISTS"
+  },
+  {
+    "type": "KotC.SaveLoad.Migrations.SaveMigrationv13",
+    "method": "Migrate",
+    "text": ""
+  },
+  {
+    "type": "KotC.SaveLoad.Migrations.SaveMigrationv13",
+    "method": "Migrate",
+    "text": "DYN_BEAR_HAPPY_LOCATION"
+  },
+  {
+    "type": "KotC.SaveLoad.Migrations.SaveMigrationv13",
+    "method": "Migrate",
+    "text": ""
+  },
+  {
+    "type": "KotC.Reducers.LeaveNobleReducer",
+    "method": "Reduce",
+    "text": "Understudy"
+  },
+  {
+    "type": "KotC.Reducers.ClosePollReducer",
+    "method": "Reduce",
+    "text": "{0}"
+  },
+  {
+    "type": "KotC.Reducers.CreateDefaultGameplaySettingsReducer",
+    "method": "Reduce",
+    "text": "GAMEPLAY_SETTINGS"
+  },
+  {
+    "type": "KotC.Reducers.CreateFirstReignFountainVariablesReducer",
+    "method": "Reduce",
+    "text": "IS_FIRST_REIGN"
+  },
+  {
+    "type": "KotC.Reducers.CreateFirstReignFountainVariablesReducer",
+    "method": "Reduce",
+    "text": "IS_FIRST_REIGN"
+  },
+  {
+    "type": "KotC.Reducers.InitialiseAvatarEditorReducer",
+    "method": "Reduce",
+    "text": "avatareditor"
+  },
+  {
+    "type": "KotC.Reducers.SetGameTypeReducer",
+    "method": "Reduce",
+    "text": "ChatSetup"
+  },
+  {
+    "type": "KotC.Reducers.SetGameTypeReducer",
+    "method": "Reduce",
+    "text": "ChatSetup"
+  },
+  {
+    "type": "KotC.Reducers.SetGameTypeReducer",
+    "method": "Reduce",
+    "text": "ChatSetup"
+  },
+  {
+    "type": "KotC.Reducers.UpdateAvatarEditorReducer",
+    "method": "Reduce",
+    "text": "avatareditor"
+  },
+  {
+    "type": "KotC.Reducers.UpdateAvatarEditorReducer",
+    "method": "Reduce",
+    "text": "avatareditor"
+  },
+  {
+    "type": "KotC.Reducers.Taxation.RegionTaxationReducer",
+    "method": "Reduce",
+    "text": "defiance"
+  },
+  {
+    "type": "KotC.Reducers.Taxation.RegionTaxationReducer/\u003C\u003Ec__DisplayClass1_0",
+    "method": "\u003CReduce\u003Eb__1",
+    "text": "treasury"
+  },
+  {
+    "type": "KotC.Reducers.Taxation.WealthIncreaseReducer",
+    "method": "Reduce",
+    "text": "Gameplay.Taxation"
+  },
+  {
+    "type": "KotC.Reducers.Taxation.WealthIncreaseReducer",
+    "method": "Reduce",
+    "text": "WEALTH"
+  },
+  {
+    "type": "KotC.Reducers.Taxation.WealthIncreaseReducer",
+    "method": "Reduce",
+    "text": "UNSEEDED"
+  },
+  {
+    "type": "KotC.Reducers.Taxation.WealthIncreaseReducer/\u003C\u003Ec",
+    "method": "\u003CReduce\u003Eb__1_0",
+    "text": "trade"
+  },
+  {
+    "type": "KotC.Reducers.StoryEvents.ContinueStoryEventReducer",
+    "method": "get_ChallengeRNG",
+    "text": "CHALLENGES"
+  },
+  {
+    "type": "KotC.Reducers.StoryEvents.ContinueStoryEventReducer",
+    "method": ".ctor",
+    "text": "CONTINUE STORY"
+  },
+  {
+    "type": "KotC.Reducers.StoryEvents.ContinueStoryEventReducer",
+    "method": "Reduce",
+    "text": "dialogue"
+  },
+  {
+    "type": "KotC.Reducers.StoryEvents.ContinueStoryEventReducer",
+    "method": "Reduce",
+    "text": "prose"
+  },
+  {
+    "type": "KotC.Reducers.StoryEvents.ContinueStoryEventReducer",
+    "method": "GetSpeaker",
+    "text": "speaker"
+  },
+  {
+    "type": "KotC.Reducers.StoryEvents.ContinueStoryEventReducer/ChoiceConditionEvaluator",
+    "method": ".ctor",
+    "text": "^((?\u003Ccondition\u003E.\u002B)\\s\u002B~\\s\u002B)?(?\u003Ctext\u003E.*)$"
+  },
+  {
+    "type": "KotC.Reducers.StoryEvents.ContinueStoryEventReducer/ChoiceConditionEvaluator",
+    "method": "Evaluate",
+    "text": "text"
+  },
+  {
+    "type": "KotC.Reducers.StoryEvents.ContinueStoryEventReducer/ChoiceConditionEvaluator",
+    "method": "Evaluate",
+    "text": "condition"
+  },
+  {
+    "type": "KotC.Reducers.StoryEvents.ContinueStoryEventReducer/ChoiceConditionEvaluator",
+    "method": "Evaluate",
+    "text": "condition"
+  },
+  {
+    "type": "KotC.Reducers.StoryEvents.ContinueStoryEventReducer/ChoiceConditionEvaluator",
+    "method": "FetchFailData",
+    "text": "\u003E"
+  },
+  {
+    "type": "KotC.Reducers.StoryEvents.ContinueStoryEventReducer/ChoiceConditionEvaluator",
+    "method": "FetchFailData",
+    "text": "\u003C"
+  },
+  {
+    "type": "KotC.Reducers.Rebellions.EndRebellionReducer",
+    "method": "RemoveRebellionFountainVariables",
+    "text": "MAIN_REBELLION"
+  },
+  {
+    "type": "KotC.Reducers.Rebellions.EndRebellionReducer",
+    "method": "RemoveRebellionFountainVariables",
+    "text": "MAIN_REBELLING_REGION"
+  },
+  {
+    "type": "KotC.Reducers.Rebellions.EndRebellionReducer",
+    "method": "RemoveRebellionFountainVariables",
+    "text": "REBEL_LEADER"
+  },
+  {
+    "type": "KotC.Reducers.Rebellions.EndRebellionReducer",
+    "method": "ResetVPs",
+    "text": "rebellionVictory"
+  },
+  {
+    "type": "KotC.Reducers.Rebellions.EndRebellionReducer",
+    "method": "ResetVPs",
+    "text": "rebellionVictory"
+  },
+  {
+    "type": "KotC.Reducers.Rebellions.EndRebellionReducer",
+    "method": "ResetVPs",
+    "text": "rebellionDefeat"
+  },
+  {
+    "type": "KotC.Reducers.Rebellions.EndRebellionReducer",
+    "method": "ResetVPs",
+    "text": "rebellionDefeat"
+  },
+  {
+    "type": "KotC.Reducers.Rebellions.StartStopRebellionsReducer",
+    "method": "Reduce",
+    "text": "defiance"
+  },
+  {
+    "type": "KotC.Reducers.Rebellions.StartStopRebellionsReducer",
+    "method": "GetDefianceThreshold",
+    "text": "authority"
+  },
+  {
+    "type": "KotC.Reducers.Rebellions.StartStopRebellionsReducer",
+    "method": "GetDefianceThreshold",
+    "text": "stability"
+  },
+  {
+    "type": "KotC.Reducers.Rebellions.StartStopRebellionsReducer",
+    "method": "CreateFountainRebellionVariables",
+    "text": "MAIN_REBELLION"
+  },
+  {
+    "type": "KotC.Reducers.Rebellions.StartStopRebellionsReducer",
+    "method": "CreateFountainRebellionVariables",
+    "text": "MAIN_REBELLING_REGION"
+  },
+  {
+    "type": "KotC.Reducers.Rebellions.StartStopRebellionsReducer",
+    "method": "CreateFountainRebellionVariables",
+    "text": "REBEL_LEADER"
+  },
+  {
+    "type": "KotC.Reducers.Geography.CreateRegionsGeographyReducer",
+    "method": "CreateGeography",
+    "text": "GEO_AND_NPC"
+  },
+  {
+    "type": "KotC.Reducers.Turns.HideShowGameCodeReducer",
+    "method": "Reduce",
+    "text": "ChatSetup"
+  },
+  {
+    "type": "KotC.Reducers.Turns.HideShowGameCodeReducer",
+    "method": "Reduce",
+    "text": "ChatSetup"
+  },
+  {
+    "type": "KotC.Reducers.Turns.CreateSelectionStrategyConfigReducer",
+    "method": "Reduce",
+    "text": "RootStoreCustomConfig"
+  },
+  {
+    "type": "KotC.Reducers.Turns.ATurnReducer\u00601",
+    "method": "Reduce",
+    "text": "CURRENT_TURN"
+  },
+  {
+    "type": "KotC.Reducers.Turns.ATurnReducer\u00601",
+    "method": "Reduce",
+    "text": "CURRENT_TURN"
+  },
+  {
+    "type": "KotC.Reducers.GameOver.OpenSuccessionPollReducer",
+    "method": "GetVotingVariant",
+    "text": "SuccessionVotingVariant"
+  },
+  {
+    "type": "KotC.Reducers.GameOver.OpenSuccessionPollReducer",
+    "method": "GetVotingVariant",
+    "text": "SuccessionVotingVariant"
+  },
+  {
+    "type": "KotC.Reducers.GameOver.OpenSuccessionPollReducer",
+    "method": "GetHeirName",
+    "text": " "
+  },
+  {
+    "type": "KotC.Reducers.GameOver.OpenSuccessionPollReducer",
+    "method": "\u003CReduce\u003Eb__1_0",
+    "text": ""
+  },
+  {
+    "type": "KotC.Reducers.GameOver.SwitchMonarchInSuccessionReducer",
+    "method": "Reduce",
+    "text": "{0}-{1}"
+  },
+  {
+    "type": "KotC.Reducers.Characters.KillNobleReducer",
+    "method": "Reduce",
+    "text": "mock_kill"
+  },
+  {
+    "type": "KotC.Reducers.Characters.KillNobleReducer",
+    "method": "Reduce",
+    "text": "mock_arrest"
+  },
+  {
+    "type": "KotC.Reducers.Characters.KillNobleReducer",
+    "method": "Reduce",
+    "text": "mock_join_council"
+  },
+  {
+    "type": "KotC.Interceptors.AchievementInterceptor",
+    "method": ".ctor",
+    "text": "Achievements"
+  },
+  {
+    "type": "KotC.Interceptors.AchievementInterceptor",
+    "method": "Intercept",
+    "text": "Error while triggering achievement \u0027"
+  },
+  {
+    "type": "KotC.Interceptors.AchievementInterceptor",
+    "method": "Intercept",
+    "text": "\u0027 unlock: Steamworks is not initialized"
+  },
+  {
+    "type": "KotC.Interceptors.AchievementInterceptor",
+    "method": "Intercept",
+    "text": "Error while triggering achievement \u0027"
+  },
+  {
+    "type": "KotC.Interceptors.AchievementInterceptor",
+    "method": "Intercept",
+    "text": "\u0027 unlock: "
+  },
+  {
+    "type": "KotC.Interceptors.AnalyticsInterceptor",
+    "method": "Intercept",
+    "text": "Caught unhandled Exception in Analytics event for action {0}. Error was: \u0027{1}\u0027, at {2}"
+  },
+  {
+    "type": "KotC.Interceptors.AnalyticsInterceptor",
+    "method": ".cctor",
+    "text": "Analytics"
+  },
+  {
+    "type": "KotC.Interceptors.AnalyticsInterceptor",
+    "method": ".cctor",
+    "text": "#ae7ffa"
+  },
+  {
+    "type": "KotC.Interceptors.BeginGameInterceptor/\u003CDispatchBeginGameActions\u003Ed__11",
+    "method": "MoveNext",
+    "text": "ChatSetup"
+  },
+  {
+    "type": "KotC.Interceptors.BeginGameInterceptor/\u003CRunSetupStory\u003Ed__15",
+    "method": "MoveNext",
+    "text": "Assets/AddressableResources/Data/SetupStory.asset"
+  },
+  {
+    "type": "KotC.Interceptors.ClosePollInterceptor",
+    "method": "get_StoryGenerationRNG",
+    "text": "STORY"
+  },
+  {
+    "type": "KotC.Interceptors.ExecuteStoryRequirementsForTurnInterceptor",
+    "method": ".ctor",
+    "text": "Data/StoryEvents/EventCurationConfig"
+  },
+  {
+    "type": "KotC.Interceptors.FetchStatementInterceptor",
+    "method": "Intercept",
+    "text": "RootStoreCustomConfig"
+  },
+  {
+    "type": "KotC.Interceptors.GameOverInterceptor",
+    "method": "CheckAmbition",
+    "text": "ambition"
+  },
+  {
+    "type": "KotC.Interceptors.InitialDataLoadInterceptor",
+    "method": "Intercept",
+    "text": "chatCommand"
+  },
+  {
+    "type": "KotC.Interceptors.InitialDataLoadInterceptor",
+    "method": "Intercept",
+    "text": "kingdom"
+  },
+  {
+    "type": "KotC.Interceptors.InitialDataLoadInterceptor",
+    "method": "Intercept",
+    "text": "pronounSet"
+  },
+  {
+    "type": "KotC.Interceptors.InitialDataLoadInterceptor",
+    "method": "Intercept",
+    "text": "region"
+  },
+  {
+    "type": "KotC.Interceptors.InitialDataLoadInterceptor",
+    "method": "Intercept",
+    "text": "saveDefinition"
+  },
+  {
+    "type": "KotC.Interceptors.InitialDataLoadInterceptor",
+    "method": "Intercept",
+    "text": "schemeSteps"
+  },
+  {
+    "type": "KotC.Interceptors.InitialDataLoadInterceptor",
+    "method": "Intercept",
+    "text": "statDefinition"
+  },
+  {
+    "type": "KotC.Interceptors.InitialDataLoadInterceptor",
+    "method": "Intercept",
+    "text": "story"
+  },
+  {
+    "type": "KotC.Interceptors.InitialDataLoadInterceptor",
+    "method": "Intercept",
+    "text": "votingVariants"
+  },
+  {
+    "type": "KotC.Interceptors.InitialDataLoadInterceptor",
+    "method": "Intercept",
+    "text": "tutorial"
+  },
+  {
+    "type": "KotC.Interceptors.InitialDataLoadInterceptor",
+    "method": "Intercept",
+    "text": "Assets/AddressableResources/Data/SelectionStrategyConfiguration.asset"
+  },
+  {
+    "type": "KotC.Interceptors.InitialDataLoadInterceptor",
+    "method": "Intercept",
+    "text": "customisationCategory"
+  },
+  {
+    "type": "KotC.Interceptors.InitialDataLoadInterceptor",
+    "method": "Intercept",
+    "text": "customisation"
+  },
+  {
+    "type": "KotC.Interceptors.InitialDataLoadInterceptor",
+    "method": "Intercept",
+    "text": "eventIllustration"
+  },
+  {
+    "type": "KotC.Interceptors.InitialDataLoadInterceptor",
+    "method": "Intercept",
+    "text": "shield"
+  },
+  {
+    "type": "KotC.Interceptors.InitialDataLoadInterceptor",
+    "method": "Intercept",
+    "text": "shieldIcon"
+  },
+  {
+    "type": "KotC.Interceptors.InitialDataLoadInterceptor",
+    "method": "Intercept",
+    "text": "building"
+  },
+  {
+    "type": "KotC.Interceptors.InitialDataLoadInterceptor",
+    "method": "Intercept",
+    "text": "skinTone"
+  },
+  {
+    "type": "KotC.Interceptors.JoinNobleInterceptor",
+    "method": "GetOptimumRegionId",
+    "text": "UNSEEDED"
+  },
+  {
+    "type": "KotC.Interceptors.LoadSelectionStrategyConfigInterceptor",
+    "method": "Intercept",
+    "text": "Assets/AddressableResources/Data/SelectionStrategyConfiguration.asset"
+  },
+  {
+    "type": "KotC.Interceptors.MapLoadInterceptor",
+    "method": "LoadAllAndNext",
+    "text": "map"
+  },
+  {
+    "type": "KotC.Interceptors.MapLoadInterceptor",
+    "method": "LoadChunksAndNext",
+    "text": "Assets/AddressableResources/Data/Map/{0}/Chunks/{1}.asset"
+  },
+  {
+    "type": "KotC.Interceptors.ResetTutorialsInterceptor",
+    "method": "Intercept",
+    "text": "tutorial"
+  },
+  {
+    "type": "KotC.Interceptors.Helpers.BatchIsNoblePremiumRequestHelper",
+    "method": ".ctor",
+    "text": "BATCH ID REQUESTER"
+  },
+  {
+    "type": "KotC.Interceptors.Helpers.BatchIsNoblePremiumRequestHelper/\u003CHandleIsNoblePremium\u003Ed__8",
+    "method": "MoveNext",
+    "text": "Requesting isPremium for accounts "
+  },
+  {
+    "type": "KotC.Interceptors.Helpers.BatchIsNoblePremiumRequestHelper/\u003CHandleIsNoblePremium\u003Ed__8",
+    "method": "MoveNext",
+    "text": ","
+  },
+  {
+    "type": "KotC.Interceptors.Helpers.BatchIsNoblePremiumRequestHelper/\u003CHandleIsNoblePremium\u003Ed__8",
+    "method": "MoveNext",
+    "text": "Error fetching data for users "
+  },
+  {
+    "type": "KotC.Interceptors.Helpers.BatchIsNoblePremiumRequestHelper/\u003CHandleIsNoblePremium\u003Ed__8",
+    "method": "MoveNext",
+    "text": ","
+  },
+  {
+    "type": "KotC.Interceptors.Helpers.BatchIsNoblePremiumRequestHelper/\u003CHandleIsNoblePremium\u003Ed__8",
+    "method": "MoveNext",
+    "text": "Error fetching data for users "
+  },
+  {
+    "type": "KotC.Interceptors.Helpers.BatchIsNoblePremiumRequestHelper/\u003CHandleIsNoblePremium\u003Ed__8",
+    "method": "MoveNext",
+    "text": ","
+  },
+  {
+    "type": "KotC.Interceptors.Helpers.BatchIsNoblePremiumRequestHelper/\u003CHandleIsNoblePremium\u003Ed__8",
+    "method": "MoveNext",
+    "text": ", "
+  },
+  {
+    "type": "KotC.Interceptors.Helpers.BatchIsNoblePremiumRequestHelper/\u003CHandleIsNoblePremium\u003Ed__8",
+    "method": "MoveNext",
+    "text": ". "
+  },
+  {
+    "type": "KotC.Interceptors.Helpers.BatchNobleCustomisationRequestHelper",
+    "method": ".ctor",
+    "text": "BATCH ID REQUESTER"
+  },
+  {
+    "type": "KotC.Interceptors.Helpers.BatchNobleCustomisationRequestHelper/\u003CHandleGetSavedNobleData\u003Ed__14",
+    "method": "MoveNext",
+    "text": "Requesting accounts "
+  },
+  {
+    "type": "KotC.Interceptors.Helpers.BatchNobleCustomisationRequestHelper/\u003CHandleGetSavedNobleData\u003Ed__14",
+    "method": "MoveNext",
+    "text": ","
+  },
+  {
+    "type": "KotC.Interceptors.Helpers.BatchNobleCustomisationRequestHelper/\u003CHandleGetSavedNobleData\u003Ed__14",
+    "method": "MoveNext",
+    "text": "Error fetching data for users "
+  },
+  {
+    "type": "KotC.Interceptors.Helpers.BatchNobleCustomisationRequestHelper/\u003CHandleGetSavedNobleData\u003Ed__14",
+    "method": "MoveNext",
+    "text": ","
+  },
+  {
+    "type": "KotC.Interceptors.Helpers.BatchNobleCustomisationRequestHelper/\u003CHandleGetSavedNobleData\u003Ed__14",
+    "method": "MoveNext",
+    "text": "Could not retrieve accounts for premium players. Setting random customisations."
+  },
+  {
+    "type": "KotC.Interceptors.Helpers.BatchNobleCustomisationRequestHelper/\u003CHandleGetSavedNobleData\u003Ed__14",
+    "method": "MoveNext",
+    "text": "Error fetching data for users "
+  },
+  {
+    "type": "KotC.Interceptors.Helpers.BatchNobleCustomisationRequestHelper/\u003CHandleGetSavedNobleData\u003Ed__14",
+    "method": "MoveNext",
+    "text": ","
+  },
+  {
+    "type": "KotC.Interceptors.Helpers.BatchNobleCustomisationRequestHelper/\u003CHandleGetSavedNobleData\u003Ed__14",
+    "method": "MoveNext",
+    "text": ", "
+  },
+  {
+    "type": "KotC.Interceptors.Helpers.BatchNobleCustomisationRequestHelper/\u003CHandleGetSavedNobleData\u003Ed__14",
+    "method": "MoveNext",
+    "text": ". "
+  },
+  {
+    "type": "KotC.Interceptors.Helpers.CustomisationsRequestHelper/\u003CGetSavedCustomisations\u003Ed__8",
+    "method": "MoveNext",
+    "text": "Error while fetching region customisations for user "
+  },
+  {
+    "type": "KotC.Interceptors.Helpers.CustomisationsRequestHelper/\u003CGetSavedCustomisations\u003Ed__8",
+    "method": "MoveNext",
+    "text": ": "
+  },
+  {
+    "type": "KotC.Interceptors.Helpers.CustomisationsRequestHelper/\u003CGetSavedCustomisations\u003Ed__8",
+    "method": "MoveNext",
+    "text": ": "
+  },
+  {
+    "type": "KotC.Interceptors.Helpers.CustomisationsRequestHelper/\u003CGetSavedCustomisations\u003Ed__9",
+    "method": "MoveNext",
+    "text": ""
+  },
+  {
+    "type": "KotC.Interceptors.Helpers.CustomisationsRequestHelper/\u003CGetSavedCustomisations\u003Ed__9",
+    "method": "MoveNext",
+    "text": ""
+  },
+  {
+    "type": "KotC.Interceptors.Helpers.CustomisationsRequestHelper/\u003CGetSavedCustomisations\u003Ed__9",
+    "method": "MoveNext",
+    "text": "Error while fetching region customisations for user: "
+  },
+  {
+    "type": "KotC.Interceptors.Helpers.CustomisationsRequestHelper/\u003CGetSavedCustomisations\u003Ed__9",
+    "method": "MoveNext",
+    "text": ": "
+  },
+  {
+    "type": "KotC.Interceptors.SaveSlot.NewSaveSlotFromCurrentInterceptor",
+    "method": "Intercept",
+    "text": "characterDefinition"
+  },
+  {
+    "type": "KotC.Interceptors.SaveSlot.NewSaveSlotFromCurrentInterceptor",
+    "method": "Intercept",
+    "text": "Assets/AddressableResources/Data/DynastyQualitiesUpdateDefinition.asset"
+  },
+  {
+    "type": "KotC.Interceptors.SaveSlot.NewSaveSlotInterceptor",
+    "method": "Intercept",
+    "text": "Assets/AddressableResources/Data/GameplaySettings/GameplaySettingsDefinition.asset"
+  },
+  {
+    "type": "KotC.Interceptors.SaveSlot.SaveLoadControllerInterceptor/\u003CRetrieveAccountIds\u003Ed__11",
+    "method": "MoveNext",
+    "text": "Error retrieving user account IDs"
+  },
+  {
+    "type": "KotC.Characters.AvatarRetriever",
+    "method": "Retrieve",
+    "text": "npc-"
+  },
+  {
+    "type": "KotC.Characters.AvatarRetriever/\u003CFetchForCurrentUser\u003Ed__12",
+    "method": "MoveNext",
+    "text": ""
+  },
+  {
+    "type": "KotC.Characters.CharacterGenerator",
+    "method": "get_Random",
+    "text": "GEO_AND_NPC"
+  },
+  {
+    "type": "KotC.Characters.CharacterGenerator",
+    "method": "GenerateCharacter",
+    "text": "npc-"
+  },
+  {
+    "type": "KotC.Characters.CharacterGenerator",
+    "method": "GenerateCharacter",
+    "text": "-"
+  },
+  {
+    "type": "KotC.Characters.CharacterGenerator",
+    "method": "GenerateCharacter",
+    "text": ""
+  },
+  {
+    "type": "KotC.Characters.CharacterGenerator",
+    "method": "GenerateCharacter",
+    "text": "npc-"
+  },
+  {
+    "type": "KotC.Characters.CharacterGenerator",
+    "method": "GenerateCharacter",
+    "text": "npc-"
+  },
+  {
+    "type": "KotC.Characters.CharacterGenerator",
+    "method": "CreateRNGFor",
+    "text": "::"
+  },
+  {
+    "type": "KotC.Characters.SuccessorGenerator",
+    "method": ".ctor",
+    "text": "Distant Cousin"
+  },
+  {
+    "type": "KotC.Characters.SuccessorGenerator",
+    "method": ".ctor",
+    "text": "False Pretender"
+  },
+  {
+    "type": "KotC.Characters.SuccessorGenerator",
+    "method": ".ctor",
+    "text": "Embittered Step-Uncle"
+  },
+  {
+    "type": "KotC.Characters.SuccessorGenerator",
+    "method": ".ctor",
+    "text": "Bastard Offshoot"
+  },
+  {
+    "type": "KotC.Characters.SuccessorGenerator",
+    "method": ".ctor",
+    "text": "Ambitious Vassal"
+  },
+  {
+    "type": "KotC.Characters.SuccessorGenerator",
+    "method": ".ctor",
+    "text": "Questionable Claimant"
+  },
+  {
+    "type": "KotC.Characters.SuccessorGenerator",
+    "method": ".ctor",
+    "text": "Long-Lost Nephew"
+  },
+  {
+    "type": "KotC.Characters.SuccessorGenerator",
+    "method": ".ctor",
+    "text": "Treacherous Half-Brother"
+  },
+  {
+    "type": "KotC.Characters.SuccessorGenerator",
+    "method": ".ctor",
+    "text": "Distant Cousin"
+  },
+  {
+    "type": "KotC.Characters.SuccessorGenerator",
+    "method": ".ctor",
+    "text": "False Pretender"
+  },
+  {
+    "type": "KotC.Characters.SuccessorGenerator",
+    "method": ".ctor",
+    "text": "Embittered Step-Aunt"
+  },
+  {
+    "type": "KotC.Characters.SuccessorGenerator",
+    "method": ".ctor",
+    "text": "Bastard Offshoot"
+  },
+  {
+    "type": "KotC.Characters.SuccessorGenerator",
+    "method": ".ctor",
+    "text": "Ambitious Vassal"
+  },
+  {
+    "type": "KotC.Characters.SuccessorGenerator",
+    "method": ".ctor",
+    "text": "Questionable Claimant"
+  },
+  {
+    "type": "KotC.Characters.SuccessorGenerator",
+    "method": ".ctor",
+    "text": "Long-Lost Niece"
+  },
+  {
+    "type": "KotC.Characters.SuccessorGenerator",
+    "method": ".ctor",
+    "text": "Treacherous Half-Sister"
+  },
+  {
+    "type": "KotC.Characters.SuccessorGenerator",
+    "method": ".ctor",
+    "text": "Distant Cousin"
+  },
+  {
+    "type": "KotC.Characters.SuccessorGenerator",
+    "method": ".ctor",
+    "text": "False Pretender"
+  },
+  {
+    "type": "KotC.Characters.SuccessorGenerator",
+    "method": ".ctor",
+    "text": "Embittered Step-Sibling"
+  },
+  {
+    "type": "KotC.Characters.SuccessorGenerator",
+    "method": ".ctor",
+    "text": "Bastard Offshoot"
+  },
+  {
+    "type": "KotC.Characters.SuccessorGenerator",
+    "method": ".ctor",
+    "text": "Ambitious Vassal"
+  },
+  {
+    "type": "KotC.Characters.SuccessorGenerator",
+    "method": ".ctor",
+    "text": "Questionable Claimant"
+  },
+  {
+    "type": "KotC.Characters.SuccessorGenerator",
+    "method": ".ctor",
+    "text": "Long-Lost Nibling"
+  },
+  {
+    "type": "KotC.Characters.SuccessorGenerator",
+    "method": ".ctor",
+    "text": "Treacherous Half-Sibling"
+  },
+  {
+    "type": "KotC.Characters.SuccessorGenerator",
+    "method": "Generate",
+    "text": "successor-"
+  },
+  {
+    "type": "KotC.Characters.SuccessorGenerator",
+    "method": "Generate",
+    "text": "::"
+  },
+  {
+    "type": "KotC.Characters.SuccessorGenerator",
+    "method": "Generate",
+    "text": "::"
+  },
+  {
+    "type": "KotC.Characters.CustomisedCharacterGenerator",
+    "method": "get_Random",
+    "text": "UNSEEDED"
+  },
+  {
+    "type": "KotC.Characters.NobleShieldGenerator",
+    "method": "GenerateShield",
+    "text": "UNSEEDED"
+  },
+  {
+    "type": "KotC.Backend.TributaryUserAccount",
+    "method": ".cctor",
+    "text": "USER_LOGIN"
+  },
+  {
+    "type": "KotC.Backend.TributaryUserAccount",
+    "method": ".cctor",
+    "text": "#ccd162"
+  },
+  {
+    "type": "KotC.Backend.TributaryUserAccount/\u003CLogin\u003Ed__6",
+    "method": "MoveNext",
+    "text": "Logging in..."
+  },
+  {
+    "type": "KotC.Backend.TributaryUserAccount/\u003CLogin\u003Ed__6",
+    "method": "MoveNext",
+    "text": "\u003Ccolor=\u0022red\u0022\u003ECould not Login.\u003C/color\u003E\nCheck internet connection and retry."
+  },
+  {
+    "type": "KotC.Backend.TributaryUserAccount/\u003CSteamLogin\u003Ed__7",
+    "method": "MoveNext",
+    "text": "USER_ACCOUNT_ID"
+  },
+  {
+    "type": "KotC.Backend.TributaryUserAccount/\u003CSteamLogin\u003Ed__7",
+    "method": "MoveNext",
+    "text": "Error performing Steam login: "
+  },
+  {
+    "type": "KotC.Backend.TributaryUserAccount/\u003CPlatformLogin\u003Ed__8",
+    "method": "MoveNext",
+    "text": "Logged in with platform \u0060{0}\u0060 as user \u0060{1}\u0060"
+  },
+  {
+    "type": "KotC.Backend.TributaryUserAccount/\u003CPlatformLogin\u003Ed__8",
+    "method": "MoveNext",
+    "text": "CRITICAL - Could not login with any available platform."
+  },
+  {
+    "type": "KotC.Backend.WebsocketMessages.TruncatedNobleStateMessage",
+    "method": "RegionToInt",
+    "text": "barons"
+  },
+  {
+    "type": "KotC.Backend.WebsocketMessages.TruncatedNobleStateMessage",
+    "method": "RegionToInt",
+    "text": "chiefs"
+  },
+  {
+    "type": "KotC.Backend.WebsocketMessages.TruncatedNobleStateMessage",
+    "method": "RegionToInt",
+    "text": "counts"
+  },
+  {
+    "type": "KotC.Backend.WebsocketMessages.TruncatedNobleStateMessage",
+    "method": "RegionToInt",
+    "text": "grandees"
+  },
+  {
+    "type": "KotC.Backend.WebsocketMessages.TruncatedNobleStateMessage",
+    "method": "RegionToInt",
+    "text": "patricians"
+  },
+  {
+    "type": "KotC.Backend.WebsocketMessages.TruncatedNobleStateMessage",
+    "method": "RegionToInt",
+    "text": "Invalid region ID: "
+  },
+  {
+    "type": "KotC.Backend.Clients.Websocket.KingOfTheCastleWebsocketClient",
+    "method": "get_StateUpdateEndpoint",
+    "text": "/exchange/amq.topic/state."
+  },
+  {
+    "type": "KotC.Backend.Clients.Websocket.KingOfTheCastleWebsocketClient",
+    "method": "get_EventUpdateEndpoint",
+    "text": "/exchange/amq.topic/event."
+  },
+  {
+    "type": "KotC.Backend.Clients.Websocket.KingOfTheCastleWebsocketClient",
+    "method": "get_SendEventEndpoint",
+    "text": "/app/game/event/"
+  },
+  {
+    "type": "KotC.Backend.Clients.Websocket.KingOfTheCastleWebsocketClient",
+    "method": "get_SendStateEndpoint",
+    "text": "/app/game/state/"
+  },
+  {
+    "type": "KotC.Backend.Clients.Websocket.KingOfTheCastleWebsocketClient",
+    "method": "SendState",
+    "text": "Cannot send state update on a closed connection."
+  },
+  {
+    "type": "KotC.Backend.Clients.Websocket.KingOfTheCastleWebsocketClient",
+    "method": "SendState",
+    "text": "Cannot send state update if not in a game"
+  },
+  {
+    "type": "KotC.Backend.Clients.Websocket.KingOfTheCastleWebsocketClient",
+    "method": "OnMessage",
+    "text": "[HEARTBEAT] Received heartbeat"
+  },
+  {
+    "type": "KotC.Backend.Clients.Websocket.KingOfTheCastleWebsocketClient",
+    "method": "OnMessage",
+    "text": "OK"
+  },
+  {
+    "type": "KotC.Backend.Clients.Websocket.KingOfTheCastleWebsocketClient",
+    "method": "OnMessage",
+    "text": "[SUBSCRIBE-OK] Received OK response for subscribe with context: \u0027"
+  },
+  {
+    "type": "KotC.Backend.Clients.Websocket.KingOfTheCastleWebsocketClient",
+    "method": "OnMessage",
+    "text": "\u0027"
+  },
+  {
+    "type": "KotC.Backend.Clients.Websocket.KingOfTheCastleWebsocketClient",
+    "method": "OnMessage",
+    "text": "ERROR"
+  },
+  {
+    "type": "KotC.Backend.Clients.Websocket.KingOfTheCastleWebsocketClient",
+    "method": "OnMessage",
+    "text": "[SUBSCRIBE-ERROR] Critical error during SUBSCRIBE with context: \u0027"
+  },
+  {
+    "type": "KotC.Backend.Clients.Websocket.KingOfTheCastleWebsocketClient",
+    "method": "OnMessage",
+    "text": "\u0027, error was "
+  },
+  {
+    "type": "KotC.Backend.Clients.Websocket.KingOfTheCastleWebsocketClient",
+    "method": "OnMessage",
+    "text": "Error deserializing message: "
+  },
+  {
+    "type": "KotC.Backend.Clients.Websocket.KingOfTheCastleWebsocketClient",
+    "method": "OnMessage",
+    "text": "\nMessage was: "
+  },
+  {
+    "type": "KotC.Backend.Clients.Websocket.KingOfTheCastleWebsocketClient",
+    "method": "OnError",
+    "text": "Websocket error: \u0060"
+  },
+  {
+    "type": "KotC.Backend.Clients.Websocket.KingOfTheCastleWebsocketClient",
+    "method": "OnError",
+    "text": "\u0060"
+  },
+  {
+    "type": "KotC.Backend.Clients.Websocket.KingOfTheCastleWebsocketClient",
+    "method": "OnClose",
+    "text": "Unexpected disconnect of type: \u0060{0}\u0060"
+  },
+  {
+    "type": "KotC.Backend.Clients.Websocket.KingOfTheCastleWebsocketClient",
+    "method": "OnClose",
+    "text": "Connection closed. Code: \u0060{0}\u0060"
+  },
+  {
+    "type": "KotC.Backend.Clients.Websocket.KingOfTheCastleWebsocketClient",
+    "method": "Heartbeat",
+    "text": "[HEARTBEAT] Sending Heartbeat"
+  },
+  {
+    "type": "KotC.Backend.Clients.Websocket.KingOfTheCastleWebsocketClient",
+    "method": "Heartbeat",
+    "text": "\n"
+  },
+  {
+    "type": "KotC.Backend.Clients.Websocket.KingOfTheCastleWebsocketClient",
+    "method": "SubscribeTo",
+    "text": "[SUBSCRIBE-START] Sending SUBSCRIBE frame to "
+  },
+  {
+    "type": "KotC.Backend.Clients.Websocket.KingOfTheCastleWebsocketClient",
+    "method": "SubscribeTo",
+    "text": "SUBSCRIBE"
+  },
+  {
+    "type": "KotC.Backend.Clients.Websocket.KingOfTheCastleWebsocketClient",
+    "method": "SubscribeTo",
+    "text": "authToken"
+  },
+  {
+    "type": "KotC.Backend.Clients.Websocket.KingOfTheCastleWebsocketClient",
+    "method": "SubscribeTo",
+    "text": "id"
+  },
+  {
+    "type": "KotC.Backend.Clients.Websocket.KingOfTheCastleWebsocketClient",
+    "method": "SubscribeTo",
+    "text": "sub-0"
+  },
+  {
+    "type": "KotC.Backend.Clients.Websocket.KingOfTheCastleWebsocketClient",
+    "method": "SubscribeTo",
+    "text": "destination"
+  },
+  {
+    "type": "KotC.Backend.Clients.Websocket.KingOfTheCastleWebsocketClient",
+    "method": "SendTo",
+    "text": "[SEND] Sending payload \u0060"
+  },
+  {
+    "type": "KotC.Backend.Clients.Websocket.KingOfTheCastleWebsocketClient",
+    "method": "SendTo",
+    "text": "\u0060 to \u0060"
+  },
+  {
+    "type": "KotC.Backend.Clients.Websocket.KingOfTheCastleWebsocketClient",
+    "method": "SendTo",
+    "text": "\u0060"
+  },
+  {
+    "type": "KotC.Backend.Clients.Websocket.KingOfTheCastleWebsocketClient",
+    "method": "SendTo",
+    "text": "SEND"
+  },
+  {
+    "type": "KotC.Backend.Clients.Websocket.KingOfTheCastleWebsocketClient",
+    "method": "SendTo",
+    "text": "authToken"
+  },
+  {
+    "type": "KotC.Backend.Clients.Websocket.KingOfTheCastleWebsocketClient",
+    "method": "SendTo",
+    "text": "destination"
+  },
+  {
+    "type": "KotC.Backend.Clients.Websocket.KingOfTheCastleWebsocketClient",
+    "method": ".cctor",
+    "text": "BACKEND-ws"
+  },
+  {
+    "type": "KotC.Backend.Clients.Websocket.KingOfTheCastleWebsocketClient",
+    "method": ".cctor",
+    "text": "#26b8c8"
+  },
+  {
+    "type": "KotC.Backend.Clients.Websocket.KingOfTheCastleWebsocketClient/\u003CConnect\u003Ed__37",
+    "method": "MoveNext",
+    "text": "[HANDSHAKE] Establishing websocket connection to "
+  },
+  {
+    "type": "KotC.Backend.Clients.Websocket.KingOfTheCastleWebsocketClient/\u003CConnect\u003Ed__37",
+    "method": "MoveNext",
+    "text": "."
+  },
+  {
+    "type": "KotC.Backend.Clients.Websocket.KingOfTheCastleWebsocketClient/\u003CConnect\u003Ed__37",
+    "method": "MoveNext",
+    "text": "Authorization"
+  },
+  {
+    "type": "KotC.Backend.Clients.Websocket.KingOfTheCastleWebsocketClient/\u003CConnect\u003Ed__37",
+    "method": "MoveNext",
+    "text": "Bearer "
+  },
+  {
+    "type": "KotC.Backend.Clients.Websocket.KingOfTheCastleWebsocketClient/\u003CDisconnect\u003Ed__39",
+    "method": "MoveNext",
+    "text": "Disconnecting"
+  },
+  {
+    "type": "KotC.Backend.Clients.Websocket.KingOfTheCastleWebsocketClient/\u003COnOpen\u003Ed__41",
+    "method": "MoveNext",
+    "text": "[HANDSHAKE-OK] Handshake completed - socket connection open - sending CONNECT frame."
+  },
+  {
+    "type": "KotC.Backend.Clients.Websocket.KingOfTheCastleWebsocketClient/\u003COnOpen\u003Ed__41",
+    "method": "MoveNext",
+    "text": "CONNECT"
+  },
+  {
+    "type": "KotC.Backend.Clients.Websocket.KingOfTheCastleWebsocketClient/\u003COnOpen\u003Ed__41",
+    "method": "MoveNext",
+    "text": "accept-version"
+  },
+  {
+    "type": "KotC.Backend.Clients.Websocket.KingOfTheCastleWebsocketClient/\u003COnOpen\u003Ed__41",
+    "method": "MoveNext",
+    "text": "1.2"
+  },
+  {
+    "type": "KotC.Backend.Clients.Websocket.KingOfTheCastleWebsocketClient/\u003COnOpen\u003Ed__41",
+    "method": "MoveNext",
+    "text": "heart-beat"
+  },
+  {
+    "type": "KotC.Backend.Clients.Websocket.KingOfTheCastleWebsocketClient/\u003COnOpen\u003Ed__41",
+    "method": "MoveNext",
+    "text": "{0},{1}"
+  },
+  {
+    "type": "KotC.Backend.Clients.Websocket.KingOfTheCastleWebsocketClient/\u003CTryReconnect\u003Ed__45",
+    "method": "MoveNext",
+    "text": "\u003Ccolor=\u0022red\u0022\u003EConnection error.\u003C/color\u003E\nReconnecting ({0}/{1})..."
+  },
+  {
+    "type": "KotC.Backend.Clients.Websocket.KingOfTheCastleWebsocketClient/\u003CTryReconnect\u003Ed__45",
+    "method": "MoveNext",
+    "text": "Could not reconnect after {0} attempts. Aborting."
+  },
+  {
+    "type": "KotC.Backend.Clients.Websocket.KingOfTheCastleWebsocketClient/\u003CTryReconnect\u003Ed__45",
+    "method": "MoveNext",
+    "text": "\u003Ccolor=\u0022red\u0022\u003ECould not reconnect.\u003C/color\u003E\nCheck internet connection and restart."
+  },
+  {
+    "type": "KotC.Backend.Clients.Websocket.KingOfTheCastleWebsocketClient/\u003CTryReconnect\u003Ed__45",
+    "method": "MoveNext",
+    "text": "Unexpected disconnect from Websocket server. Attempting to reconnect. Attempt {0}/{1}"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient",
+    "method": "SetSessionToken",
+    "text": "Bearer"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient",
+    "method": "BuildUrl",
+    "text": "{0}://{1}:{2}/{3}"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient",
+    "method": "ObjectToJsonStringContent",
+    "text": "application/json"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient",
+    "method": ".cctor",
+    "text": "BACKEND-http"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient",
+    "method": ".cctor",
+    "text": "#bc51d9"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CSteamLogin\u003Ed__14",
+    "method": "MoveNext",
+    "text": "Cannot login with Steam - Steamworks has not been initialized."
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CSteamLogin\u003Ed__14",
+    "method": "MoveNext",
+    "text": "{0:x2}"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CSteamLogin\u003Ed__14",
+    "method": "MoveNext",
+    "text": "/account/steam-login"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CSteamLogin\u003Ed__14",
+    "method": "MoveNext",
+    "text": "Server error during Steam Login: \u0060"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CSteamLogin\u003Ed__14",
+    "method": "MoveNext",
+    "text": "\u0060"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CCreateGame\u003Ed__15",
+    "method": "MoveNext",
+    "text": "/game/create"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CCreateGame\u003Ed__15",
+    "method": "MoveNext",
+    "text": "Server error during Create Game: \u0060"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CCreateGame\u003Ed__15",
+    "method": "MoveNext",
+    "text": "\u0060"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CGetTwitchPubSubJwt\u003Ed__16",
+    "method": "MoveNext",
+    "text": "/account/get-twitch-pubsub-token"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CGetTwitchPubSubJwt\u003Ed__16",
+    "method": "MoveNext",
+    "text": "Server error getting twitch Pub Sub JWT \u0060"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CGetTwitchPubSubJwt\u003Ed__16",
+    "method": "MoveNext",
+    "text": "\u0060"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CEndGame\u003Ed__17",
+    "method": "MoveNext",
+    "text": "/game/end"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CEndGame\u003Ed__17",
+    "method": "MoveNext",
+    "text": "Server error during End Game: \u0060"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CEndGame\u003Ed__17",
+    "method": "MoveNext",
+    "text": "\u0060"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CGetCustomizations\u003Ed__18",
+    "method": "MoveNext",
+    "text": "/account/customizations/"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CGetCustomizations\u003Ed__18",
+    "method": "MoveNext",
+    "text": "/account/"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CGetCustomizations\u003Ed__18",
+    "method": "MoveNext",
+    "text": "/customizations/"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CGetCustomizations\u003Ed__18",
+    "method": "MoveNext",
+    "text": "Server error getting customisations: \u0060"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CGetCustomizations\u003Ed__18",
+    "method": "MoveNext",
+    "text": "\u0060"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CUnsetTwitch\u003Ed__19",
+    "method": "MoveNext",
+    "text": "/account/unlink-twitch"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CUnsetTwitch\u003Ed__19",
+    "method": "MoveNext",
+    "text": "Server error during unset twitch: \u0060"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CUnsetTwitch\u003Ed__19",
+    "method": "MoveNext",
+    "text": "\u0060"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CGetNewsText\u003Ed__20",
+    "method": "MoveNext",
+    "text": "/news-portal/"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CGetNewsText\u003Ed__20",
+    "method": "MoveNext",
+    "text": "Server error while getting news text: \u0060"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CGetNewsText\u003Ed__20",
+    "method": "MoveNext",
+    "text": "\u0060"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CSetOAuthState\u003Ed__21",
+    "method": "MoveNext",
+    "text": "/account/set-twitch-oauth-state/"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CSetOAuthState\u003Ed__21",
+    "method": "MoveNext",
+    "text": "Server error setting oAuth State: \u0060"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CSetOAuthState\u003Ed__21",
+    "method": "MoveNext",
+    "text": "\u0060"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CGetAccountGivenMultipleTwitchIds\u003Ed__22",
+    "method": "MoveNext",
+    "text": "/account/withTwitchIds"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CGetAccountGivenMultipleTwitchIds\u003Ed__22",
+    "method": "MoveNext",
+    "text": "Server error getting accounts \u0060"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CGetAccountGivenMultipleTwitchIds\u003Ed__22",
+    "method": "MoveNext",
+    "text": "\u0060"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CGetAccountGivenUserIds\u003Ed__23",
+    "method": "MoveNext",
+    "text": "/account/userIds"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CGetAccountGivenUserIds\u003Ed__23",
+    "method": "MoveNext",
+    "text": "Server error getting accounts \u0060"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CGetAccountGivenUserIds\u003Ed__23",
+    "method": "MoveNext",
+    "text": "\u0060"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CGetUnlockedCustomisations\u003Ed__24",
+    "method": "MoveNext",
+    "text": "/account/customizations/unlocked"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CGetUnlockedCustomisations\u003Ed__24",
+    "method": "MoveNext",
+    "text": "Server error getting unlocked customisations \u0060"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CGetUnlockedCustomisations\u003Ed__24",
+    "method": "MoveNext",
+    "text": "\u0060"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CGetCustomisation\u003Ed__25",
+    "method": "MoveNext",
+    "text": "Server error getting customisations \u0060"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CGetCustomisation\u003Ed__25",
+    "method": "MoveNext",
+    "text": "\u0060"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CSetCustomizations\u003Ed__26",
+    "method": "MoveNext",
+    "text": "/account/customizations/"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CSetCustomizations\u003Ed__26",
+    "method": "MoveNext",
+    "text": "Server error setting customisations \u0060"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CSetCustomizations\u003Ed__26",
+    "method": "MoveNext",
+    "text": "\u0060"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CSendAnalytics\u003Ed__27",
+    "method": "MoveNext",
+    "text": "/game/analytics"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CExportSave\u003Ed__30",
+    "method": "MoveNext",
+    "text": "/save/export"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CExportSave\u003Ed__30",
+    "method": "MoveNext",
+    "text": "file"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CExportSave\u003Ed__30",
+    "method": "MoveNext",
+    "text": ".zip"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CImportSave\u003Ed__31",
+    "method": "MoveNext",
+    "text": "/save/import/"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CImportSave\u003Ed__31",
+    "method": "MoveNext",
+    "text": "GET \u0060"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CImportSave\u003Ed__31",
+    "method": "MoveNext",
+    "text": "\u0060"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CImportSave\u003Ed__31",
+    "method": "MoveNext",
+    "text": "INVALID_LOOKUP_KEY"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CImportSave\u003Ed__31",
+    "method": "MoveNext",
+    "text": "\u0022"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CImportSave\u003Ed__31",
+    "method": "MoveNext",
+    "text": ""
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CPerformRequest\u003Ed__36\u00601",
+    "method": "MoveNext",
+    "text": "Cannot issue request to auth-required endpoint "
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CPerformRequest\u003Ed__36\u00601",
+    "method": "MoveNext",
+    "text": " with null session token."
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CPerformRequest\u003Ed__36\u00601",
+    "method": "MoveNext",
+    "text": "Backend has not been Initialized. Call Initialize() with appropriate config."
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CPerformRequest\u003Ed__36\u00601",
+    "method": "MoveNext",
+    "text": " \u0060"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CPerformRequest\u003Ed__36\u00601",
+    "method": "MoveNext",
+    "text": "\u0060"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CPerformRequest\u003Ed__36\u00601",
+    "method": "MoveNext",
+    "text": "Unsupported HTTP method \u0060"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CPerformRequest\u003Ed__36\u00601",
+    "method": "MoveNext",
+    "text": "\u0060"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CPerformRequest\u003Ed__36\u00601",
+    "method": "MoveNext",
+    "text": "{0} \u0060{1}\u0060 received ERROR {2}: \u0060{3}\u0060"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CPerformRequest\u003Ed__36\u00601",
+    "method": "MoveNext",
+    "text": " \u0060"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CPerformRequest\u003Ed__36\u00601",
+    "method": "MoveNext",
+    "text": "\u0060 received response: \u0060"
+  },
+  {
+    "type": "KotC.Backend.Clients.Http.KingOfTheCastleHttpClient/\u003CPerformRequest\u003Ed__36\u00601",
+    "method": "MoveNext",
+    "text": "\u0060"
+  },
+  {
+    "type": "KotC.Actions.Fountain.ArrestActionBuilder",
+    "method": "get_ActionName",
+    "text": "arrest"
+  },
+  {
+    "type": "KotC.Actions.Fountain.DynastyDefineActionBuilder",
+    "method": "get_ActionName",
+    "text": "DynastyDefine"
+  },
+  {
+    "type": "KotC.Actions.Fountain.EndRebellionActionBuilder",
+    "method": "get_ActionName",
+    "text": "EndRebellion"
+  },
+  {
+    "type": "KotC.Actions.Fountain.EndStoryEventChainActionBuilder",
+    "method": "get_ActionName",
+    "text": "end"
+  },
+  {
+    "type": "KotC.Actions.Fountain.GameOverActionBuilder",
+    "method": "get_ActionName",
+    "text": "GameOver"
+  },
+  {
+    "type": "KotC.Actions.Fountain.GameOverActionBuilder",
+    "method": "Build",
+    "text": "gameOver"
+  },
+  {
+    "type": "KotC.Actions.Fountain.KillActionBuilder",
+    "method": "get_ActionName",
+    "text": "kill"
+  },
+  {
+    "type": "KotC.Actions.Fountain.SetActionBuilder",
+    "method": "get_ActionName",
+    "text": "set"
+  },
+  {
+    "type": "KotC.Actions.Fountain.StopLookaheadActionBuilder",
+    "method": "get_ActionName",
+    "text": "StopLookahead"
+  },
+  {
+    "type": "Tributary.Reunion.Store.Analytics.BeginGameAnalyticsEvent",
+    "method": "get_EventType",
+    "text": "BeginGame"
+  },
+  {
+    "type": "Tributary.Reunion.Store.Analytics.BuildingFundingAnalyticsEvent",
+    "method": "get_EventType",
+    "text": "BuildingFunding"
+  },
+  {
+    "type": "Tributary.Reunion.Store.Analytics.BuildingFundingAnalyticsEvent",
+    "method": "get_Id",
+    "text": "{0}-{1}"
+  },
+  {
+    "type": "Tributary.Reunion.Store.Analytics.ClosePollAnalyticsEvent",
+    "method": "get_EventType",
+    "text": "ClosePoll"
+  },
+  {
+    "type": "Tributary.Reunion.Store.Analytics.ClosePollAnalyticsEvent",
+    "method": "get_Id",
+    "text": "-"
+  },
+  {
+    "type": "Tributary.Reunion.Store.Analytics.OpenPollAnalyticsEvent",
+    "method": "get_EventType",
+    "text": "OpenPoll"
+  },
+  {
+    "type": "Tributary.Reunion.Store.Analytics.OpenPollAnalyticsEvent",
+    "method": "get_Id",
+    "text": "-"
+  },
+  {
+    "type": "Tributary.Reunion.Store.Analytics.PurchaseVariantAnalyticsEvent",
+    "method": "get_EventType",
+    "text": "PurchaseVariant"
+  },
+  {
+    "type": "Tributary.Reunion.Store.Analytics.PurchaseVariantAnalyticsEvent",
+    "method": "get_Id",
+    "text": "{0}-{1}"
+  },
+  {
+    "type": "Tributary.Reunion.Store.Analytics.RegionTaxationAnalyticsEvent",
+    "method": "get_EventType",
+    "text": "RegionTaxation"
+  },
+  {
+    "type": "Tributary.Reunion.Store.Analytics.RegionTaxationAnalyticsEvent",
+    "method": "get_Id",
+    "text": "{0}-{1}"
+  },
+  {
+    "type": "Tributary.Reunion.Store.Analytics.StoryEventStartAnalyticsEvent",
+    "method": "get_EventType",
+    "text": "StoryEventStart"
+  },
+  {
+    "type": "Tributary.Reunion.Store.Analytics.StoryEventStartAnalyticsEvent",
+    "method": "get_Id",
+    "text": "-"
+  }
+]

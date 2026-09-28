@@ -1,0 +1,81 @@
+# Local game backups and generated installation files
+/backup/
+/patched/
+/installed-manifest.json
+/manifest.json
+/manifest-assets.json
+/status.json
+/errors-*.json
+
+# Python environments and caches
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# .NET build output and editor state
+bin/
+obj/
+.vs/
+*.user
+*.suo
+
+# Downloaded models, third-party tools and extracted game content
+/tools/model*/
+/tools/dotnet/
+/tools/addressables-source/
+/tools/catalog-provider/
+/tools/decompiled/
+/tools/ink-original/
+/tools/ink-translated/
+/tools/inspection/
+/tools/sirenix/
+/tools/smoke-backup/
+/tools/tmp-source/
+/tools/installer-fixture/
+
+# Generated inventories, audits and reports
+/tools/field_inventory.json
+/tools/identity-fields.json
+/tools/ink_samples.json
+/tools/inspect-*.json
+/tools/literal-frames.json
+/tools/*-review.json
+/tools/unsupported-types.json
+/tools/script-string-comparisons.json
+/tools/string-assignments.json
+/tools/cache-repairs.json
+/tools/checks-*.json
+/tools/code-overrides.json
+/tools/translation-issues.json
+/tools/summary.txt
+/tools/*.id
+
+# Logs, translation caches and runtime diagnostics
+*.log
+*.jsonl
+
+# Compiled binaries, game bundles and distribution archives
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.lib
+*.assets
+*.bundle
+*.resS
+*.zip
+*.7z
+*.tar
+*.gz
+
+# Local secrets and OS metadata
+.env
+.env.*
+!.env.example
+Thumbs.db
+Desktop.ini
+.DS_Store
